@@ -14,3 +14,4 @@ jobs:
           publish_dir: _site 
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          install_dependencies: true
