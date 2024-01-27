@@ -1,0 +1,73 @@
+<h1>11ty-no-style-please</h1>
+<p>A minimalist blog template for the <a href="https://www.11ty.dev/">eleventy</a> static site generator.<br>
+Inspired by <a href="https://github.com/riggraz/no-style-please">no-style-please</a>.<br>
+It has <a href="https://www.netlifycms.org/">Netlify CMS</a> built in and can deploy to <a href="https://www.netlify.com/">Netlify</a> in one click so you can start writing posts right away.</p>
+<hr>
+<p><img src="/site-screenshot.png" alt="Site Screenshot"></p>
+<h2><a href="https://11ty-no-style-please.netlify.app/">Check out the demo page</a></h2>
+<h1>Features</h1>
+<ul>
+<li>Simple design</li>
+<li>Fast, minimal amount of CSS to download</li>
+<li>Pre-configured CMS</li>
+<li>Easy to use and deploy</li>
+<li>Fully responsive</li>
+</ul>
+<h1>Usage</h1>
+<p>The simplest way to use this template is to deploy it on Netlify using this button:</p>
+<p><a href="https://app.netlify.com/start/deploy?repository=https://github.com/stopnoanime/11ty-no-style-please&amp;stack=cms"><img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify"></a></p>
+<p>After deploying it to Netlify, you will be invited to join the CMS by email.<br>
+After accepting the invite and setting a password you can start change the site's settings, and creating posts from within the CMS.</p>
+<hr>
+<p>You can also run eleventy locally and then deploy it manually:</p>
+<h3>1. Clone the repository ( or use it as a template then clone )</h3>
+<p><code>git clone https://github.com/stopnoanime/11ty-no-style-please</code></p>
+<h3>2. Install the required packages</h3>
+<p><code>npm i</code></p>
+<h3>3. Serve the site for local development</h3>
+<p><code>npm start</code></p>
+<h3>4. Build the site</h3>
+<p><code>npm run build</code></p>
+<h3>5. Deploy the site</h3>
+<p>You can either connect your repository to Netlify to enable automatic deploy (recommended), or manually copy the site files from <code>_site</code> to them.</p>
+<h1>Configuration</h1>
+<p>All configuration can be easily changed from within the Netlify CMS at <code>SITE_URL/admin</code>.<br>
+If you prefer to do so, you can also manually edit the configuration files with a text editor.</p>
+<p>All configuration files are located in the <code>_data</code> folder and are in <code>json</code> format.<br>
+Here I describe what each field means:</p>
+<h3>- site.json</h3>
+<pre><code>title: default page title
+description: global page description
+language: HTML language value
+back_home_text: text to show on &quot;back home&quot; button on every post
+url: site url, used in Netlify CMS
+</code></pre>
+<h3>- homepage.json</h3>
+<pre><code>title: homepage title
+subtitle: text to show under homepage title
+menu: The menu object, configures how the menu looks
+</code></pre>
+<h3>- The menu object</h3>
+<p>It should be an array of entires, each entry has the following parameters:</p>
+<pre><code>title: entry title
+url: if set, the entry is a link pointing to this url
+post_list: accepts a string, if set, the entry will show a nested list of all posts with the tag that post_list is set to
+entries: an nested array of entries with the same available parameters
+</code></pre>
+<p>For example use, look at the default menu object</p>
+<pre><code>&quot;menu&quot;: [
+    {
+        &quot;title&quot;: &quot;read more here&quot;,
+        &quot;entries&quot;: [
+            {
+                &quot;title&quot;: &quot;github&quot;,
+                &quot;url&quot;: &quot;http://github.com/stopnoanime/11ty-no-style-please&quot;
+            }
+        ]
+    },
+    {
+        &quot;title&quot;: &quot;all posts with the 'post' tag&quot;,
+        &quot;post_list&quot;: &quot;post&quot;
+    }
+]
+</code></pre>

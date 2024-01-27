@@ -1,0 +1,81 @@
+@font-face {
+    font-family: IBM Plex Mono;
+    src: url("IBMPlexMono-Regular.ttf");
+}
+html {
+    display: flex;
+    max-width: 75ch;
+    padding: 4em 1em;
+    justify-content: center;
+    margin: auto;
+    line-height: 1.75;
+    font-size: 1.2em;
+    font-family: IBM Plex Mono;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 2em 0 1em;
+}
+  
+p,ul,ol {
+    margin-bottom: 1em;
+    color: #1d1d1d;
+}
+
+.post-meta {
+    text-align: right;
+}
+
+img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+blockquote {
+    font-style: italic;
+    border: thin solid black;
+    padding: 1rem;
+}
+
+blockquote p {
+    margin: 0;
+}
+
+pre {
+    overflow-x: auto;
+    padding: 1rem;
+}
+
+pre, code {
+    background: #e0e0e0;
+}
+
+table { width: 100%; }
+
+table, th, td {
+  border: thin solid black;
+  border-collapse: collapse;
+  padding: 0.4rem;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+@keyframes link {
+    from {text-decoration-color: rgb(156, 255, 201)1);}
+    to {text-decoration-color: rgba(108, 84, 243, 0.553);}
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-thickness: .3ex;
+    color: #1d1d1d;
+    text-decoration-color: #5B84B1FF;
+}
+a:hover {
+    font-weight: bold;
+    text-decoration-color: #FC766AFF;
+}
+
