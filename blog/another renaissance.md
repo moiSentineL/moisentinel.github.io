@@ -27,7 +27,7 @@ Generalists, also known as polymaths, Renaissance Man or _Homo Universalis_, emb
 
 Most notable polymaths include Benjamin Franklin (one of the founding father of the USA), Leonardo da Vinci, René Descartes (father of modern philosophy), Isaac Newton, Rabindranath Tagore and so on.
 
-Elle Griffin writes about the need of bringing back the Renaissance man concisely in her [post](https://www.elysian.press/p/bring-back-the-renaissance-man?utm_source=share&utm_medium=android&r=2wqx7m.
+Elle Griffin writes about the need of bringing back the Renaissance man concisely in her [post](https://www.elysian.press/p/bring-back-the-renaissance-man?utm_source=share&utm_medium=android&r=2wqx7m)
 
 #### what makes a polymath?
 
