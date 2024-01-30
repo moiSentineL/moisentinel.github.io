@@ -77,12 +77,12 @@ p,ul,ol {
     margin-bottom: 1em;
 }
 
-ul.postlist{
+.postlist{
     padding: unset;
     list-style-type: none;
 }
 
-li.post{
+.post{
     margin: 0 0 1em;
     display: list-item;
     list-style-type: none;
@@ -135,7 +135,7 @@ a {
     text-decoration-color: #5B84B1FF;
 }
 
-a.posttitle {
+.posttitle {
     font-size: 1.3em;
     font-weight: bold;
 }
@@ -147,16 +147,10 @@ a:hover {
 
 
 nav {
-    top: 25px;
     text-align: center;
-    backdrop-filter: blur(1px);
-}
-
-.navlinks{
     margin-top: 25px;
     margin-bottom: 25px;
 }
-
 
 footer{
     font-size: small;
