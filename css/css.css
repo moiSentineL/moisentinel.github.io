@@ -2,6 +2,7 @@
     font-family: IBM Plex Mono;
     src: url("IBMPlexMono-Regular.ttf");
 }
+
 html {
     display: flex;
     max-width: 75ch;
@@ -13,13 +14,65 @@ html {
     font-family: IBM Plex Mono;
 }
 
+@media screen and (max-width: 650px) {
+    html{
+        font-size: 1em;
+    }
+}
+
+@media screen and (prefers-color-scheme: light) {
+    html{
+        color: black;
+    }
+    ::selection {
+        background: #C8FFFD;
+      }
+    pre, code {
+        background: #e0e0e0;
+    }
+    blockquote{
+        border: thin solid black;
+    }
+    table, th, td{
+        border: thin solid black;
+    }
+    a {
+        color: black
+    }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+    html{
+        color: #e0e0e0;
+        background-color: #121212;
+    }
+    ::selection {
+        background: #C8FFFD;
+        color: black;
+      }
+    pre, code {
+        background: rgb(48, 48, 48);
+    }
+    blockquote{
+        border: thin solid #e0e0e0;
+    }
+    table, th, td{
+        border: thin solid #e0e0e0;
+    }
+    a {
+        color:#e0e0e0;
+    }
+}
+
+
+
+
 h1,h2,h3,h4,h5,h6 {
     margin: 2em 0 1em;
 }
   
 p,ul,ol {
     margin-bottom: 1em;
-    color: #1d1d1d;
 }
 
 .post-meta {
@@ -34,7 +87,6 @@ img {
 
 blockquote {
     font-style: italic;
-    border: thin solid black;
     padding: 1rem;
 }
 
@@ -45,33 +97,26 @@ blockquote p {
 pre {
     overflow-x: auto;
     padding: 1rem;
+    border-radius: 15px;
 }
 
-pre, code {
-    background: #e0e0e0;
-}
+
 
 table { width: 100%; }
 
 table, th, td {
-  border: thin solid black;
   border-collapse: collapse;
   padding: 0.4rem;
+
 }
 
 .table-wrapper {
     overflow-x: auto;
 }
 
-@keyframes link {
-    from {text-decoration-color: rgb(156, 255, 201)1);}
-    to {text-decoration-color: rgba(108, 84, 243, 0.553);}
-}
-
 a {
     text-decoration: underline;
     text-decoration-thickness: .3ex;
-    color: #1d1d1d;
     text-decoration-color: #5B84B1FF;
 }
 a:hover {
@@ -79,3 +124,33 @@ a:hover {
     text-decoration-color: #FC766AFF;
 }
 
+nav {
+    position: sticky;
+    top: 25px;
+    text-align: center;
+    /* background: white; */
+    backdrop-filter: blur(1px);
+}
+
+.navlinks{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+header-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2em;
+}
+
+header-frame{
+    max-width: 350px;
+}
+
+footer{
+    font-size: small;
+    text-align: center;
+    padding: 25px;
+}
