@@ -113,7 +113,6 @@ pre {
     overflow: scroll;
     padding: 1rem;
     border-radius: 15px;
-    /* width: 300px; */
     white-space: pre-wrap;
     word-break: break-all;
 }
@@ -148,10 +147,8 @@ a:hover {
 
 
 nav {
-    /* position: sticky; */
     top: 25px;
     text-align: center;
-    /* background: white; */
     backdrop-filter: blur(1px);
 }
 
