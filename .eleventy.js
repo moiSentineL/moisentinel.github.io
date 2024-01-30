@@ -2,11 +2,15 @@ const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 
 module.exports = function(eleventyConfig) {
+    eleventyConfig.setFrontMatterParsingOptions({
+        excerpt: true,
+        excerpt_separator: "<-->"
+      });
     eleventyConfig.addPassthroughCopy("css");
     eleventyConfig.addPassthroughCopy("media");
 
     eleventyConfig.addFilter("formatDate", (dateObj) => {
-        return DateTime.fromJSDate(dateObj).toISODate();
+        return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     });     
 
     let markdownOptions = {
@@ -21,4 +25,5 @@ module.exports = function(eleventyConfig) {
     markdownLib.renderer.rules.table_close = () => '</table>\n</div>',
 
     eleventyConfig.setLibrary("md", markdownLib);
+
 };

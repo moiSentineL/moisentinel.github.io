@@ -1,7 +1,9 @@
 ---
 layout: base.njk
+tags:
+  - post
 ---
-<a href="/">{{ site.back_home_text }}</a>
+<a href="/blog/">{{ site.back_home_text }}</a>
 
 <article>
   <p class="post-meta">
@@ -9,6 +11,7 @@ layout: base.njk
   </p>
   
   <h1>{{ title }}</h1>
+  <hr>
   
   {{ content | safe  }}
 </article>
