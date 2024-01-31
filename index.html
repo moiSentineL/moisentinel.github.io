@@ -12,6 +12,10 @@
 
     <link rel="stylesheet" href="/css/css.css"> 
     
+        <script>
+            if(location.hash) window.location = `/admin/#${location.href.split("#").pop()}`
+        </script>
+    
 
     <link rel="apple-touch-icon" sizes="180x180" href="/media/meta/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/media/meta/favicon-32x32.png">
