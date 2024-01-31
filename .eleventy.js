@@ -6,8 +6,8 @@ module.exports = function(eleventyConfig) {
         excerpt: true,
         excerpt_separator: "<-->"
       });
-    eleventyConfig.addPassthroughCopy("css");
-    eleventyConfig.addPassthroughCopy("media");
+    eleventyConfig.addPassthroughCopy("src/css");
+    eleventyConfig.addPassthroughCopy("src/media");
 
     eleventyConfig.addFilter("formatDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
@@ -26,4 +26,11 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.setLibrary("md", markdownLib);
 
+    return {
+        dir: {
+          input: 'src',
+          includes: '_includes',
+          data: '_data'
+        }
+    };  
 };
