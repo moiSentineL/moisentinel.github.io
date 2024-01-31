@@ -4,18 +4,25 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="{{ eleventy.generator }}">
-    
-    {% if site.description %}
-    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="Nibir Sankar">
+    <meta name="copyright" content="Nibir Sankar">
+
+    {% if page.url == '/' %}
+        {% if site.description %}
+            <meta name="description" content="{{ site.description }}">
+        {% endif %}
+    {% elif page.url == '/blog/' %}
+        <meta name="description" content="A blog sort of thing, but for thinkers.">
+    {% elif page.url == '/blog/archive/' %}
+        <meta name="description" content="The blog archive">
+    {% else %}
+        <meta property="description" content="{{ excerpt }}">
     {% endif %}
+
+ 
     <title>{{ title or site.title }}</title>
 
     <link rel="stylesheet" href="/css/css.css"> 
-    {% if page.url == '/' %}
-        <script>
-            if(location.hash) window.location = `/admin/#${location.href.split("#").pop()}`
-        </script>
-    {% endif %}
 
     <link rel="apple-touch-icon" sizes="180x180" href="/media/meta/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/media/meta/favicon-32x32.png">
