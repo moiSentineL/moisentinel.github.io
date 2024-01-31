@@ -1,6 +1,5 @@
 ---
 title: what is it like to be present and observe?
-permalink: "blog/{{ title | slugify }}/index.html"
 tags:
   - post
 date: 2023-12-31

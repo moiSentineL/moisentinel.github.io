@@ -1,7 +1,6 @@
 ---
 title: An Intellectual Dillemma
 date: 2024-01-14
-permalink: "blog/{{ title | slugify }}/index.html"
 tags:
   - post
 excerpt: "I am stuck in a dilemma, and there doesn't seem to be a solution. This is an angsty ramble, a culmination of a sleepless night and countless hours of internal conflict."

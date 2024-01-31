@@ -1,6 +1,5 @@
 ---
 title: we're not studying for fun 
-permalink: "blog/{{ title | slugify }}/index.html"
 tags:
   - post
 date: 2023-10-24

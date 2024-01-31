@@ -1,7 +1,6 @@
 ---
 title: another Renaissance
 date: 2024-01-28
-permalink: "blog/{{ title | slugify }}/index.html"
 tags:
   - post
 excerpt: "on polymathy, autodidactism and purpose"

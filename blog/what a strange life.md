@@ -3,7 +3,6 @@ title: What a strange life..
 date: 2024-01-18
 tags:
     - post
-permalink: "blog/{{ title | slugify }}/index.html"
 excerpt: "Some reflections / food for thought"
 ---
 # Some reflections/ food for thought:

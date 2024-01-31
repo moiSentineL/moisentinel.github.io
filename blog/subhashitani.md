@@ -1,7 +1,6 @@
 ---
 title: Subhashitani (Proverbs)
 date: 2024-01-09
-permalink: "blog/{{ title | slugify }}/index.html"
 tags:
   - post
 excerpt: "This is my translation of a few Sanskrit shlokas from the book Shemushi (NCERT Class 10)"

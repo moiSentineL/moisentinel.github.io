@@ -1,6 +1,5 @@
 ---
 title: The Idiosyncratic Era 
-permalink: "blog/{{ title | slugify }}/index.html"
 tags:
   - post
 date: 2023-11-07

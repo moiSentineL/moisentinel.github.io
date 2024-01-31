@@ -1,7 +1,6 @@
 ---
 title: Fictitious Babble
 date: 2023-12-27
-permalink: "blog/{{ title | slugify }}/index.html"
 tags:
   - post
 excerpt: "a short(est) fiction story."
