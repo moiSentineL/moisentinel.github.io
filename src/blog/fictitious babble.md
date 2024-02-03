@@ -13,3 +13,6 @@ As they ran, I ran along, like the possum and the hyena I saw, screaming and how
 Splatter, grind. Silence. There was no whimpering. Both the possums lay there wasted. Death never left.
 I went upto my car, and I thought why I had done it. But there was only silence, even my other ego stopped talking. 
 Had I not find bliss? Was I condemned to drive, forever?
+
+---
+*Originally posted on [Postulate](https://postulate.us/@moisentinel/lit/e/2023-12-27-Fictitious-Babble-dtG2FcZ8EXLa6eFmFUSRpf)* 

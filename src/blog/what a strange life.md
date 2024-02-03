@@ -14,3 +14,6 @@ But the question is, can either of them survive without the other?
 5. You are like a cantilever. You can only go one direction, and that's towards improvement (one of my teachers used to say that "I can only go up, not down.")
 6. Only the people who are crazy enough to proclaim that they can change the world are the only ones that do so (Steve Jobs)
 
+---
+*Originally posted on [Postulate](https://postulate.us/@moisentinel/main/p/2024-01-18-What-a-strange-life-9CUJVGtQACDHL8CmTnk7gw)*
+

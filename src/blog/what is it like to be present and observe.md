@@ -6,7 +6,7 @@ date: 2023-12-31
 excerpt: "a travelogue and observation."
 ---
 ## a travelogue.
----
+
 I had been preparing for it since the night before. Bags, check. Clothes, check. Notebook and a pen, check. Enough audiobooks and podcasts, check.  
 I wake up early, and start getting ready. And off we go, packed up with 12 other people in a mini-bus.
 
@@ -78,3 +78,6 @@ _This travelogue depicts the events of 30th Dec, 2023. It was a trip to the Mawk
 [2] - _“Have you ever craved to be a God? An Omnipresent One!” -_ [Sumit](https://nikammachowk.substack.com/p/have-you-ever-craved-to-be-a-god)
 
 [3] - One of my favourite anthology podcasts → [Spotify](https://open.spotify.com/show/5ZMitYZtMEkl7ZweFUHIQK?si=bdb47f8752b64bef)
+
+---
+*Originally posted on [Substack](https://visionoflife.substack.com/p/what-is-it-like-to-be-present-and)*

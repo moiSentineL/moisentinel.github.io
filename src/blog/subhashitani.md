@@ -72,3 +72,6 @@ Like, the sun remains red both at the times of rising and setting. [Similar to S
 
 **Translation:** In this strange universe, nothing is meaningless.
 If the horse is useful for running, the donkey's niche is to bear weight.
+
+---
+*Originally posted on [Postulate](<https://postulate.us/@moisentinel/main/p/2024-01-09-Subhashitani-(Good-quotes)-581GvQkzxXe3TqT7Phs3Pa>)*

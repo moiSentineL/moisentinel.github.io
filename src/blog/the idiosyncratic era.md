@@ -6,6 +6,7 @@ date: 2023-11-07
 excerpt: "Junkie: a person with a compulsive habit or obsessive dependency on something.
 Looking back a year ago, or maybe even a few months, I could have been classified a junkie."
 ---
+
 **Junkie:** _noun, informal:_ 
 a person with a compulsive habit or obsessive dependency on something.
 
@@ -85,10 +86,6 @@ Thank you for reading Vision of Life. If this post was valuable to you in any wa
 
 ---
 
-_A quick word from the author: I would like to thank all of my subscribers for being with me in this journey, especially since this a very new territory. But once in a while, we ought to move outside the bubble. It has been a while since I have posted, so here it is, a longer-than-usual post._
-
----
-
 [1] I [reviewed](https://www.goodreads.com/review/show/5809025091?book_show_action=false) _Brave New World_ a while back. But I didn’t think enough on that.
 
 [2] Robin Waldun’s [Video](https://www.youtube.com/watch?v=clG1Nm4S4ME) on _The Scent of Time_
@@ -98,3 +95,6 @@ _A quick word from the author: I would like to thank all of my subscribers for b
 [4] [The End of the Extremely Online Era](https://substack.com/home/post/p-138215286?source=queue) - Thomas J. Bevan
 
 [5] Cajun Koi Academy’s [video](https://www.youtube.com/watch?v=3wh8QbEyZvE) on Distraction
+
+---
+*Originally posted on [Substack](https://visionoflife.substack.com/p/the-idiosyncratic-era)*

@@ -75,9 +75,6 @@ In my opinion, we can use the knowledge gained by educating ourselves on a myria
 It is up to us now, to bring mankind back to its glory.
 
 ---
-
-_Note from author: Hope you’re doing great! I haven’t posted for about two weeks because of my exams and my habit of writing has become a bit dull. But I hope to continue writing more frequently from now onwards. My personal website/blog will also be coming live in a few weeks, so I might post regular updates there._
-
 [1]  [Paths to Polymathy](https://www.youtube.com/watch?v=kEk-BDckjW4&list=WL&index=12&pp=gAQBiAQB) - Ben Vandgrift, TEDxCharlotte
 
 [2]
@@ -90,3 +87,6 @@ Translates to: “He who teaches, learns”
 [3] This was recommended by [The Math Sorcerer](https://www.youtube.com/@TheMathSorcerer). You can check him out if you want to self-study math.
 
 [4]  [an intellectual dilemma](https://postulate.us/@moisentinel/main/p/2024-01-14-an-intellectual-dillemma-j1veqinVndAJLcnnwCiyvm) - me.
+
+---
+*Originally posted on [Substack](https://visionoflife.substack.com/p/another-renaissance)*

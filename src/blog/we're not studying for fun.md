@@ -48,3 +48,6 @@ But, you can’t love everything and every subject which you are supposed to stu
 Apart from everything, our main motive should be to make the best out of it. Human life is trivial, small and very, very **brief**. Why should we NOT take a moment for ourselves and learn.
 
 **There’s still time. Make sure you love the work you do, and don’t forget to gain something out of it and create something good.**
+
+---
+_Originally posted on [Substack](https://visionoflife.substack.com/p/were-not-studying-for-fun)_

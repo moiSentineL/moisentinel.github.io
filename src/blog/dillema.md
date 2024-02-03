@@ -48,3 +48,6 @@ Many of my peers often discuss starting a new Renaissance, and while it is prett
 This doesn't end here. I have not yet found peace. But through suffering, I will. I love my struggles, that's all. But I will not struggle for a worthless, trivial goal: the goal to prep for exams and getting a good career. I have my glorious purpose: to become a good human, and change the world.
 
 And I will fulfil it, anyhow.
+
+---
+*Originally posted on [Postulate](https://postulate.us/@moisentinel/main/p/2024-01-14-an-intellectual-dillemma-j1veqinVndAJLcnnwCiyvm)*
