@@ -14,7 +14,7 @@ title: why do I study?
 "Then why do I have [inner conflicts](https://moisentinel.github.io/blog/p/an-intellectual-dillemma/) when studying?"
 'I love studying. The issue is with "why" I am *supposed* to study. The most causal explanation I can give is that I put too much weightage on my principles *against* the "study to score" idea, which seeps into my mind when I am practicing and studying.'
 ## remembrance
-I would like to frame things differently to myself now. Instead of solving question papers for the best possible marks (which is inherently the objective behind mock tests and such), I will solve them to check my understanding and refine my knowledge (this aligns with my core values, which is to [[#intentions|learn]] and acquire more knowledge.)
+I would like to frame things differently to myself now. Instead of solving question papers for the best possible marks (which is inherently the objective behind mock tests and such), I will solve them to check my understanding and refine my knowledge (this aligns with my core values, which is to learn and acquire more knowledge.)
 
 It won't matter if I score low. I would win **inevitably** if I learnt something new. And I believe that it *may* make me score more (I mean, if you are crystal clear with your concepts, how can you not score?). 
 
