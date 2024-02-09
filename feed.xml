@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:base="https://moisentinel.github.io">
+  <title>Nibir&#39;s Brain Dump</title>
+  <subtitle>These are the proof that I am human, because I make mistakes.</subtitle>
+  <link href="https://moisentinel.github.io/feed.xml" rel="self"/>
+  <link href="https://moisentinel.github.io"/>
+  <updated>2024-02-09T18:14:25Z</updated>
+  <id>https://moisentinel.github.io</id>
+  <author>
+    <name>Nibir Sankar</name>
+    <email>nibirsankar26@gmail.com</email>
+  </author>
+    <entry>
+        <title>have people stopped to learn for the sake of learning?</title>
+        <link href="https://moisentinel.github.io/blog/p/have-people-stopped-to-learn-for-the-sake-of-learning/"/>
+        <updated>2024-02-05T00:00:00Z</updated>
+        <id>https://moisentinel.github.io/blog/p/have-people-stopped-to-learn-for-the-sake-of-learning/</id>
+        <content xml:lang="en" type="html">my base-rate neglect</content>
+    </entry>
+    <entry>
+        <title>why do I study?</title>
+        <link href="https://moisentinel.github.io/blog/p/why-do-i-study/"/>
+        <updated>2024-02-04T00:00:00Z</updated>
+        <id>https://moisentinel.github.io/blog/p/why-do-i-study/</id>
+        <content xml:lang="en" type="html">a realisation: transcending beyond the concept of scoring</content>
+    </entry>
+    <entry>
+        <title>another Renaissance</title>
+        <link href="https://moisentinel.github.io/blog/p/another-renaissance/"/>
+        <updated>2024-01-28T00:00:00Z</updated>
+        <id>https://moisentinel.github.io/blog/p/another-renaissance/</id>
+        <content xml:lang="en" type="html">on polymathy, autodidactism and purpose</content>
+    </entry>
+    <entry>
+        <title>What a strange life..</title>
+        <link href="https://moisentinel.github.io/blog/p/what-a-strange-life/"/>
+        <updated>2024-01-18T00:00:00Z</updated>
+        <id>https://moisentinel.github.io/blog/p/what-a-strange-life/</id>
+        <content xml:lang="en" type="html">Some reflections / food for thought</content>
+    </entry>
+    <entry>
+        <title>An Intellectual Dillemma</title>
+        <link href="https://moisentinel.github.io/blog/p/an-intellectual-dillemma/"/>
+        <updated>2024-01-14T00:00:00Z</updated>
+        <id>https://moisentinel.github.io/blog/p/an-intellectual-dillemma/</id>
+        <content xml:lang="en" type="html">I am stuck in a dilemma, and there doesn&#39;t seem to be a solution. This is an angsty ramble, a culmination of a sleepless night and countless hours of internal conflict.</content>
+    </entry>
+    <entry>
+        <title>Subhashitani (Proverbs)</title>
+        <link href="https://moisentinel.github.io/blog/p/subhashitani-proverbs/"/>
+        <updated>2024-01-09T00:00:00Z</updated>
+        <id>https://moisentinel.github.io/blog/p/subhashitani-proverbs/</id>
+        <content xml:lang="en" type="html">This is my translation of a few Sanskrit shlokas from the book Shemushi (NCERT Class 10)</content>
+    </entry>
+    <entry>
+        <title>what is it like to be present and observe?</title>
+        <link href="https://moisentinel.github.io/blog/p/what-is-it-like-to-be-present-and-observe/"/>
+        <updated>2023-12-31T00:00:00Z</updated>
+        <id>https://moisentinel.github.io/blog/p/what-is-it-like-to-be-present-and-observe/</id>
+        <content xml:lang="en" type="html">a travelogue and observation.</content>
+    </entry>
+    <entry>
+        <title>Fictitious Babble</title>
+        <link href="https://moisentinel.github.io/blog/p/fictitious-babble/"/>
+        <updated>2023-12-27T00:00:00Z</updated>
+        <id>https://moisentinel.github.io/blog/p/fictitious-babble/</id>
+        <content xml:lang="en" type="html">a short(est) fiction story.</content>
+    </entry>
+    <entry>
+        <title>curb your desires</title>
+        <link href="https://moisentinel.github.io/blog/p/curb-your-desires/"/>
+        <updated>2023-12-23T00:00:00Z</updated>
+        <id>https://moisentinel.github.io/blog/p/curb-your-desires/</id>
+        <content xml:lang="en" type="html">less is more?</content>
+    </entry>
+    <entry>
+        <title>on discovery</title>
+        <link href="https://moisentinel.github.io/blog/p/on-discovery/"/>
+        <updated>2023-11-19T00:00:00Z</updated>
+        <id>https://moisentinel.github.io/blog/p/on-discovery/</id>
+        <content xml:lang="en" type="html">know thyself.</content>
+    </entry>
+    <entry>
+        <title>The Idiosyncratic Era</title>
+        <link href="https://moisentinel.github.io/blog/p/the-idiosyncratic-era/"/>
+        <updated>2023-11-07T00:00:00Z</updated>
+        <id>https://moisentinel.github.io/blog/p/the-idiosyncratic-era/</id>
+        <content xml:lang="en" type="html">Junkie: a person with a compulsive habit or obsessive dependency on something. Looking back a year ago, or maybe even a few months, I could have been classified a junkie.</content>
+    </entry>
+    <entry>
+        <title>we&#39;re not studying for fun</title>
+        <link href="https://moisentinel.github.io/blog/p/we-re-not-studying-for-fun/"/>
+        <updated>2023-10-24T00:00:00Z</updated>
+        <id>https://moisentinel.github.io/blog/p/we-re-not-studying-for-fun/</id>
+        <content xml:lang="en" type="html">It is so sad that we do not study for fun, to learn, but to score marks in our exams, compete and get a job. Is this what we were made for?</content>
+    </entry>
+</feed>
