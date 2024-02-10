@@ -13,7 +13,7 @@ First of all, we don't know if God exists or not. I don't think there's a way to
 What if it isn't what we thought all along? What if it isn't a supernatural, omnipotent, omnipresent, omniscient being? What if God is not "God"? 
 
 And what about the possibility that God is **Evil**? We haven't considered that yet, have we?
-I read it for the first time in [existentialcomics.com](https://existentialcomics.com/comic/535), and then I discussed the topic with my friends.
+I read about it for the first time in [existentialcomics.com](https://existentialcomics.com/comic/535), and then I discussed the topic with my friends.
 That question intrigues me. What if, really, God is Evil?
 
 That would change everything, or maybe not. There are a few plausible outcomes: people will then stop believing in God, or blame others: "It's YOUR God" unlike if God is good: "It's OUR God". Or something completely different altogether. Perhaps it will change their standards. "Evil" will become the new "good", as jain put it.
