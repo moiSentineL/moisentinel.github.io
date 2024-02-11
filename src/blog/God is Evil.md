@@ -8,7 +8,7 @@ link: https://moisentinel.github.io/blog/p/god-is-evil/
 excerpt: there's no way to conclude anything.
 date: 2024-02-10T12:37:08Z
 ---
-First of all, we don't know if God exists or not. I don't think there's a way to prove it. (Descarte's way of finding god. was in my opinion, buffoonery). But let's say away we found to prove that it exists. What changes will it bringing? Perhaps people will start to ponder upon another question: "*Whose* god is this?"
+First of all, we don't know if God exists or not. I don't think there's a way to prove it. (Descarte's way of finding god was in my opinion, buffoonery). But let's say away we found a way to prove that it exists. What changes will it bring? Perhaps people will start to ponder upon another question: "*Whose* god is this?"
 
 What if it isn't what we thought all along? What if it isn't a supernatural, omnipotent, omnipresent, omniscient being? What if God is not "God"? 
 
