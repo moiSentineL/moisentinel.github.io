@@ -17,6 +17,11 @@ html {
 .excerpt {
     font-size: 1em; 
     line-height: 1.5;
+    margin: 0 0 0.5em;
+}
+
+.nextread {
+    line-height: 1;
 }
 
 @media screen and (max-width: 650px) {
@@ -82,9 +87,6 @@ h1,h2,h3,h4,h5,h6 {
     margin: 1em 0 0.2em;
 }
 
-.excerpt {
-    margin: 0 0 0.5em;
-}
   
 p,ul,ol {
     margin-bottom: 1em;
@@ -176,4 +178,5 @@ footer{
     padding: 25px;
     padding-top: 0.5em;
 }
+
 
