@@ -49,7 +49,7 @@ layout: base.njk
                 <li class="post">
                     <a href="{{ post.url }}" class="posttitle">{{ post.data.title }}</a> <time datetime="{{ post.date }}" style="color: #909090">{{ post.date | formatDate }}</time>
                     <br>
-                    <span class="excerpt">{{ post.data.excerpt }}</span>
+                    <span>{{ post.data.excerpt }}</span>
                 </li>
             {% endif %}
         {%- endfor -%}
