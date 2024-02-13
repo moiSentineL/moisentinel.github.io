@@ -11,8 +11,11 @@ tags:
     <time datetime="{{ page.date }}">{{ page.date | formatDate }}</time>
   </p>
   
-  <h1>{{ title }}</h1>
+  <h1 class="title">{{ title }}</h1>
+  <h4 class="excerpt">{{ excerpt }}</h4>
   <hr>
   
   {{ content | safe  }}
+
+  <hr>
 </article>

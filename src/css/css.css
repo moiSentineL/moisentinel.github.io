@@ -72,6 +72,13 @@ html {
 h1,h2,h3,h4,h5,h6 {
     margin: 1em 0 0.5em;
 }
+.title {
+    margin: 1em 0 0.2em;
+}
+.excerpt {
+    margin: 0 0 0.5em;
+    color: #606060;
+}
   
 p,ul,ol {
     margin-bottom: 1em;
@@ -100,11 +107,11 @@ img {
 
 blockquote {
     font-style: italic;
-    padding: 0.4rem;
+    margin: 0 0.3rem 0 0.3rem
 }
 
 blockquote p {
-    margin: 0;
+    margin: 0 0.3rem 0 0.3rem;
 }
 
 pre {
