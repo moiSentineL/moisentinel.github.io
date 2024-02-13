@@ -24,8 +24,9 @@ tags:
 			{% if nextPost.url %}
 					<strong>Next</strong>:
 					<a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
-			{% endif %}
 			<br>
+			{% endif %}
+			
 			{% if prevPost.url %}
 					<strong>Previous</strong>:
 					<a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
