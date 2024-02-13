@@ -147,6 +147,11 @@ a {
     font-weight: bold;
 }
 
+.archive {
+    font-size: 1em;
+    font-weight: bold;
+}
+
 a:hover {
     font-weight: bold;
     text-decoration-color: #FC766AFF;
