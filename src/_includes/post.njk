@@ -18,17 +18,19 @@ tags:
   {{ content | safe  }}
 
   <hr>
-  <h3>Continue Reading</h3>
-  	{% if nextPost.url %}
-		<p>
-			<strong>Next</strong>:
-			<a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
-		</p>
-	{% endif %}
-	{% if prevPost.url %}
-		<p>
-			<strong>Previous</strong>:
-			<a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
-		</p>
-	{% endif %}
+	<div class="nextread">
+		<h3>Continue Reading</h3>
+			{% if nextPost.url %}
+				<p>
+					<strong>Next</strong>:
+					<a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+				</p>
+			{% endif %}
+			{% if prevPost.url %}
+				<p>
+					<strong>Previous</strong>:
+					<a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
+				</p>
+			{% endif %}
+	</div>
 </article>
