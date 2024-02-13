@@ -21,7 +21,7 @@ html {
 }
 
 .nextread {
-    line-height: 1;
+    line-height: 1.5;
 }
 
 @media screen and (max-width: 650px) {
