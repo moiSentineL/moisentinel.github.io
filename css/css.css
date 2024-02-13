@@ -44,6 +44,9 @@ html {
     a {
         color: black
     }
+    h4.excerpt {
+        color: #909090;
+    }
 }
 
 @media screen and (prefers-color-scheme: dark) {
