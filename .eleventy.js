@@ -42,6 +42,13 @@ module.exports = function(eleventyConfig) {
     
         return coll;
     });
+    eleventyConfig
+    .addFilter('postTags', tags => Object.keys(tags)
+        .filter(k => k !== "posts")
+        .filter(k => k !== "post")
+        .filter(k => k !== "all")
+        .map(k => ({name: k, count: tags[k].length}))
+        .sort((a,b) => b.count - a.count));
 
     return {
         dir: {

@@ -38,5 +38,13 @@ layout: base.njk
     <div style="text-align: center">
         <h4>Subscribe via <a href="https://moisentinel.github.io/feed.xml">RSS</a></h4>
     </div>
+    <div style="text-align: center">
+        <tag>
+        {% set tagList = collections | postTags %}
+        {% for tag in tagList %}
+            <a id="{{tag.name}}" href="/blog/t/{{ tag.name }}">#{{tag.name}}({{tag.count}})</a>
+        {% endfor %}
+        </tag>
+    </div>
 </main>
 
