@@ -1,0 +1,7 @@
+<tag>
+	{% for tag in tags -%}
+		{% if tag !== 'post' %}
+            <a id="{{ tag }}" href="/blog/t/{{ tag }}">#{{ tag }}</a>
+		{% endif %}
+	{%- endfor %}
+</tag>

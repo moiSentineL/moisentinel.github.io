@@ -1,0 +1,26 @@
+---
+title: Posts tagged {{ tag }}
+layout: base.njk
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: "blog/t/{{ tag }}/"
+---
+{% include "bloghead.njk" %}
+<main>
+    <hr>
+    <div style="text-align: center">
+        <h2>#{{ tag }}</h2>
+    </div>
+    <ul class="postlist">
+        {% set taglist = collections[ tag ] %}
+        {% for post in taglist | reverse %}
+            <li class="post">
+                <a href="{{ post.url }}" class="archive">{{ post.data.title }}</a> <time datetime="{{ post.date }}" style="color: #909090">{{ post.date | formatDate }}</time>
+                <br>
+                <span>{{ post.data.excerpt }}</span>
+            </li>
+        {%- endfor -%}
+    </ul>   
+</main>

@@ -3,6 +3,11 @@
     src: url("IBMPlexMono-Regular.ttf");
 }
 
+:root {
+    --check: #1e90ff;
+    --check2: #ffffff;
+}
+
 html {
     display: flex;
     max-width: 75ch;
@@ -72,9 +77,13 @@ html {
     table, th, td{
         border: thin solid #e0e0e0;
     }
+    tag {
+        color: #000000 !important;
+    }
     a {
         color:#e0e0e0;
     }
+    
     h4.excerpt {
         color: #b5b5b5;
     }
@@ -158,6 +167,47 @@ a {
 .archive {
     font-size: 1em;
     font-weight: bold;
+}
+
+tag{
+    font-size: 80%;
+    margin: 0;
+}
+
+tag #life {
+    text-decoration-color: #553E4E;
+}
+
+tag #literature {
+    text-decoration-color: #E9AFA3;
+}
+
+tag #philosophy {
+    text-decoration-color: #297373;
+}
+
+tag #technical {
+    text-decoration-color: #A1CCA5;
+}
+
+tag #musings {
+    text-decoration-color: #AEC5EB;
+}
+
+tag #debugging {
+    text-decoration-color: #52489C;
+}
+
+tag #essays {
+    text-decoration-color: #2C4251;
+}
+
+tag #rationality {
+    text-decoration-color: #A9FBC3;
+}
+
+tag #people {
+    text-decoration-color: #5C7457;
 }
 
 a:hover {

@@ -2,7 +2,6 @@
 aliases: 
 tags:
   - post
-  - Blog
 added: February 5, 2024
 link: 
 excerpt: my base-rate neglect

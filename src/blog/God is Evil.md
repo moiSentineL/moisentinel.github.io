@@ -2,7 +2,6 @@
 aliases: 
 tags:
   - post
-  - Blog/u
 added: February 8, 2024
 link: https://moisentinel.github.io/blog/p/god-is-evil/
 excerpt: there's no way to conclude anything.

@@ -2,7 +2,6 @@
 aliases: 
 tags:
   - post
-  - Blog
 date: 2024-02-04
 link: 
 excerpt: "a realisation: transcending beyond the concept of scoring"

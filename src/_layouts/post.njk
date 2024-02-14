@@ -13,6 +13,7 @@ tags:
   
   <h1 class="title">{{ title }}</h1>
   <h4 class="excerpt">{{ excerpt }}</h4>
+  {% include "posttags.njk" %}
   <hr>
   
   {{ content | safe  }}

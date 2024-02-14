@@ -14,6 +14,14 @@ layout: base.njk
                 <a href="{{ post.url }}" class="archive">{{ post.data.title }}</a> <time datetime="{{ post.date }}" style="color: #909090">{{ post.date | formatDate }}</time>
                 <br>
                 <span>{{ post.data.excerpt }}</span>
+                <br>
+                <tag>
+                {% for tag in post.data.tags -%}
+                    {% if tag !== 'post' %}
+                        <a id="{{ tag }}" href="/blog/t/{{ tag }}">#{{ tag }}</a>
+                    {% endif %}
+                {%- endfor %}
+                </tag>
             </li>
         {%- endfor -%}
     </ul>   
