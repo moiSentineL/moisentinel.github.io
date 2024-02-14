@@ -2,8 +2,10 @@
 title: What a strange life..
 date: 2024-01-18
 tags:
-    - post
-excerpt: "Some reflections / food for thought"
+  - post
+  - musings
+  - people
+excerpt: Some reflections / food for thought
 ---
 # Some reflections/ food for thought:
 1. People are so much less ambitious, they don't want to become someone who contributes to something good, or live a better life. They toil and toil, yet they are unable to succeed. Why? There is a lack of self-awareness, a lack of understanding the world and lack of exposure.

@@ -2,8 +2,11 @@
 title: what is it like to be present and observe?
 tags:
   - post
+  - life
+  - people
+  - essay
 date: 2023-12-31
-excerpt: "a travelogue and observation."
+excerpt: a travelogue and observation.
 ---
 ## a travelogue.
 

@@ -3,7 +3,9 @@ title: Subhashitani (Proverbs)
 date: 2024-01-09
 tags:
   - post
-excerpt: "This is my translation of a few Sanskrit shlokas from the book Shemushi (NCERT Class 10)"
+  - literature
+  - philosophy
+excerpt: This is my translation of a few Sanskrit shlokas from the book Shemushi (NCERT Class 10)
 ---
 
 This is my translation of a few Sanskrit shlokas from the book Shemushi (NCERT Class 10).

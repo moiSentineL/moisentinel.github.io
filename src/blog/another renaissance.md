@@ -5,8 +5,9 @@ tags:
   - post
   - philosophy
   - musings
-
-excerpt: "on polymathy, autodidactism and purpose"
+  - essay
+  - debugging
+excerpt: on polymathy, autodidactism and purpose
 ---
 Long gone are the times when you see people learn for the sake of learning, and long gone are the times when you see people curious, and use that curiosity to solve the unsolvable.
 

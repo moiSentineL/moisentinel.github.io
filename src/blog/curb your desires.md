@@ -1,7 +1,10 @@
 ---
 tags:
   - post
-  - uhuh
+  - musings
+  - philosophy
+  - essay
+  - people
 added: 2023-11-05
 link: https://postulate.us/@moisentinel/main/p/2023-12-23-Curb-your-Desire-iK9VGAhPWEznNz6LChKtWN
 excerpt: less is more?

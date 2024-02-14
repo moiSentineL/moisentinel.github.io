@@ -1,6 +1,8 @@
 ---
 tags:
   - post
+  - life
+  - debugging
 added: 2023-11-15
 link: https://visionoflife.substack.com/p/on-discovery
 excerpt: know thyself.

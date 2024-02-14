@@ -1,9 +1,12 @@
 ---
-title: we're not studying for fun 
+title: we're not studying for fun
 tags:
   - post
+  - debugging
+  - philosophy
+  - essay
 date: 2023-10-24
-excerpt: "It is so sad that we do not study for fun, to learn, but to score marks in our exams, compete and get a job. Is this what we were made for?"
+excerpt: It is so sad that we do not study for fun, to learn, but to score marks in our exams, compete and get a job. Is this what we were made for?
 ---
 It is so sad that we do not study for fun, to learn, but to score marks in our exams, compete and get a job. **Is this what we were made for?**  
 When’s the last time that you actually sat down to study, not because you had exams to prepare for, but because **you actually liked it?**

@@ -3,7 +3,8 @@ title: Fictitious Babble
 date: 2023-12-27
 tags:
   - post
-excerpt: "a short(est) fiction story."
+  - literature
+excerpt: a short(est) fiction story.
 ---
 I found them grovelling, shovelling, up in the snow. It was a narrow road on a hill, and beyond the edge was oblivion. They said, "There ain't no point in grimacing, we do this everyday." There, on a cold morning, I found them whimpering.
 Up until that point, I had been driving for 3 1/2 hours towards north. On the road, I saw lumberjacks cutting wood from certain trees out of many. I saw snowbound possums and rodents waiting to be killed by predators. I saw  beyond what was present, not a blue sky and whiteness spread across.

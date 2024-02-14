@@ -1,10 +1,12 @@
 ---
-title: The Idiosyncratic Era 
+title: The Idiosyncratic Era
 tags:
   - post
+  - musings
+  - life
+  - essay
 date: 2023-11-07
-excerpt: "Junkie: a person with a compulsive habit or obsessive dependency on something.
-Looking back a year ago, or maybe even a few months, I could have been classified a junkie."
+excerpt: "Junkie: a person with a compulsive habit or obsessive dependency on something. Looking back a year ago, or maybe even a few months, I could have been classified a junkie."
 ---
 
 **Junkie:** _noun, informal:_ 
