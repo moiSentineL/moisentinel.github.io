@@ -177,6 +177,13 @@ a {
 .archive {
     font-size: 1em;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.archive:hover {
+    text-decoration: underline;
+    text-decoration-thickness: .3ex;
+    text-decoration-color: #5B84B1;
 }
 
 tag{
