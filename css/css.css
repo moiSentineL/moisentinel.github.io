@@ -163,8 +163,15 @@ a {
 }
 
 .posttitle {
-    font-size: 1.3em;
+    font-size: 1.2em;
     font-weight: bold;
+    text-decoration: none;
+}
+
+.posttitle:hover {
+    text-decoration: underline;
+    text-decoration-thickness: .3ex;
+    text-decoration-color: #5B84B1;
 }
 
 .archive {
@@ -175,6 +182,11 @@ a {
 tag{
     font-size: 80%;
     margin: 0;
+}
+
+a:hover {
+    font-weight: bold;
+    text-decoration-color: #FC766AFF;
 }
 
 tag #life {
@@ -215,11 +227,6 @@ tag #people {
 
 tag #gg {
     text-decoration-color: var(--cyclamen);
-}
-
-a:hover {
-    font-weight: bold;
-    text-decoration-color: #FC766AFF;
 }
 
 
