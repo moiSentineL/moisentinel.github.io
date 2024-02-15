@@ -4,8 +4,11 @@
 }
 
 :root {
-    --check: #1e90ff;
-    --check2: #ffffff;
+    --pale-azure: #70d6ffff;
+    --cyclamen: #ff70a6ff;
+    --atomic-tangerine: #ff9770ff;
+    --naples-yellow: #ffd670ff;
+    --mindaro: #e9ff70ff;
 }
 
 html {
@@ -175,39 +178,43 @@ tag{
 }
 
 tag #life {
-    text-decoration-color: #553E4E;
+    text-decoration-color: var(--naples-yellow);
 }
 
 tag #literature {
-    text-decoration-color: #E9AFA3;
+    text-decoration-color: var(--pale-azure);
 }
 
 tag #philosophy {
-    text-decoration-color: #297373;
+    text-decoration-color: var(--atomic-tangerine);
 }
 
 tag #technical {
-    text-decoration-color: #A1CCA5;
+    text-decoration-color: var(--mindaro);
 }
 
 tag #musings {
-    text-decoration-color: #AEC5EB;
+    text-decoration-color: var(--cyclamen);
 }
 
 tag #debugging {
-    text-decoration-color: #52489C;
+    text-decoration-color: var(--naples-yellow);
 }
 
 tag #essay {
-    text-decoration-color: #2C4251;
+    text-decoration-color: var(--pale-azure);
 }
 
 tag #rationality {
-    text-decoration-color: #A9FBC3;
+    text-decoration-color: var(--mindaro);
 }
 
 tag #people {
-    text-decoration-color: #5C7457;
+    text-decoration-color: var(--atomic-tangerine);
+}
+
+tag #gg {
+    text-decoration-color: var(--cyclamen);
 }
 
 a:hover {
