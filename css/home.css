@@ -13,7 +13,7 @@
 
 html {
     display: flex;
-    max-width: 69ch;
+    max-width: 75ch;
     padding: 4em 1em;
     justify-content: center;
     margin: auto;
@@ -185,57 +185,6 @@ a {
     text-decoration-thickness: .3ex;
     text-decoration-color: #5B84B1;
 }
-
-tag{
-    font-size: 80%;
-    margin: 0;
-}
-
-a:hover {
-    font-weight: bold;
-    text-decoration-color: #FC766AFF;
-}
-
-tag #life {
-    text-decoration-color: var(--naples-yellow);
-}
-
-tag #literature {
-    text-decoration-color: var(--pale-azure);
-}
-
-tag #philosophy {
-    text-decoration-color: var(--atomic-tangerine);
-}
-
-tag #technical {
-    text-decoration-color: var(--mindaro);
-}
-
-tag #musings {
-    text-decoration-color: var(--cyclamen);
-}
-
-tag #debugging {
-    text-decoration-color: var(--naples-yellow);
-}
-
-tag #essay {
-    text-decoration-color: var(--pale-azure);
-}
-
-tag #rationality {
-    text-decoration-color: var(--mindaro);
-}
-
-tag #people {
-    text-decoration-color: var(--atomic-tangerine);
-}
-
-tag #gg {
-    text-decoration-color: var(--cyclamen);
-}
-
 
 nav {
     text-align: center;
