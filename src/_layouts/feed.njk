@@ -31,6 +31,9 @@
     <entry>
         <title>{{ post.data.title }}</title>
         <link href="{{ absolutePostUrl }}"/>
+        <summary>
+          {{ post.data.excerpt | htmlToAbsoluteUrls(absolutePostUrl) }}
+        </summary>
         <updated>{{ post.date | dateToRfc3339 }}</updated>
         <id>{{ absolutePostUrl }}</id>
         <content xml:lang="{{ metadata.language }}" type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
