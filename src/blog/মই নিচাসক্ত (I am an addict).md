@@ -48,7 +48,7 @@ I had never thought I would write something in Assamese, as I wasn't very "conne
 
 Anyway, this was my first endeavour in writing Assamese literature. Many more to go (I hope).
 ## a literal translation
-There's no point in reading "translated poetry" since all the euphemisms and nuances are lost in the process. You're NOT supposed to. I just didn't want to keep (some of) you in the dark, at least you'll be able to get the gist. You can skip it of course.
+There's no point in reading "translated poetry" since all the euphemisms and nuances are lost in the process. You're NOT supposed to. I just didn't want to keep (some of) you in the dark, at least you'll be able to get the gist. You can skip it of course:
 
 I am an addicted man,
 To study, to learn
