@@ -288,7 +288,11 @@ footer{
 }
 
 
-div.tag {
+div {
+
+}
+
+.tag {
     display: flex;
     flex-direction: row;
     
@@ -297,7 +301,11 @@ div.tag {
     }
 }
 
-span.reading {
+span {
+
+}
+
+.reading {
     margin-left: auto;
     font-size: 80%;
     @media screen and (max-width: 500px) {
