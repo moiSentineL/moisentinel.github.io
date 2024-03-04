@@ -1,7 +1,9 @@
+<div class="tag">
 <tag>
 	{% for tag in tags -%}
 		{% if tag !== 'post' %}
             <a id="{{ tag }}" href="/blog/t/{{ tag }}">#{{ tag }}</a>
 		{% endif %}
 	{%- endfor %}
-</tag>
+</tag> <span class="reading">{{ content | readingTime }} read</span>
+</div>

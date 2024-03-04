@@ -2,7 +2,10 @@ const { DateTime } = require("luxon");
 const markdownIt = require("markdown-it");
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const markdownItAnchor = require('markdown-it-anchor');
+const readingTime = require('eleventy-plugin-reading-time');
 
+
+// Heading Anchor stuff
 const position = {
     false: "push",
     true: "unshift",
@@ -39,9 +42,12 @@ const renderPermalink = (slug, opts, state, idx) => {
       ...linkTokens
     )
 }
+// Heading anchor stuff end
+
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(readingTime);
     
     eleventyConfig.setFrontMatterParsingOptions({
         excerpt: true,
