@@ -288,3 +288,20 @@ footer{
 }
 
 
+div.tag {
+    display: flex;
+    flex-direction: row;
+    
+    @media screen and (max-width: 500px) {
+        flex-direction: column;
+    }
+}
+
+span.reading {
+    margin-left: auto;
+    font-size: 80%;
+    @media screen and (max-width: 500px) {
+        margin: 0;
+    }
+
+}
