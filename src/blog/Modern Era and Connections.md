@@ -5,6 +5,7 @@ tags:
   - life
   - essay
   - philosophy
+  - Blog
 added: March 5, 2024
 link: https://moisentinel.github.io/blog/p/modern-era-and-connections
 excerpt: the problem with technological advancements
@@ -18,7 +19,7 @@ The modern society is a consumerist society. In this age of high information and
 
 A core concept of digital minimalism is to introduce friction and sort of "dumb" down off technology. That's why I started developing an interest to using an actual camera to take photos.
 
-![](/media/d47c6545b6c4e23d1353468831ffef0d.png)
+![](/attachments/sony-dsc-w830.png)
 
 It's the camera we bought in 2014 (not the one I mention in the first sentence; that was an old Kodak Kroma 35). And no, it doesn't take pictures as good as my phone, but the process of clicking pictures through it gives me pleasure. It's a romanticist feeling I cannot describe.
 

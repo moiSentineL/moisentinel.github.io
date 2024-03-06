@@ -55,6 +55,7 @@ module.exports = function(eleventyConfig) {
       });
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/media");
+    eleventyConfig.addPassthroughCopy({ "src/blog/attachments": "attachments" });
 
     eleventyConfig.addFilter("formatDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
