@@ -5,7 +5,6 @@ tags:
   - life
   - essay
   - philosophy
-  - Blog
 added: March 5, 2024
 link: https://moisentinel.github.io/blog/p/modern-era-and-connections
 excerpt: the problem with technological advancements
