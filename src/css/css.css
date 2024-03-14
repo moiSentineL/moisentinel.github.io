@@ -119,6 +119,10 @@ p,ul,ol {
     text-align: right;
 }
 
+.footnote-item {
+    line-height: 1.2;
+}
+
 img {
     max-width: 100%;
     margin: 0.5rem auto;
