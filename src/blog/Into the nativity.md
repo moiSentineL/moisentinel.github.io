@@ -3,8 +3,8 @@ aliases:
 tags:
   - post
   - literature
-  - me
   - debugging
+  - life
 added: February 26, 2024
 link: https://moisentinel.github.io/blog/p/into-the-nativity
 excerpt: learning about my own legacy
