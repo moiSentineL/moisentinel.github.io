@@ -227,6 +227,17 @@ a {
     text-decoration-color: #5B84B1;
 }
 
+.footnote-link {
+    text-decoration: none;
+    color: #0C359E;
+}
+
+.footnote-link:hover {
+    text-decoration: underline;
+    text-decoration-thickness: .3ex;
+    text-decoration-color: #FC766AFF;
+}
+
 tag{
     font-size: 80%;
     margin: 0;
