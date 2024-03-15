@@ -34,7 +34,7 @@ Few of my blogs that shows some of my personality:
 
 I can help you for stuff like productivity systems, Obsidian, workflows, books, etc. I can also help you reach out to people that knows things beyond my understanding.
 
-## Flexing (i don't do that anymore)
+### Flexing (i don't do that anymore)
 
 I am a self-taught guitarist, programmer, musician. I know and speak several languages: Assamese (Native), English, Hindi, Sanskrit (a bit); in that order of proficiency. An aspiring researcher; published a [paper](https://osf.io/preprints/socarxiv/ytwqd/) about environment in my region.
 
