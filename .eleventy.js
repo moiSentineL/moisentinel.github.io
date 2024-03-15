@@ -81,6 +81,16 @@ module.exports = function(eleventyConfig) {
       '<section class="footnotes">\n' +
       '<ol class="footnotes-list">\n'
     );
+    
+    markdownLib.renderer.rules.footnote_ref = function (tokens, idx, options, env, slf) {
+      const id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf)
+      const caption = slf.rules.footnote_caption(tokens, idx, options, env, slf)
+      let refid = id
+
+      if (tokens[idx].meta.subId > 0) refid += `:${tokens[idx].meta.subId}`
+
+      return `<sup class="footnote-ref"><a class="footnote-link" href="#fn${id}" id="fnref${refid}">${caption}</a></sup>`
+    }
 
     eleventyConfig.setLibrary("md", markdownLib);
 
