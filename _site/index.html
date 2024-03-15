@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Eleventy v2.0.1">
+    
+    
+    <meta name="description" content="a free thinker from Assam, India">
+    
+    <title>Nibir Sankar</title>
+
+    <link rel="stylesheet" href="/css/home.css"> 
+    
+        <script>
+            if(location.hash) window.location = `/admin/#${location.href.split("#").pop()}`
+        </script>
+    
+
+
+    <link rel="alternate" type="application/atom+xml" href="https://moisentinel.github.io/feed.xml" title="Nibir's Brain Dump"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/media/meta/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/media/meta/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/media/meta/favicon-16x16.png">
+    <link rel="manifest" href="/media/meta/site.webmanifest">
+    <link rel="mask-icon" href="/media/meta/safari-pinned-tab.svg" color="#2f2f2f">
+    <link rel="shortcut icon" href="/media/meta/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/media/meta/browserconfig.xml">
+    <meta name="theme-color" content="#000000">
+
+</head>
+<body>
+    <style type="text/css">
+
+    .fcrow{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2ch;
+    }
+    .name{
+        padding-bottom: 0rem;
+        line-height: 0.5;
+        font-size: 300%;
+        margin-top: 2em;
+        margin-bottom:0.6em;
+    }
+    .this{
+        padding-bottom: 0rem;
+        line-height: 0.5;
+        font-size: 150%;
+        margin-top: 0rem;
+        padding-top: 0rem;
+        margin-bottom:1em;
+        color: #909090;
+        font-weight: 500;
+    }
+    .img_deg{
+        align-self: center;
+        float: right;
+        width: 30%;
+        margin-right: 0.5em;
+        margin-bottom: 0em;
+        border-radius: 50%;
+    }
+
+    @media screen and (max-width: 650px) {
+        .fcrow{
+            display: flex;
+            flex-direction: column;
+        }
+        .name{
+            margin-top: 0rem;
+            padding-top: 0rem;
+            padding-bottom: 0rem;
+            margin-bottom: 0.75rem;
+            line-height: 0.85;
+            font-size: 200%;
+        }
+        .this{
+            padding-bottom: 0rem;
+            margin-bottom: 1rem;
+            line-height: 0.5;
+            margin-bottom:0.6em;
+            color: #909090;
+            font-weight: 500;
+        }
+        .img_deg {
+        align-self: center;
+        width: 50%;
+        margin: auto;
+        margin-top:1.5em;
+        margin-bottom: 0em;
+        border-radius: 50%;
+        }
+    }
+</style>
+<header>
+    <div class="fcrow">
+        <div>
+            <h1 class="name">Nibir Sankar</h1>
+            <h2 class="this">A <span class="continue"></h2>
+            <div>
+                <a href="/blog">blog</a>
+                <a href="https://visionoflife.substack.com">newsletter</a>
+                
+                <a href="https://www.linkedin.com/in/nibirsankar">linkedin</a>
+                <a href="https://github.com/moiSentineL">github</a>
+                <a href="/about/">about me</a>
+            </div>
+        </div>
+        
+        <img src="media/home/pf.jpg" alt="" class="img_deg" id="int">
+        <img src="media/home/pf1.jpg" alt="" class="img_deg" id="int">
+        <img src="media/home/pf2.jpg" alt="" class="img_deg" id="int">
+        <img src="media/home/pf3.jpg" alt="" class="img_deg" id="int">
+        <img src="media/home/pf4.jpg" alt="" class="img_deg" id="int">
+        <img src="media/home/pf5.jpg" alt="" class="img_deg" id="int">
+    </div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("img_deg");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+    
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('.continue', {
+            strings: ['writer?', 'creator?', 'musician?', 'polymath?', 'philosopher?', 'thinker.'],
+            typeSpeed: 65,
+            backSpeed: 40,
+            backDelay: 1700,
+            })
+    </script>
+</header>
+<main>
+    <hr>
+    <p>
+        Hi there! I am <b>Nibir Sankar</b> from Assam, India. I am currently in High School, searching for a meaningful life.
+    </p>
+    <p>
+        I am a bit ambitious about <b>life</b>, and want to explore and learn new things. 
+        I am really interested in philosophy, theoretical physics, math and literature. 
+        While I am not studying or doing my projects, I enjoy reading, writing, playing music and tweaking my workflows.
+
+    </P>
+    
+    <p>
+        You should subscribe to my <a href="https://visionoflife.substack.com">newsletter</a> or you can learn more <a href="/about/">about me</a>.
+    <hr>
+    
+    
+    
+</main>
+</body>
+<footer>
+    
+</footer>
+</html>
