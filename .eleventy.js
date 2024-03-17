@@ -5,6 +5,7 @@ const markdownItAnchor = require('markdown-it-anchor');
 const readingTime = require('eleventy-plugin-reading-time');
 const markdownItFootnote = require("markdown-it-footnote");
 
+
 // Heading Anchor stuff
 const position = {
     false: "push",
@@ -46,6 +47,9 @@ const renderPermalink = (slug, opts, state, idx) => {
 
 
 module.exports = function(eleventyConfig) {
+
+
+    
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(readingTime);
     
@@ -59,7 +63,9 @@ module.exports = function(eleventyConfig) {
 
     eleventyConfig.addFilter("formatDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
-    });     
+    });    
+
+  
 
     let markdownOptions = {
         html: true,
@@ -70,7 +76,8 @@ module.exports = function(eleventyConfig) {
         permalink: true,
         renderPermalink
     }
-    let markdownLib = new markdownIt(markdownOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItFootnote);
+
+    let markdownLib = new markdownIt(markdownOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItFootnote).use(require('markdown-it-imsize'), { autofill: true });
 
     //Add div around tables
     markdownLib.renderer.rules.table_open = () => '<div class="table-wrapper">\n<table>\n',
