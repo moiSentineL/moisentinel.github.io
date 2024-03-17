@@ -12,7 +12,7 @@ date: 2024-03-17T21:20:21+05:30
 ---
 ## A deep dive
 The beginning of 20th Century marked the start of the never-ending deep dive to understand ourselves. In 1900, Austrian neurologist Sigmund Freud published **The Interpretation of Dreams**, the first attempt at theorising the "unconscious" mind. He believed that the unconscious mind contains some of the deepest secrets of an individual. Dreams, as he thought, were a way the unconscious mind reveals itself. Freud sought out to understand it, and solve his patients' problems.
-![](/attachments/Freud_comp.jpg)
+![500](/attachments/Freud_comp.jpg =500x)
 
 Sigmund Freud c. 1921 {.caption}
 
@@ -22,7 +22,7 @@ Freud developed the Free Association method as the alternative to the hypnotic m
 Later, the analyst analyses the information and finds the source of "conflict". Free associations reveal the connections in the unconscious that might otherwise go uncovered.
 ## Jung's Word Association
 His Swiss counterpart Carl Jung thought that this takes up a lot of time, and that efficacy also depended on the chemistry of the patient and analyst (whether they were comfortable or not). He developed the Word Association test with his colleague.
-![](/attachments/Carl%20Jung_comp.jpg)
+![500](/attachments/Carl%20Jung_comp.jpg =500x)
 
 Carl Gustav Jung c. 1935 {.caption}
 
