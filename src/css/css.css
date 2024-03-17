@@ -235,8 +235,14 @@ a {
 }
 
 .footnote-link {
-    text-decoration: none;
-    color: #0C359E;
+    @media screen and (prefers-color-scheme: light){
+        text-decoration: none;
+        color: #0C359E;  
+    }
+    @media screen and (prefers-color-scheme: dark){
+        text-decoration: none;
+        color: #5B84B1;  
+    }
 }
 
 .footnote-link:hover {
