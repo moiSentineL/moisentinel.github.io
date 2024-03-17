@@ -79,51 +79,7 @@
 			
 			</p>
 	</div>
-	<script>
-		window.onload = function() {
-			const images = document.getElementsByTagName('img');
-			for (let i = 0; i < images.length; i++) {
-				resizeImageBasedOnOrientation(images[i]);
-			}
-		}
-
-		function resizeImageBasedOnOrientation(imgElement) {
-			const maxWidth = 900; // Max width for the image
-			const maxHeight = 600; // Max height for the image
-
-			// Wait for the image to load before calculating its size
-			if (imgElement.complete) {
-				resizeIfNeeded(imgElement, maxWidth, maxHeight);
-			} else {
-				imgElement.onload = () => resizeIfNeeded(imgElement, maxWidth, maxHeight);
-			}
-		}
-
-		function resizeIfNeeded(imgElement, maxWidth, maxHeight) {
-			let imgWidth = imgElement.naturalWidth;
-			let imgHeight = imgElement.naturalHeight;
-
-			const isLandscape = imgWidth > imgHeight;
-
-			if (isLandscape) {
-				// Landscape orientation
-				if (imgWidth > maxWidth) {
-					imgHeight *= maxWidth / imgWidth;
-					imgWidth = maxWidth;
-				}
-			} else {
-				// Portrait orientation
-				if (imgHeight > maxHeight) {
-					imgWidth *= maxHeight / imgHeight;
-					imgHeight = maxHeight;
-				}
-			}
-
-			// Apply the new dimensions to the image
-			imgElement.width = imgWidth;
-			imgElement.height = imgHeight;
-		}
-	</script>
+	
 </article>
 </body>
 <footer>

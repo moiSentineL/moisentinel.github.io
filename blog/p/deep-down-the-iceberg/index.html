@@ -55,7 +55,7 @@
   <h2 id="a-deep-dive" tabindex="-1">A deep dive <a class="header-anchor" href="#a-deep-dive"><span aria-hidden="true" class="header-anchor__symbol">#</span>
         <span class="screen-reader-only">Direct link to this section</span></a></h2>
 <p>The beginning of 20th Century marked the start of the never-ending deep dive to understand ourselves. In 1900, Austrian neurologist Sigmund Freud published <strong>The Interpretation of Dreams</strong>, the first attempt at theorising the &quot;unconscious&quot; mind. He believed that the unconscious mind contains some of the deepest secrets of an individual. Dreams, as he thought, were a way the unconscious mind reveals itself. Freud sought out to understand it, and solve his patients' problems.<br>
-<img src="/attachments/Freud_comp.jpg" alt=""></p>
+<img src="/attachments/Freud_comp.jpg" alt="500" width="500"></p>
 <p class="caption">Sigmund Freud c. 1921</p>
 <h3 id="freud's-free-association" tabindex="-1">Freud's Free Association <a class="header-anchor" href="#freud's-free-association"><span aria-hidden="true" class="header-anchor__symbol">#</span>
         <span class="screen-reader-only">Direct link to this section</span></a></h3>
@@ -64,7 +64,7 @@
 <h2 id="jung's-word-association" tabindex="-1">Jung's Word Association <a class="header-anchor" href="#jung's-word-association"><span aria-hidden="true" class="header-anchor__symbol">#</span>
         <span class="screen-reader-only">Direct link to this section</span></a></h2>
 <p>His Swiss counterpart Carl Jung thought that this takes up a lot of time, and that efficacy also depended on the chemistry of the patient and analyst (whether they were comfortable or not). He developed the Word Association test with his colleague.<br>
-<img src="/attachments/Carl%20Jung_comp.jpg" alt=""></p>
+<img src="/attachments/Carl%20Jung_comp.jpg" alt="500" width="500"></p>
 <p class="caption">Carl Gustav Jung c. 1935</p>
 <p>In that test,</p>
 <ul>
@@ -135,51 +135,7 @@ P: This is RIDICULOUS, Dr. A! I am not going to pay for this session! <em>Procee
 			
 			</p>
 	</div>
-	<script>
-		window.onload = function() {
-			const images = document.getElementsByTagName('img');
-			for (let i = 0; i < images.length; i++) {
-				resizeImageBasedOnOrientation(images[i]);
-			}
-		}
-
-		function resizeImageBasedOnOrientation(imgElement) {
-			const maxWidth = 900; // Max width for the image
-			const maxHeight = 600; // Max height for the image
-
-			// Wait for the image to load before calculating its size
-			if (imgElement.complete) {
-				resizeIfNeeded(imgElement, maxWidth, maxHeight);
-			} else {
-				imgElement.onload = () => resizeIfNeeded(imgElement, maxWidth, maxHeight);
-			}
-		}
-
-		function resizeIfNeeded(imgElement, maxWidth, maxHeight) {
-			let imgWidth = imgElement.naturalWidth;
-			let imgHeight = imgElement.naturalHeight;
-
-			const isLandscape = imgWidth > imgHeight;
-
-			if (isLandscape) {
-				// Landscape orientation
-				if (imgWidth > maxWidth) {
-					imgHeight *= maxWidth / imgWidth;
-					imgWidth = maxWidth;
-				}
-			} else {
-				// Portrait orientation
-				if (imgHeight > maxHeight) {
-					imgWidth *= maxHeight / imgHeight;
-					imgHeight = maxHeight;
-				}
-			}
-
-			// Apply the new dimensions to the image
-			imgElement.width = imgWidth;
-			imgElement.height = imgHeight;
-		}
-	</script>
+	
 </article>
 </body>
 <footer>
