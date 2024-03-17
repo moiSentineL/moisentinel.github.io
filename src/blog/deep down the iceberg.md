@@ -56,7 +56,7 @@ We can also test it on ourselves by recording the time taken for responses and a
 ## In modern era
 Free Association is still used in modern psychoanalytic practices, but not in it's pure form.^[Wisner, Wendy. “How Free Association Lets You Be Your Most Authentic Self in Therapy.” _Verywell Mind_, 4 Dec. 2023, [Link](https://www.verywellmind.com/how-free-association-could-help-your-therapy-7972264#:~:text=Unlocking%20the%20Thoughts%20and%20Memories%20That%20Hold%20Us%20Back&text=%E2%80%9CWhile%20free%20association%20is%20rooted,behavioral%20therapy%2C%E2%80%9D%20says%20Hartman.)] Many variations have been created, which include more instructions by the analyst and are more standardised.
 ### Example in modern culture
-Word Association test is used by Kabir in the movie Zindagi Na Milegi Dobara (2011) to "get to the roots" of Imran's dilemma. Although it is similar to the Word Association test, Arjun refers to Kabir as "Dr. Sigmund *Fraud*", which can mean two things: either Arjun didn't know about Jung's theory, or Jung is yet again undermined by Freud's popularity. 
+Word Association test is used by Kabir in the movie Zindagi Na Milegi Dobara (2011) to "get to the roots" of Imran's dilemma. Although, Arjun refers to Kabir as "Dr. Sigmund *Fraud*", which can mean two things: either Arjun didn't know about Jung's theory, or Jung is yet again undermined by Freud's popularity. 
 ![](/attachments/wat-znmd.jpg)
 
 Stills from ZNMD (2011) {.caption}
