@@ -32,6 +32,13 @@ html {
     line-height: 1.5;
 }
 
+.caption {
+    color: #909090;
+    font-size: 82%;
+    font-style: italic;
+    text-align: center;
+}
+
 @media screen and (max-width: 650px) {
     html{
         font-size: 1em;
