@@ -4,7 +4,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const markdownItAnchor = require('markdown-it-anchor');
 const readingTime = require('eleventy-plugin-reading-time');
 const markdownItFootnote = require("markdown-it-footnote");
-
+const markdownItAttrs = require('markdown-it-attrs');
 
 // Heading Anchor stuff
 const position = {
@@ -77,7 +77,11 @@ module.exports = function(eleventyConfig) {
         renderPermalink
     }
 
-    let markdownLib = new markdownIt(markdownOptions).use(markdownItAnchor, markdownItAnchorOptions).use(markdownItFootnote).use(require('markdown-it-imsize'), { autofill: true });
+    let markdownLib = new markdownIt(markdownOptions)
+    .use(markdownItAnchor, markdownItAnchorOptions)
+    .use(markdownItFootnote)
+    .use(require('markdown-it-imsize'), { autofill: true })
+    .use(markdownItAttrs);
 
     //Add div around tables
     markdownLib.renderer.rules.table_open = () => '<div class="table-wrapper">\n<table>\n',
