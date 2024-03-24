@@ -1,6 +1,7 @@
 @font-face {
     font-family: IBM Plex Mono;
     src: url("IBMPlexMono-Regular.ttf");
+    font-display: swap;
 }
 
 :root {
@@ -43,6 +44,7 @@ html {
     html{
         font-size: 1em;
     }
+
 }
 
 @media screen and (prefers-color-scheme: light) {
@@ -134,6 +136,7 @@ img {
     max-width: 100%;
     margin: 0.5rem auto;
     display: block;
+    height:auto;
 }
 
 blockquote {
