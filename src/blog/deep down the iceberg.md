@@ -12,7 +12,9 @@ date: 2024-03-17T21:20:21+05:30
 ---
 ## A deep dive
 The beginning of 20th Century marked the start of the never-ending deep dive to understand ourselves. In 1900, Austrian neurologist Sigmund Freud published **The Interpretation of Dreams**, the first attempt at theorising the "unconscious" mind. He believed that the unconscious mind contains some of the deepest secrets of an individual. Dreams, as he thought, were a way the unconscious mind reveals itself. Freud sought out to understand it, and solve his patients' problems.
-![500](/attachments/Freud_comp.jpg =500x)
+<!-- ![500](/attachments/Freud_comp.jpg) -->
+
+{% porimage "src/blog/attachments/Freud_comp.jpg", "Sigmund Freud" %}
 
 Sigmund Freud c. 1921 {.caption}
 
@@ -22,7 +24,8 @@ Freud developed the Free Association method as the alternative to the hypnotic m
 Later, the analyst analyses the information and finds the source of "conflict". Free associations reveal the connections in the unconscious that might otherwise go uncovered.
 ## Jung's Word Association
 His Swiss counterpart Carl Jung thought that this takes up a lot of time, and that efficacy also depended on the chemistry of the patient and analyst (whether they were comfortable or not). He developed the Word Association test with his colleague.
-![500](/attachments/Carl%20Jung_comp.jpg =500x)
+
+{% porimage "src/blog/attachments/Carl Jung_comp.jpg", "Carl Jung" %}
 
 Carl Gustav Jung c. 1935 {.caption}
 
@@ -57,7 +60,9 @@ We can also test it on ourselves by recording the time taken for responses and a
 Free Association is still used in modern psychoanalytic practices, but not in it's pure form.^[Wisner, Wendy. “How Free Association Lets You Be Your Most Authentic Self in Therapy.” _Verywell Mind_, 4 Dec. 2023, [Link](https://www.verywellmind.com/how-free-association-could-help-your-therapy-7972264#:~:text=Unlocking%20the%20Thoughts%20and%20Memories%20That%20Hold%20Us%20Back&text=%E2%80%9CWhile%20free%20association%20is%20rooted,behavioral%20therapy%2C%E2%80%9D%20says%20Hartman.)] Many variations have been created, which include more instructions by the analyst and are more standardised.
 ### Example in modern culture
 Word Association test is used by Kabir in the movie Zindagi Na Milegi Dobara (2011) to "get to the roots" of Imran's dilemma. Although, Arjun refers to Kabir as "Dr. Sigmund *Fraud*", which can mean two things: either Arjun didn't know about Jung's theory, or Jung is yet again undermined by Freud's popularity. 
-![](/attachments/wat-znmd.jpg)
+
+
+{% lanimage "src/blog/attachments/wat-znmd.jpg", "Carl Jung" %}
 
 Stills from ZNMD (2011) {.caption}
 

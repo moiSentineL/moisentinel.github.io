@@ -32,6 +32,7 @@ layout: homebase.njk
         margin-right: 0.5em;
         margin-bottom: 0em;
         border-radius: 50%;
+        height: auto;
     }
 
     @media screen and (max-width: 650px) {
@@ -62,6 +63,7 @@ layout: homebase.njk
         margin-top:1.5em;
         margin-bottom: 0em;
         border-radius: 50%;
+        height: auto;
         }
     }
 </style>
@@ -79,18 +81,13 @@ layout: homebase.njk
                 <a href="/about/">about me</a>
             </div>
         </div>
-        {# <div class="w3-content w3-section" style="max-width:500px">
-            <img src="media/meta/pf.jpg" alt="" class="img_deg" id="int">
-            <img class="mySlides" src="img_la.jpg" style="width:100%">
-            <img class="mySlides" src="img_ny.jpg" style="width:100%">
-            <img class="mySlides" src="img_chicago.jpg" style="width:100%">
-        </div> #}
-        <img src="media/home/pf.jpg" alt="" class="img_deg" id="int">
-        <img src="media/home/pf1.jpg" alt="" class="img_deg" id="int">
-        <img src="media/home/pf2.jpg" alt="" class="img_deg" id="int">
-        <img src="media/home/pf3.jpg" alt="" class="img_deg" id="int">
-        <img src="media/home/pf4.jpg" alt="" class="img_deg" id="int">
-        <img src="media/home/pf5.jpg" alt="" class="img_deg" id="int">
+        <img src="media/home/pf.webp" alt="" width="1280" height="1280" class="img_deg" id="int">
+        <img src="media/home/pf (1).webp" alt="" width="1280" height="1280" class="img_deg" id="int">
+        <img src="media/home/pf (2).webp" alt="" width="1280" height="1280" class="img_deg" id="int">
+        <img src="media/home/pf (3).webp" alt="" width="1280" height="1280" class="img_deg" id="int">
+        <img src="media/home/pf (4).webp" alt="" width="1280" height="1280" class="img_deg" id="int">
+        <img src="media/home/pf (5).webp" alt="" width="1280" height="1280" class="img_deg" id="int">
+        
     </div>
 
 <script>
@@ -109,12 +106,6 @@ function carousel() {
   setTimeout(carousel, 3000); // Change image every 2 seconds
 }
 </script>
-
-    {# {% set subtitle = homepage.subtitle%}
-    {% if subtitle %}
-        <p>{{ subtitle }}</p>
-    {% endif %} #}
-
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
 
     <script>
@@ -143,8 +134,5 @@ function carousel() {
     <p>
         You should subscribe to my <a href="https://visionoflife.substack.com">newsletter</a> or you can learn more <a href="/about/">about me</a>.
     <hr>
-    
-    
-    {# {% set entries = homepage.menu %}
-    {% include "menu.njk" %} #}
+
 </main>

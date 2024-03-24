@@ -5,6 +5,56 @@ const markdownItAnchor = require('markdown-it-anchor');
 const readingTime = require('eleventy-plugin-reading-time');
 const markdownItFootnote = require("markdown-it-footnote");
 const markdownItAttrs = require('markdown-it-attrs');
+const path = require("path");
+const Image = require("@11ty/eleventy-img");
+
+async function portraitimageShortcode(src, alt, sizes="(min-width: 650px) 1vw, 50vw") {
+  let metadata = await Image(src, {
+    widths: [300, 500],
+    formats: ["webp", "jpeg"],
+    outputDir: "./_site/images/",
+    urlPath: "/images/",
+    filenameFormat: function (id, src, width, format, options) {
+      const extension = path.extname(src);
+      const name = path.basename(src, extension);
+  
+      return `${name}-${width}w.${format}`;
+    }
+  });
+  
+  let imageAttributes = {
+     alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  }
+
+  return Image.generateHTML(metadata, imageAttributes);
+}
+
+async function landimageShortcode(src, alt, sizes="(min-width: 650px) 1vw, 50vw") {
+  let metadata = await Image(src, {
+    widths: [900, 1500],
+    formats: ["webp", "jpeg"],
+    outputDir: "./_site/images/",
+    urlPath: "/images/",
+    filenameFormat: function (id, src, width, format, options) {
+      const extension = path.extname(src);
+      const name = path.basename(src, extension);
+  
+      return `${name}-${width}w.${format}`;
+    }
+  });
+  
+  let imageAttributes = {
+     alt,
+    sizes,
+    loading: "lazy",
+    decoding: "async",
+  }
+
+  return Image.generateHTML(metadata, imageAttributes);
+}
 
 // Heading Anchor stuff
 const position = {
@@ -48,8 +98,8 @@ const renderPermalink = (slug, opts, state, idx) => {
 
 module.exports = function(eleventyConfig) {
 
-
-    
+    eleventyConfig.addLiquidShortcode("porimage", portraitimageShortcode);
+    eleventyConfig.addLiquidShortcode("lanimage", landimageShortcode);
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(readingTime);
     
@@ -59,7 +109,7 @@ module.exports = function(eleventyConfig) {
       });
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/media");
-    eleventyConfig.addPassthroughCopy({ "src/blog/attachments": "attachments" });
+    // eleventyConfig.addPassthroughCopy({ "src/blog/attachments": "attachments" });
 
     eleventyConfig.addFilter("formatDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
@@ -92,7 +142,7 @@ module.exports = function(eleventyConfig) {
       '<section class="footnotes">\n' +
       '<ol class="footnotes-list">\n'
     );
-    
+          
     markdownLib.renderer.rules.footnote_ref = function (tokens, idx, options, env, slf) {
       const id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf)
       const caption = slf.rules.footnote_caption(tokens, idx, options, env, slf)
