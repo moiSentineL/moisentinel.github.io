@@ -10,6 +10,9 @@
   "dependencies": {
     "luxon": "^3.0.1"
   },
+  "engines": {
+    "node": ">=18" 
+  },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-fetch": "^4.0.1",
