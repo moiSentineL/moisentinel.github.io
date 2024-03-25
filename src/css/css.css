@@ -119,9 +119,11 @@ p,ul,ol {
 }
 
 .post{
-    margin: 0 0 1em;
+    margin: 0 0 2em;
     display: list-item;
     list-style-type: none;
+    outline: thin solid;
+    outline-offset: 10px;
 }
 
 .post-meta {
