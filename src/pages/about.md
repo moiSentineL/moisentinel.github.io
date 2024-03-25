@@ -1,6 +1,7 @@
 ---
 layout: about.njk
 permalink: "/about/index.html"
+title: About Me
 ---
 ## TL;DR
 
