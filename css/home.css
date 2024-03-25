@@ -1,6 +1,7 @@
 @font-face {
     font-family: IBM Plex Mono;
     src: url("IBMPlexMono-Regular.ttf");
+    font-display: swap;
 }
 
 :root {
