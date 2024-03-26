@@ -38,7 +38,8 @@ I have figured out (most of) the routine. I am following the [Dumbbell Stopgap](
 - [Bent-over Rows](https://youtu.be/ayBUERt_w6g)
 - Pullups/Rows/Dips*
 - Plank
-_*Check [Extras](https://moisentinel.github.io/blog/p/my-new-workout-routine#Extras)_
+
+_*Check [Extras](https://moisentinel.github.io/blog/p/my-new-workout-routine#extras)_
 ### Progression
 - Use the lightest weight at first
 - Up to 10 reps for 3 sets
