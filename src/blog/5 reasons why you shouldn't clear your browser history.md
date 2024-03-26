@@ -2,8 +2,8 @@
 aliases: 
 tags:
   - post
-  - gg
   - technical
+  - others
 added: February 29, 2024
 link: https://moisentinel.github.io/blog/p/why-you-shouldnt-clear-your-browser-history
 excerpt: won't you like some humour?

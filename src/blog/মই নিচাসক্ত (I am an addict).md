@@ -4,7 +4,7 @@ aliases:
 tags:
   - post
   - literature
-  - gg
+  - musings
 added: February 17, 2024
 link: 
 excerpt: a confession, a poem.
