@@ -10,6 +10,7 @@
     --atomic-tangerine: #ff9770ff;
     --naples-yellow: #ffd670ff;
     --mindaro: #e9ff70ff;
+    --lime-green: #70ff99;
 }
 
 html {
@@ -187,6 +188,11 @@ a {
     text-decoration-color: #5B84B1FF;
 }
 
+a:hover {
+    font-weight: bold;
+    text-decoration-color: #FC766AFF;
+}
+
 .posttitle {
     font-size: 1.2em;
     font-weight: bold;
@@ -270,11 +276,6 @@ tag{
     margin: 0;
 }
 
-a:hover {
-    font-weight: bold;
-    text-decoration-color: #FC766AFF;
-}
-
 tag #life {
     text-decoration-color: var(--naples-yellow);
 }
@@ -311,10 +312,17 @@ tag #people {
     text-decoration-color: var(--atomic-tangerine);
 }
 
-tag #gg {
+tag #others {
     text-decoration-color: var(--cyclamen);
 }
 
+tag #psychology {
+    text-decoration-color: var(--lime-green);
+}
+
+tag #fitness {
+    text-decoration-color: var(--lime-green);
+}
 
 nav {
     text-align: center;
