@@ -14,7 +14,7 @@ To get the best out of books, we need to read them efficiently. This is especial
 
 Take for example How to Win Friends and Influence People by Dale Carnegie. Half of the book is filled with examples. Sure you can potentially learn from them, but it is not going to be as *efficient* as you'd think so. Here, my definition of "efficient" is learning the most in less time with more accuracy and retention.
 
-One important thing to know is that the following steps may not be applicable to everyone and every book, so you may have to tweak it to your liking; consider a book like Meditations by Marcus Aurelius, where almost *everything* is important and "learnable". It also depends on the person and their [intention](https://moisentinel.github.io/blog/p/reading-non-fiction-effectively#know-why-youre-reading-the-book). 
+One important thing to know is that the following steps may not be applicable to everyone and every book, so you may have to tweak it to your liking; consider a book like Meditations by Marcus Aurelius, where almost *everything* is important and "learnable". It also depends on the person and their [intention](https://moisentinel.github.io/blog/p/reading-non-fiction-effectively-and-efficiently/#know-why-you're-reading-the-book). 
 ## How?
 ### Get a map
 Get the gist of the book first by reading the summary or watching a video, etc. This will create a map in your mind by which you can navigate to the things that are truly important (and that serve your purpose) in the book. Imagine that you are a book connoisseur and so, critically "curate" the text based on the "map". Skip around, put some crosses and sketches, do whatever you like!
@@ -30,7 +30,7 @@ In my opinion, one should **not** optimise their experience for reading fiction,
 Reading stuff passively will only slow your learning down. Instead, relate the information in the book with your previous knowledge. This is called **Applied Reading**. When you do that, you're developing neural connections in the brain.
 
 Tricks like superficial reading, speed reading and others don't really work. Just as there is no such thing as "easy money", there is nothing as "easy knowledge". Quality > Quantity. So, there should be an emphasis on the accuracy instead of time. 
-## Exercises to read effectively and efficiently
+## Exercises to read effectively
 To develop stronger neural connections, you can apply these exercises in your reading time:
 - **Review:** After reading a chapter or so, ask yourself what was the idea really? Try to actively challenge your brain.
 - **Debate:** Play the Devil's Advocate, find something wrong with the idea and argue (with your imaginative friend, of course).
