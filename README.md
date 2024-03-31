@@ -1,5 +1,5 @@
 # Personal Website / Blog
-### [View the website](https://moisentinel.github.io/)
+### [View the website](https://nibirsan.org)
 
 Built with [Eleventy](https://www.11ty.dev) and on top of [11ty-no-style-please](https://github.com/stopnoanime/11ty-no-style-please).
 

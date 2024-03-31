@@ -109,6 +109,7 @@ module.exports = function(eleventyConfig) {
       });
     eleventyConfig.addPassthroughCopy("src/css");
     eleventyConfig.addPassthroughCopy("src/media");
+    eleventyConfig.addPassthroughCopy("src/CNAME");
     // eleventyConfig.addPassthroughCopy({ "src/blog/attachments": "attachments" });
 
     eleventyConfig.addFilter("formatDate", (dateObj) => {
