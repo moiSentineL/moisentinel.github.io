@@ -3,6 +3,7 @@ aliases:
 tags:
   - post
   - fitness
+  - Blog
 added: March 26, 2024
 link: https://moisentinel.github.io/blog/p/my-new-workout-routine
 excerpt: fat to fit? trying out a proven routine to be my best self.
@@ -38,8 +39,7 @@ I have figured out (most of) the routine. I am following the [Dumbbell Stopgap](
 - [Bent-over Rows](https://youtu.be/ayBUERt_w6g)
 - Pullups/Rows/Dips*
 - Plank
-
-_*Check [Extras](https://moisentinel.github.io/blog/p/my-new-workout-routine#extras)_
+_*Check [Extras](https://moisentinel.github.io/blog/p/my-new-workout-routine#Extras)_
 ### Progression
 - Use the lightest weight at first
 - Up to 10 reps for 3 sets
@@ -59,6 +59,10 @@ I am planning to do some low-intensity activities like light running, or some Yo
 And some HIIT (High Intensity Interval Training) 1x per week. I haven't decided on what to do *exactly*. But yes, This does sounds like a nice plan.
 
 I want to emphasise more on the "rest" part of the rest days and avoid overworking. I really need to be more patient and control the urge, I guess.
+
+**Edit- Apr 5, 2024:**
+I have been trying out Tai-Chi for a couple of days, and it's definitely *something*. It's gentle and feels good. As one of my friend calls it, [based](https://www.urbandictionary.com/define.php?term=based).
+Thinking of ditching the HIIT plan and doing cardio- running/jogging 2x a week. {.edit}
 ## Taking things seriously
 No really, it's time. It's really time to take health seriously. You and I both. And this is my first step to do so.
 

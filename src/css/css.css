@@ -144,6 +144,19 @@ p,ul,ol {
     line-height: 1.2;
 }
 
+.edit {
+    padding: 1rem;
+    border-radius: 15px;
+    @media screen and (prefers-color-scheme: light){
+        border: thin solid #000000;
+    }
+    @media screen and (prefers-color-scheme: dark){
+        border: thin solid #e0e0e0; 
+    }
+    
+}
+
+
 img {
     max-width: 100%;
     margin: 0.5rem auto;
