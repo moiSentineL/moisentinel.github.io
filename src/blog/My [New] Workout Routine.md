@@ -3,7 +3,6 @@ aliases:
 tags:
   - post
   - fitness
-  - Blog
 added: March 26, 2024
 link: https://moisentinel.github.io/blog/p/my-new-workout-routine
 excerpt: fat to fit? trying out a proven routine to be my best self.
