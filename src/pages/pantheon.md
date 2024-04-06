@@ -1,4 +1,4 @@
 ---
 layout: pantheon.njk
-permalink: "/pantheon"
+permalink: "/pantheon/index.html"
 ---
