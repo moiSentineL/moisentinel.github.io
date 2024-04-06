@@ -164,6 +164,11 @@ a {
     text-decoration-color: #5B84B1FF;
 }
 
+a:hover {
+    font-weight: bold;
+    text-decoration-color: #FC766AFF;
+}
+
 .posttitle {
     font-size: 1.2em;
     font-weight: bold;
