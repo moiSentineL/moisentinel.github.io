@@ -1,4 +1,4 @@
 ---
 layout: search.njk
-permalink: "/search"
+permalink: "/search/index.html"
 ---
