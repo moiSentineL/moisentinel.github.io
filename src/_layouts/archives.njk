@@ -8,23 +8,9 @@ layout: base.njk
     <div style="text-align: center">
         <h4>Subscribe via <a href="https://nibirsan.org/feed.xml">RSS</a></h4>
     </div>
-    <ul class="postlist">
-        {%- for post in collections.post | reverse -%}
-            <li class="post">
-                <a href="{{ post.url }}" class="archive">{{ post.data.title }}</a> <time datetime="{{ post.date }}" style="color: #909090">{{ post.date | formatDate }}</time>
-                <br>
-                <span>{{ post.data.excerpt }}</span>
-                <br>
-                <tag>
-                {% for tag in post.data.tags -%}
-                    {% if tag !== 'post' %}
-                        <a id="{{ tag }}" href="/blog/t/{{ tag }}">#{{ tag }}</a>
-                    {% endif %}
-                {%- endfor %}
-                </tag>
-            </li>
-        {%- endfor -%}
-    </ul>   
+    {% set showYear = true %}
+    {% set showMonth = true %}
+    {% include "postlist.njk" %} 
 </main>
 
 

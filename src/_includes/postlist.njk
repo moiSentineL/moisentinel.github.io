@@ -1,0 +1,42 @@
+<ul class="postlist">
+        {% set months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]%}
+        
+        {% set currentYear = "" %}
+        {% set currentMonth = "" %}
+        {%- for post in collections.post | reverse -%}
+        
+        {% if showYear %}
+            {% set postYear = post.date.getFullYear() %}
+            {% if currentYear != postYear %}
+            {% set currentYear = postYear %}
+            
+            
+            <h1>{{ postYear }} </h1>
+            <hr>
+            {% endif %}
+        {% endif %}
+        {% if showMonth %}
+            {% set postMonth = months[post.date.getMonth()] %}
+            {% if currentMonth != postMonth %}
+            {% set currentMonth = postMonth %}
+            
+            
+            <h2>{{ postMonth }} </h2>
+            {% endif %}
+        {% endif %}
+        
+            <li class="post">
+                <a href="{{ post.url }}" class="archive">{{ post.data.title }}</a> <time datetime="{{ post.date }}" style="color: #909090">{{ post.date | formatDate }}</time>
+                <br>
+                <span>{{ post.data.excerpt }}</span>
+                <br>
+                <tag>
+                {% for tag in post.data.tags -%}
+                    {% if tag !== 'post' %}
+                        <a id="{{ tag }}" href="/blog/t/{{ tag }}">#{{ tag }}</a>
+                    {% endif %}
+                {%- endfor %}
+                </tag>
+            </li>
+        {%- endfor -%}
+    </ul>  
