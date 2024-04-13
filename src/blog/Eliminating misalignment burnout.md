@@ -109,3 +109,5 @@ This practice of reflection and reminding yourself is **the most important pract
 In the end, you'll see that you're much more satisfied with your actions. Sure there maybe some constraints, such as your job, or things like that. I encourage you to research on that, find alternatives, and be a good human. 
 
 Happy debugging!
+
+This blogpost is the consolidation of the chapter "Align" from Ali Abdaal's book [Feel-Good Productivity](https://www.goodreads.com/en/book/show/142402923). You should read that book.
