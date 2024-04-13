@@ -99,7 +99,7 @@ For example:
 Yes, everything compounds.
 Start making small changes to your schedule and lifestyle; you can't do everything at once. 
 
-Even if you try to better yourself 1% everyday, you'll reap benefits 100x more than if you had not done anything. [improve]
+Even if you try to better yourself 1% everyday, you'll reap benefits 100x more than if you had not done anything.
 #### Constant Reflection
 Make sure to track your progress using a journal or any type of reflection mechanism. And review your long-term and mid-term goals EVERY week. This will help you stay on track, and not forget. 
 
