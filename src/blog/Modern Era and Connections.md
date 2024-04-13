@@ -18,7 +18,7 @@ The modern society is a consumerist society. In this age of high information and
 
 A core concept of digital minimalism is to introduce friction and sort of "dumb" down off technology. That's why I started developing an interest to using an actual camera to take photos.
 
-![](/attachments/sony-dsc-w830.png)
+{% porimage "src/blog/attachments/sony-dsc-w830.png", "Sony DSC-w830" %}
 
 It's the camera we bought in 2014 (not the one I mention in the first sentence; that was an old Kodak Kroma 35). And no, it doesn't take pictures as good as my phone, but the process of clicking pictures through it gives me pleasure. It's a romanticist feeling I cannot describe.
 
