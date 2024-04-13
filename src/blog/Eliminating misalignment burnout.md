@@ -57,7 +57,7 @@ In a nutshell:
 - You shade the parts based on how satisfied you are in that particular area.
 	- The more parts you shade, the more satisfied you are.
 ##### Visual Representation:
-{% lanimage "src/blog/attachments/Wheel%20of%20Life.png", "Wheel of Life" %}
+{% lanimage "src/blog/attachments/Wheel of Life.png", "Wheel of Life" %}
 
 #### 12-Month Celebration
 Imagine yourself 1 year into the future. You're having a catch-up dinner with your best friends and talking about how's life. Think of your achievements in the last 12 months. What did you do? 
