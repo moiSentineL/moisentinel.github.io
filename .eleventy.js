@@ -10,7 +10,7 @@ const Image = require("@11ty/eleventy-img");
 
 async function portraitimageShortcode(src, alt, sizes="(min-width: 650px) 1vw, 50vw") {
   let metadata = await Image(src, {
-    widths: [300, 500],
+    widths: [500],
     formats: ["webp", "jpeg"],
     outputDir: "./_site/images/",
     urlPath: "/images/",
