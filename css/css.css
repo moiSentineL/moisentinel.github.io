@@ -11,6 +11,7 @@
     --naples-yellow: #ffd670ff;
     --mindaro: #e9ff70ff;
     --lime-green: #70ff99;
+    --violet: #9770ff;
 }
 
 html {
@@ -335,6 +336,14 @@ tag #psychology {
 
 tag #fitness {
     text-decoration-color: var(--lime-green);
+}
+
+tag #math {
+    text-decoration-color: var(--violet);
+}
+
+tag #assamese {
+    text-decoration-color: var(--violet);
 }
 
 nav {
