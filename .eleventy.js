@@ -107,7 +107,11 @@ module.exports = function(eleventyConfig) {
         excerpt: true,
         excerpt_separator: "<-->"
       });
-    eleventyConfig.addPassthroughCopy("src/css");
+
+    eleventyConfig.setBrowserSyncConfig({
+      files: './_site/css/**/*.css'
+    });
+    // eleventyConfig.addPassthroughCopy("src/styles");
     eleventyConfig.addPassthroughCopy("src/media");
     eleventyConfig.addPassthroughCopy("src/CNAME");
     // eleventyConfig.addPassthroughCopy({ "src/blog/attachments": "attachments" });

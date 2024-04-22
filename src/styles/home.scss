@@ -4,14 +4,6 @@
     font-display: swap;
 }
 
-:root {
-    --pale-azure: #70d6ffff;
-    --cyclamen: #ff70a6ff;
-    --atomic-tangerine: #ff9770ff;
-    --naples-yellow: #ffd670ff;
-    --mindaro: #e9ff70ff;
-}
-
 html {
     display: flex;
     max-width: 75ch;
@@ -22,16 +14,6 @@ html {
     font-size: 1.2em;
     font-family: IBM Plex Mono;
     align-items: center;
-}
-
-.excerpt {
-    font-size: 1em; 
-    line-height: 1.5;
-    margin: 0 0 0.5em;
-}
-
-.nextread {
-    line-height: 1.5;
 }
 
 @media screen and (max-width: 650px) {
@@ -169,29 +151,6 @@ a:hover {
     text-decoration-color: #FC766AFF;
 }
 
-.posttitle {
-    font-size: 1.2em;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.posttitle:hover {
-    text-decoration: underline;
-    text-decoration-thickness: .3ex;
-    text-decoration-color: #5B84B1;
-}
-
-.archive {
-    font-size: 1em;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.archive:hover {
-    text-decoration: underline;
-    text-decoration-thickness: .3ex;
-    text-decoration-color: #5B84B1;
-}
 
 nav {
     text-align: center;

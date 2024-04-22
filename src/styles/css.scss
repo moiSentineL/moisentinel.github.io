@@ -4,15 +4,14 @@
     font-display: swap;
 }
 
-:root {
-    --pale-azure: #70d6ffff;
-    --cyclamen: #ff70a6ff;
-    --atomic-tangerine: #ff9770ff;
-    --naples-yellow: #ffd670ff;
-    --mindaro: #e9ff70ff;
-    --lime-green: #70ff99;
-    --violet: #9770ff;
-}
+$pale-azure: #70d6ffff;
+$cyclamen: #ff70a6ff;
+$atomic-tangerine: #ff9770ff;
+$naples-yellow: #ffd670ff;
+$mindaro: #e9ff70ff;
+$lime-green: #70ff99;
+$violet: #9770ff;
+
 
 html {
     display: flex;
@@ -91,9 +90,6 @@ html {
     table, th, td{
         border: thin solid #e0e0e0;
     }
-    tag {
-        color: #000000 !important;
-    }
     a {
         color:#e0e0e0;
     }
@@ -124,8 +120,7 @@ p,ul,ol {
     margin: 0 0 1.5em;
     display: list-item;
     list-style-type: none;
-    /* outline: thin solid;
-    outline-offset: 0.5em; */
+
     padding-bottom: 0.5em;
     padding-right: 0.5em;
     @media screen and (prefers-color-scheme: light) {
@@ -200,23 +195,25 @@ a {
     text-decoration: underline;
     text-decoration-thickness: .3ex;
     text-decoration-color: #5B84B1FF;
-}
 
-a:hover {
-    font-weight: bold;
-    text-decoration-color: #FC766AFF;
+    &:hover {
+        font-weight: bold;
+        text-decoration-color: #FC766AFF;
+    }
+
 }
 
 .posttitle {
     font-size: 1.2em;
     font-weight: bold;
     text-decoration: none;
-}
 
-.posttitle:hover {
-    text-decoration: underline;
-    text-decoration-thickness: .3ex;
-    text-decoration-color: #5B84B1;
+    &:hover {
+        text-decoration: underline;
+        text-decoration-thickness: .3ex;
+        text-decoration-color: #5B84B1;
+    }
+
 }
 
 .header-anchor {
@@ -260,13 +257,14 @@ a:hover {
     font-size: 1em;
     font-weight: bold;
     text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+        text-decoration-thickness: .3ex;
+        text-decoration-color: #5B84B1;
+    }
 }
 
-.archive:hover {
-    text-decoration: underline;
-    text-decoration-thickness: .3ex;
-    text-decoration-color: #5B84B1;
-}
 
 .footnote-link {
     @media screen and (prefers-color-scheme: light){
@@ -277,73 +275,34 @@ a:hover {
         text-decoration: none;
         color: #5B84B1;  
     }
+
+    &:hover {
+        text-decoration: underline;
+        text-decoration-thickness: .3ex;
+        text-decoration-color: #FC766AFF;
+    }
 }
 
-.footnote-link:hover {
-    text-decoration: underline;
-    text-decoration-thickness: .3ex;
-    text-decoration-color: #FC766AFF;
-}
 
-tag{
+tag {
     font-size: 80%;
     margin: 0;
-}
 
-tag #life {
-    text-decoration-color: var(--naples-yellow);
-}
+    #life {text-decoration-color: $naples-yellow}
+    #literature {text-decoration-color: $pale-azure}
+    #philosophy {text-decoration-color: $atomic-tangerine}
+    #technical {text-decoration-color: $mindaro}
+    #musings {text-decoration-color: $cyclamen}
+    #debugging {text-decoration-color: $naples-yellow}
+    #essay {text-decoration-color: $pale-azure}
+    #rationality {text-decoration-color: $mindaro}
+    #people {text-decoration-color: $atomic-tangerine}
+    #others {text-decoration-color: $cyclamen}
+    #psychology {text-decoration-color: $lime-green}
+    #fitness {text-decoration-color: $lime-green}
+    #math {text-decoration-color: $violet}
+    #assamese {text-decoration-color: $violet}
 
-tag #literature {
-    text-decoration-color: var(--pale-azure);
-}
-
-tag #philosophy {
-    text-decoration-color: var(--atomic-tangerine);
-}
-
-tag #technical {
-    text-decoration-color: var(--mindaro);
-}
-
-tag #musings {
-    text-decoration-color: var(--cyclamen);
-}
-
-tag #debugging {
-    text-decoration-color: var(--naples-yellow);
-}
-
-tag #essay {
-    text-decoration-color: var(--pale-azure);
-}
-
-tag #rationality {
-    text-decoration-color: var(--mindaro);
-}
-
-tag #people {
-    text-decoration-color: var(--atomic-tangerine);
-}
-
-tag #others {
-    text-decoration-color: var(--cyclamen);
-}
-
-tag #psychology {
-    text-decoration-color: var(--lime-green);
-}
-
-tag #fitness {
-    text-decoration-color: var(--lime-green);
-}
-
-tag #math {
-    text-decoration-color: var(--violet);
-}
-
-tag #assamese {
-    text-decoration-color: var(--violet);
 }
 
 nav {
@@ -362,26 +321,27 @@ footer{
 
 div {
 
-}
-
-.tag {
-    display: flex;
-    flex-direction: row;
-    
-    @media screen and (max-width: 500px) {
-        flex-direction: column;
+    .tag {
+        display: flex;
+        flex-direction: row;
+        
+        @media screen and (max-width: 500px) {
+            flex-direction: column;
+        }
     }
+
 }
 
 span {
 
-}
-
-.reading {
-    margin-left: auto;
-    font-size: 80%;
-    @media screen and (max-width: 500px) {
-        margin: 0;
+    .reading {
+        margin-left: auto;
+        font-size: 80%;
+        @media screen and (max-width: 500px) {
+            margin: 0;
+        }
+    
     }
 
 }
+
