@@ -323,22 +323,22 @@ footer {
   padding-top: 0.5em;
 }
 
-div .tag {
+.tag {
   display: flex;
   flex-direction: row;
 }
 @media screen and (max-width: 500px) {
-  div .tag {
+  .tag {
     flex-direction: column;
   }
 }
 
-span .reading {
+.reading {
   margin-left: auto;
   font-size: 80%;
 }
 @media screen and (max-width: 500px) {
-  span .reading {
+  .reading {
     margin: 0;
   }
 }
