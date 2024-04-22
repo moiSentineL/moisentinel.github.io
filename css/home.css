@@ -3,6 +3,10 @@
   src: url("IBMPlexMono-Regular.ttf");
   font-display: swap;
 }
+@font-face {
+  font-family: Recursive;
+  src: url("https://fonts.googleapis.com/css2?family=Recursive:wght,MONO@300..800,0.5&display=swap");
+}
 html {
   display: flex;
   max-width: 75ch;
@@ -10,14 +14,14 @@ html {
   justify-content: center;
   margin: auto;
   line-height: 1.6;
-  font-size: 1.2em;
-  font-family: IBM Plex Mono;
+  font-size: 1.3em;
+  font-family: Recursive, monospace;
   align-items: center;
 }
 
 @media screen and (max-width: 650px) {
   html {
-    font-size: 1em;
+    font-size: 1.2em;
   }
 }
 @media screen and (prefers-color-scheme: light) {
