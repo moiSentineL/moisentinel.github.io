@@ -37,77 +37,12 @@
     <link rel="dns-prefetch" href="https://www.google-analytics.com">
 </head>
 <body>
-    <style type="text/css">
-
-    .fcrow{
-        display: flex;
-        flex-direction: row;
-        padding-bottom: 2ch;
-    }
-    .name{
-        padding-bottom: 0rem;
-        line-height: 0.5;
-        font-size: 300%;
-        margin-top: 2em;
-        margin-bottom:0.6em;
-    }
-    .this{
-        padding-bottom: 0rem;
-        line-height: 0.5;
-        font-size: 150%;
-        margin-top: 0rem;
-        padding-top: 0rem;
-        margin-bottom:1em;
-        color: #909090;
-        font-weight: 500;
-    }
-    .img_deg{
-        align-self: center;
-        float: right;
-        width: 30%;
-        margin-right: 0.5em;
-        margin-bottom: 0em;
-        border-radius: 50%;
-        height: auto;
-    }
-
-    @media screen and (max-width: 650px) {
-        .fcrow{
-            display: flex;
-            flex-direction: column;
-        }
-        .name{
-            margin-top: 0rem;
-            padding-top: 0rem;
-            padding-bottom: 0rem;
-            margin-bottom: 0.75rem;
-            line-height: 0.85;
-            font-size: 200%;
-        }
-        .this{
-            padding-bottom: 0rem;
-            margin-bottom: 1rem;
-            line-height: 0.5;
-            margin-bottom:0.6em;
-            color: #909090;
-            font-weight: 500;
-        }
-        .img_deg {
-        align-self: center;
-        width: 50%;
-        margin: auto;
-        margin-top:1.5em;
-        margin-bottom: 0em;
-        border-radius: 50%;
-        height: auto;
-        }
-    }
-</style>
+    
 <header>
-    <div class="fcrow">
+    <div class="header">
         <div>
             <h1 class="name">Nibir Sankar</h1>
-            <h2 class="this">A <span class="continue"></h2>
+            <h2 class="whothis">A <span class="continue"></h2>
             <div>
                 <a href="/blog">blog</a>
                 <a href="/pantheon/">podcast</a>
@@ -121,13 +56,12 @@
                 <a href="https://github.com/moiSentineL">github</a>
             </div>
         </div>
-        <img src="media/home/pf.webp" alt="" width="1280" height="1280" class="img_deg" id="int">
-        <img src="media/home/pf1.webp" alt="" width="1280" height="1280" class="img_deg" id="int">
-        <img src="media/home/pf2.webp" alt="" width="1280" height="1280" class="img_deg" id="int">
-        <img src="media/home/pf3.webp" alt="" width="1280" height="1280" class="img_deg" id="int">
-        <img src="media/home/pf4.webp" alt="" width="1280" height="1280" class="img_deg" id="int">
-        <img src="media/home/pf5.webp" alt="" width="1280" height="1280" class="img_deg" id="int">
-        
+            <img src="media/home/pf.webp" alt="" width="300" height="300" class="profile" id="int">
+            <img src="media/home/pf1.webp" alt="" width="300" height="300" class="profile" id="int">
+            <img src="media/home/pf2.webp" alt="" width="300" height="300" class="profile" id="int">
+            <img src="media/home/pf3.webp" alt="" width="300" height="300" class="profile" id="int">
+            <img src="media/home/pf4.webp" alt="" width="300" height="300" class="profile" id="int">
+            <img src="media/home/pf5.webp" alt="" width="300" height="300" class="profile" id="int">
     </div>
 
 <script>
@@ -136,7 +70,7 @@ carousel();
 
 function carousel() {
   var i;
-  var x = document.getElementsByClassName("img_deg");
+  var x = document.getElementsByClassName("profile");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
@@ -158,20 +92,11 @@ function carousel() {
     </script>
 </header>
 <main>
-    <hr>
-    <p>
-        Hi there! I am <b>Nibir Sankar</b> from Assam, India. I am currently in High School, searching for a meaningful life.
-    </p>
-    <p>
-        I am a bit ambitious about <b>life</b>, and want to explore and learn new things. 
-        I am really interested in philosophy, theoretical physics, math and literature. 
-        While I am not studying or doing my projects, I enjoy reading, writing, playing music and tweaking my workflows.
+<hr>
+<p>Hi there! I am <strong>Nibir Sankar</strong> from Assam, India. I am currently in High School, searching for a meaningful life.</p>
+<p>I am a lifelong learner, knowledge seeker and a (future) polymath. I am really interested in philosophy, math and literature. I also love to write (hence, my <a href="https://nibirsan.org/blog">blog</a>), read, play music and seek those 1% gains while tweaking my workflows. And I love thinking.</p>
+<p>If you find this short bio enough to tickle your curiosity, learn more <a href="https://nibirsan.org/about/">about me</a> (and reach out!). You <em>should</em> subscribe to my <a href="https://visionoflife.substack.com/">newsletter</a> though...</p>
 
-    </P>
-    
-    <p>
-        You should subscribe to my <a href="https://visionoflife.substack.com">newsletter</a> or you can learn more <a href="/about/">about me</a>.
-    <hr>
 
 </main>
 
