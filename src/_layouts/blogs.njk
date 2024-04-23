@@ -32,17 +32,8 @@ layout: base.njk
 </nav>
 <main>
     <hr>
-    <p>
-        Hey there! I am <a href="/">Nibir</a>, and welcome to my blog-ish kinda thing.
-        I <i>definitely</i> don't post nonsensical stuff here. 
-        <br>You're free to view the posts as you like,
-        although there's the <a href="/blog/archive/">archive</a> you can go to.
-        Good luck! (you might really need it..)
-    </p>
-    <p>
-        Use of <a href="https://hypothes.is">hypothes.is</a> is encouraged for a better internet, for all of us.
-    </p>
-    <h3>Here are my most recent posts:</h3>
+    {{ content | safe }}
+    <h2>Here are my most recent posts:</h2>
     <ul class="postlist">
         {%- for post in collections.post | reverse -%}
             {% if loop.index0 < 5 %}
