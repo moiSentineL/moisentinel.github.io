@@ -5,12 +5,13 @@ title: About Me
 ---
 ## TL;DR
 
-I am a High Schooler from India who thrives to learn new things, looks out for self-improvement and loves autonomy. I am interested in [polymathy](https://moisentinel.github.io/blog/p/another-renaissance), autodidactism, philosophy and math among many. I love talking to new people, music, reading and writing.
+I am a High Schooler from India who thrives to learn new things, looks out for self-improvement and loves autonomy. I am interested in [polymathy](/blog/p/another-renaissance), autodidactism, philosophy and math among many. I love talking to new people, music, reading and writing.
 
 ## Now
 
-Reviving the relationship with creativity and life. Thriving for new experiences. Prolly writing, reading or making content for my [YouTube](https://youtube.com/@nibirsankar). Also learning new skills and rationality. Feel free to hit me up!
-More on now [here](https://moisentinel.github.io/blog/p/so-what-now). 
+Making [YouTube](https://youtube.com/@nibirsankar) videos based on my writing. Also, [improving my math fundamentals](/blog/p/finding-attunement/) and searching for new opportunies and experiences. Upgrading my skills, so that I can focus on doing what really matters to me. Zoning in on knowledge working and augmenting cognition -> [search me, lol](/search/) 
+
+Feel free to hit me up if you have anything to talk about relating to these stuff.
 
 ## This year
 
@@ -18,7 +19,7 @@ More on now [here](https://moisentinel.github.io/blog/p/so-what-now).
 My main goals for this year are:
 
 *   Becoming a knowledge worker- consume, consolidate, create.
-*   Creating content- this blog, [newsletter](https://visionoflife.substack.com/).
+*   Creating content- this blog, [newsletter](https://visionoflife.substack.com/), [YouTube](https://youtube.com/@nibirsankar) and [podcast](/pantheon/).
 *   Getting more fit- health = wealth.
 *   Spending more time with friends and family, and developing new connections
 *   Becoming more confident- spread out and face fears, carpe diem.
@@ -50,3 +51,5 @@ In that order:
 *   [GitHub](https://github.com/moiSentineL)
 *   [LinkedIn](https://www.linkedin.com/in/nibirsankar/)
 *   [X/Twitter](https://twitter.com/moisentinel)
+
+Now that you've seen what makes me tick, consider reading my [blog](https://nibirsan.org/blog/).

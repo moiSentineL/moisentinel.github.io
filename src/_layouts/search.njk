@@ -4,7 +4,7 @@ layout: base.njk
 <style type="text/css">
 
     main {
-        width: 75ch;
+        width: 100%;
     }
 
     div {
@@ -15,11 +15,13 @@ layout: base.njk
         font-size: 150%
     }
 
-    @media screen and (max-width: 650px) {
-    }
+
 </style>
+<a href="/blog/">{{ site.back_home_text }}</a>
+
 <main>
     <h1>search me, lol</h1>
+    {{ content | safe }}
     <script async src="https://cse.google.com/cse.js?cx=a6f914d6169e84add">
     </script>
     <div class="gcse-search"></div>
