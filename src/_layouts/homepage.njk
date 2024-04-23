@@ -1,7 +1,7 @@
 ---
 layout: homebase.njk
 ---
-<style type="text/css">
+{# <style type="text/css">
 
     .fcrow{
         display: flex;
@@ -66,12 +66,12 @@ layout: homebase.njk
         height: auto;
         }
     }
-</style>
+</style> #}
 <header>
-    <div class="fcrow">
+    <div class="header">
         <div>
             <h1 class="name">Nibir Sankar</h1>
-            <h2 class="this">A <span class="continue"></h2>
+            <h2 class="whothis">A <span class="continue"></h2>
             <div>
                 <a href="/blog">blog</a>
                 <a href="/pantheon/">podcast</a>
@@ -85,13 +85,12 @@ layout: homebase.njk
                 <a href="https://github.com/moiSentineL">github</a>
             </div>
         </div>
-        <img src="media/home/pf.webp" alt="" width="1280" height="1280" class="img_deg" id="int">
-        <img src="media/home/pf1.webp" alt="" width="1280" height="1280" class="img_deg" id="int">
-        <img src="media/home/pf2.webp" alt="" width="1280" height="1280" class="img_deg" id="int">
-        <img src="media/home/pf3.webp" alt="" width="1280" height="1280" class="img_deg" id="int">
-        <img src="media/home/pf4.webp" alt="" width="1280" height="1280" class="img_deg" id="int">
-        <img src="media/home/pf5.webp" alt="" width="1280" height="1280" class="img_deg" id="int">
-        
+            <img src="media/home/pf.webp" alt="" width="300" height="300" class="profile" id="int">
+            <img src="media/home/pf1.webp" alt="" width="300" height="300" class="profile" id="int">
+            <img src="media/home/pf2.webp" alt="" width="300" height="300" class="profile" id="int">
+            <img src="media/home/pf3.webp" alt="" width="300" height="300" class="profile" id="int">
+            <img src="media/home/pf4.webp" alt="" width="300" height="300" class="profile" id="int">
+            <img src="media/home/pf5.webp" alt="" width="300" height="300" class="profile" id="int">
     </div>
 
 <script>
@@ -100,7 +99,7 @@ carousel();
 
 function carousel() {
   var i;
-  var x = document.getElementsByClassName("img_deg");
+  var x = document.getElementsByClassName("profile");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }
@@ -122,21 +121,7 @@ function carousel() {
     </script>
 </header>
 <main>
-    <hr>
-    <p>
-        Hi there! I am <b>Nibir Sankar</b> from Assam, India. I am currently in High School, searching for a meaningful life.
-    </p>
-    <p>
-        I am a bit ambitious about <b>life</b>, and want to explore and learn new things. 
-        I am really interested in philosophy, theoretical physics, math and literature. 
-        While I am not studying or doing my projects, I enjoy reading, writing, playing music and tweaking my workflows.
-
-    </P>
-    {# <p>
-        You can learn more about me and what I am upto now here.
-    </p> #}
-    <p>
-        You should subscribe to my <a href="https://visionoflife.substack.com">newsletter</a> or you can learn more <a href="/about/">about me</a>.
-    <hr>
+<hr>
+{{ content | safe }}
 
 </main>

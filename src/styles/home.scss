@@ -12,7 +12,7 @@
 html {
     display: flex;
     max-width: 75ch;
-    padding: 4em 1em;
+    padding: 2em 1em;
     justify-content: center;
     margin: auto;
     line-height: 1.6;
@@ -21,11 +21,57 @@ html {
     align-items: center;
 }
 
+.header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2ch;
+}
+.name{
+    padding-bottom: 0rem;
+    line-height: 0.5;
+    font-size: 300%;
+    margin-top: 2em;
+    margin-bottom:0.6em;
+}
+.whothis{
+    padding-bottom: 0rem;
+    line-height: 0.5;
+    font-size: 150%;
+    margin-top: 0rem;
+    padding-top: 0rem;
+    margin-bottom:1em;
+    color: #909090;
+    font-weight: 500;
+}
+
 @media screen and (max-width: 650px) {
     html{
         font-size: 1.2em;
     }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+    .name{
+        margin-top: 0rem;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        margin-bottom: 0.75rem;
+        line-height: 0.85;
+        font-size: 200%;
+    }
+    .whothis{
+        padding-bottom: 0rem;
+        margin-bottom: 1rem;
+        line-height: 0.5;
+        margin-bottom:0.6em;
+        color: #909090;
+        font-weight: 500;
+    }
+    
 }
+    
 
 @media screen and (prefers-color-scheme: light) {
     html{
@@ -112,6 +158,24 @@ img {
     max-width: 100%;
     margin: 0.5rem auto;
     display: block;
+}
+
+.profile {
+    display: block;
+    width: 30%;
+    margin: auto 0 0 auto;
+    border-radius: 50%;
+    height: auto;
+
+    @media screen and (max-width:650px) {
+        align-self: center;
+        width: 50%;
+        margin: auto;
+        margin-top:1.5em;
+        margin-bottom: 0em;
+        border-radius: 50%;
+        height: auto; 
+    }
 }
 
 blockquote {
