@@ -78,7 +78,7 @@ html {
         background: #e0e0e0;
     }
     blockquote{
-        border: thin solid black;
+        border-left: 2px solid black;
     }
     table, th, td{
         border: thin solid black;
@@ -104,7 +104,7 @@ html {
         background: rgb(48, 48, 48);
     }
     blockquote{
-        border: thin solid #e0e0e0;
+        border-left: 2px solid #e0e0e0;
     }
     table, th, td{
         border: thin solid #e0e0e0;
@@ -181,11 +181,11 @@ img {
 
 blockquote {
     font-style: italic;
-    margin: 0 0.3rem 0 0.3rem
-}
-
-blockquote p {
     margin: 0 0.3rem 0 0.3rem;
+
+    p {
+        margin: 0 0.3rem 0 1.5rem;
+    }
 }
 
 pre {
