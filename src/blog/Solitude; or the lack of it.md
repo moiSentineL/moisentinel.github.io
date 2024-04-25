@@ -69,7 +69,7 @@ I am deeply affected by this idea of being digitally minimal. I believe it promo
 
 How do we start living a digitally minimal life? What are the trade-offs?
 
-We can start by performing a digital declutter, which I am currently doing (post about it coming soon). 
+We can start by performing a digital declutter, which I am currently doing ([post about it](https://nibirsan.org/blog/p/declutter-your-digital-life)). 
 And the common trade-offs include fighting against withdrawal symptoms and being able to commit towards rebuilding a better tech-life which is devoid of any mindless scrolling and cheap dopamine intakes.
 
 ---
