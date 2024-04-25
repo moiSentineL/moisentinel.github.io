@@ -1,6 +1,6 @@
 {
-  "name": "11ty-no-style-please",
-  "description": "A template for a minimalistic blog",
+  "name": "Nibir Sankar",
+  "description": "A minimalistic personal website",
   "scripts": {
     "watch:sass": "sass --watch src/styles:_site/css",
     "build:sass": "sass src/styles:_site/css",
