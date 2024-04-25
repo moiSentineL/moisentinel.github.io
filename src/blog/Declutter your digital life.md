@@ -28,7 +28,7 @@ One can also restrict and specify their usage, for example, checking social medi
 
 Plan the list of activities and be ruthless.
 #### Tips
-- [[Blocked Sites or App|Block sites by default]] and access only at specified times
+- Block sites by default, and access only at specified times
 	- Use site/app blockers -> Freedom, StayFocusd, Digital Detox app
 - Be really specific, and use with intention.
 - Pick only the important
