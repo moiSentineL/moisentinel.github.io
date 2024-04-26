@@ -1,5 +1,5 @@
 {
-  "name": "Nibir Sankar",
+  "name": "nibir-sankar",
   "description": "A minimalistic personal website",
   "scripts": {
     "watch:sass": "sass --watch src/styles:_site/css",
