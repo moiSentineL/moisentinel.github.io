@@ -35,6 +35,22 @@ html {
   text-align: center;
 }
 
+mjx-container {
+  padding: 1rem;
+  border-radius: 15px;
+  white-space: pre-wrap;
+}
+@media screen and (prefers-color-scheme: light) {
+  mjx-container {
+    background: #e0e0e0;
+  }
+}
+@media screen and (prefers-color-scheme: dark) {
+  mjx-container {
+    background: rgb(48, 48, 48);
+  }
+}
+
 @media screen and (max-width: 650px) {
   html {
     font-size: 100%;
