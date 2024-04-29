@@ -5,6 +5,7 @@ const markdownItAnchor = require('markdown-it-anchor');
 const readingTime = require('eleventy-plugin-reading-time');
 const markdownItFootnote = require("markdown-it-footnote");
 const markdownItAttrs = require('markdown-it-attrs');
+const markdownItMath = require('markdown-it-mathjax3');
 const path = require("path");
 const Image = require("@11ty/eleventy-img");
 
@@ -136,7 +137,8 @@ module.exports = function(eleventyConfig) {
     .use(markdownItAnchor, markdownItAnchorOptions)
     .use(markdownItFootnote)
     .use(require('markdown-it-imsize'), { autofill: true })
-    .use(markdownItAttrs);
+    .use(markdownItAttrs)
+    .use(markdownItMath, { tex: {tags: 'equ'} } );
 
     //Add div around tables
     markdownLib.renderer.rules.table_open = () => '<div class="table-wrapper">\n<table>\n',
