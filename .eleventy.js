@@ -175,6 +175,20 @@ module.exports = function(eleventyConfig) {
     
         return coll;
     });
+
+    eleventyConfig.addCollection("mathposts", function(collection) {
+      const colle = collection.getFilteredByTag("math");
+  
+      for(let i = 0; i < colle.length ; i++) {
+          const prevPostmath = colle[i-1];
+          const nextPostmath = colle[i + 1];
+  
+          colle[i].data["prevPostmath"] = prevPostmath;
+          colle[i].data["nextPostmath"] = nextPostmath;
+      }
+  
+      return colle;
+  });
     eleventyConfig
     .addFilter('postTags', tags => Object.keys(tags)
         .filter(k => k !== "posts")

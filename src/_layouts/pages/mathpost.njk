@@ -1,0 +1,57 @@
+---
+layout: base.njk
+tags:
+  - post
+
+---
+<a href="/blog/math/">{{ site.back_home_text }}/math-ventures</a><br>
+<a href="/blog/">{{ site.back_home_text }}/blog</a>
+
+<article>
+  <p class="post-meta">
+    <time datetime="{{ page.date }}">{{ page.date | formatDate }}</time>
+  </p>
+  
+  <h1 class="title">{{ title }}</h1>
+  <h4 class="excerpt">{{ excerpt }}</h4>
+  {% include "posttags.njk" %}
+  <hr>
+  
+  {{ content | safe  }}
+
+  <hr>
+	<div class="nextread">
+		<h3>Continue Reading in Math Ventures</h3>
+			<p>
+			{% if nextPostmath.url %}
+					<strong>Next</strong>:
+					<a class="next" href="{{ nextPostmath.url }}">{{ nextPostmath.data.title }}</a>
+			<br>
+			{% endif %}
+			
+			{% if prevPostmath.url %}
+					<strong>Previous</strong>:
+					<a class="previous" href="{{ prevPostmath.url }}">{{ prevPostmath.data.title }}</a>
+			{% endif %}
+			</p>
+	</div>
+  <p>or go back to <a href="/blog/">blogs</a>..</p>
+	<hr>
+	<script src="https://giscus.app/client.js"
+        data-repo="moiSentineL/moisentinel.github.io"
+        data-repo-id="R_kgDOLKbZeg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLKbZes4Cervi"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+	</script>	
+
+</article>

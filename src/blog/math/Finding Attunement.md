@@ -8,6 +8,7 @@ added: April 22, 2024
 link: https://nibirsan.org/blog/p/finding-attunement
 excerpt: "math ventures #1; confession"
 date: 2024-04-22T20:36:09+05:30
+redirect_from: /blog/p/finding-attunement/
 ---
 I've always liked math. Even if it was sometimes really frustrating, the likeability only increased. Especially in Grade 9, when I was doing those Polynomial questions, or the statistics. I didn't know why I was studying it. To be honest, I was not aware of *anything* till the last quarter of Grade 10, yet, I found solace in math.
 
