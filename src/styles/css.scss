@@ -60,18 +60,27 @@ html {
     text-align: center;
 }
 
+body {
+   overflow-x: hidden;
+}
+
+iframe {
+    max-width: 100%;
+}
+
 mjx-container {
     padding: 1rem;
     border-radius: 15px;
-    white-space: pre-wrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  
+    // @include theme(light) {
+    //     background: #e0e0e0;
+    // }
 
-    @include theme(light) {
-        background: #e0e0e0;
-    }
-
-    @include theme(dark) {
-        background: rgb(48, 48, 48);
-    }
+    // @include theme(dark) {
+    //     background: rgb(48, 48, 48);
+    // }
 
 }
 
