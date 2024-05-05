@@ -19,7 +19,7 @@ date: 2024-05-05T14:20:56+05:30
 
 ---
 
-{% porimage "/attachments/make-epic-money.png", "Make Epic Money" %}
+{% porimage "src/blog/attachments/make-epic-money.png", "Make Epic Money" %}
 
 Buy this book [here](https://amzn.to/44xC78P), and support me at no extra cost! {{.caption}}
 
