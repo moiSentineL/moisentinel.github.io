@@ -21,7 +21,7 @@ date: 2024-05-05T14:20:56+05:30
 
 {% porimage "src/blog/attachments/make-epic-money.png", "Make Epic Money" %}
 
-Buy this book [here](https://amzn.to/44xC78P), and support me at no extra cost! {{.caption}}
+Buy this book [here](https://amzn.to/44xC78P), and support me at no extra cost! {.caption}
 
 
 It was a really nice book, a great starter for anyone who wants to do what matters the most. Making money, growing money is a hard task, and what's even harder is having a humble mindset.
