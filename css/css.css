@@ -41,6 +41,8 @@ body {
 
 iframe {
   max-width: 100%;
+  margin: auto;
+  display: block;
 }
 
 mjx-container {
