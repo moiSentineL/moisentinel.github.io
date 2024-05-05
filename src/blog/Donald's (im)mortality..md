@@ -49,9 +49,11 @@ Is it *okay* to trick death? Shouldn't death remain sacred?
 
 Is immortality a curse or a boon? If it's a boon, why did he finally choose not to do it anymore?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iJZ9WpNuMzc?si=QIelCjMnQb3PTNaw&amp;start=104" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iJZ9WpNuMzc?si=QIelCjMnQb3PTNaw&amp;start=102" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 A lot of questions, and a lot vague answers that sleep in a corner of my mind. 
-What constitutes one's "being"? Is it reason, is it choice? Or is it just another flawed philosophical idea? 
+What constitutes one's "being"? Is it reason, is it the decisions we make? Or is it just another flawed philosophical idea? 
 
-Well, if you find answers to some of these questions, don't panic. You're just dreaming.
+Well, if you find answers to some of these questions, don't panic. Just embrace the beauty of this world.
+
+Man, I never would've thought a cartoon would be this philosophical...
