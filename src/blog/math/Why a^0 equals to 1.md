@@ -3,6 +3,7 @@ aliases:
 tags:
   - post
   - math
+  - Blog
 added: May 10, 2024
 link: https://nibirsan.org/blog/p/why-a0-equals-to-1
 excerpt: something I was really curious about
@@ -29,7 +30,7 @@ $$
 
 Now that we understand, let's prove that $a^{0}=1$
 ### Proof
-{% lanimage "src/blog/attachments/a%5E0%20=%201.png", "proof" %}
+{% lanimage "src/blog/attachments/Proof%20a0.png", "Proof" %}
 
 Well, I gotta learn how to write LaTeX efficiently. Until then, consider doing a handwriting recognition course.
 
