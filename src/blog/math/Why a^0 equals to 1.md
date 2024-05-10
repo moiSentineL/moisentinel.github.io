@@ -29,7 +29,7 @@ $$
 
 Now that we understand, let's prove that $a^{0}=1$
 ### Proof
-![](/attachments/a%5E0%20=%201.png)
+{% lanimage "src/blog/attachments/a%5E0%20=%201.png", "proof" %}
 
 Well, I gotta learn how to write LaTeX efficiently. Until then, consider doing a handwriting recognition course.
 
