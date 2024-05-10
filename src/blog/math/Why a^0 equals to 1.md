@@ -7,7 +7,7 @@ added: May 10, 2024
 link: https://nibirsan.org/blog/p/why-a0-equals-to-1
 excerpt: something I was really curious about
 date: 2024-05-10T23:13:51+05:30
-title: Why does a^0 equals to 1?
+title: Why does a^0 equal to 1?
 ---
 This is silly. Everybody knows $a^{0}= 1$. But why?
 
