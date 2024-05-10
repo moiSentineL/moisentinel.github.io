@@ -3,7 +3,6 @@ aliases:
 tags:
   - post
   - math
-  - Blog
 added: May 10, 2024
 link: https://nibirsan.org/blog/p/why-a0-equals-to-1
 excerpt: something I was really curious about
