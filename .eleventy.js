@@ -194,6 +194,7 @@ module.exports = function(eleventyConfig) {
         .filter(k => k !== "posts")
         .filter(k => k !== "post")
         .filter(k => k !== "all")
+        .filter(k => k !== "mathposts")
         .map(k => ({name: k, count: tags[k].length}))
         .sort((a,b) => b.count - a.count));
 
