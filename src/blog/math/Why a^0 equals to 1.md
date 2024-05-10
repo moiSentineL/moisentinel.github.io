@@ -29,7 +29,7 @@ $$
 
 Now that we understand, let's prove that $a^{0}=1$
 ### Proof
-{% lanimage "src/blog/attachments/Proof%20a0.png", "Proof" %}
+{% lanimage "src/blog/attachments/Proof a0.png", "Proof" %}
 
 Well, I gotta learn how to write LaTeX efficiently. Until then, consider doing a handwriting recognition course.
 
