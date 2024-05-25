@@ -4,7 +4,6 @@ tags:
   - post
   - people
   - musings
-  - Blog
 added: May 22, 2024
 link: https://nibirsan.org/blog/p/hospitals-are-kafkaesque
 excerpt: contemptuous understanding of hospitals, judiciary and false hope.
