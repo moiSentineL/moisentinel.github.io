@@ -4,6 +4,7 @@ tags:
   - post
   - people
   - musings
+  - Blog
 added: May 22, 2024
 link: https://nibirsan.org/blog/p/hospitals-are-kafkaesque
 excerpt: contemptuous understanding of hospitals, judiciary and false hope.
@@ -48,6 +49,7 @@ The thing I hate the most is that chilling AC. Never have I ever felt any more c
 Once I realised that you can't do anything about *these*, I simply laugh when anyone complains or frowns. Haven't they realised that you're *meant* to stand for hours, to be weakened, to be afraid...? A never ending process...
 
 To be weakened and to be afraid. That's when they grab you and squeeze everything out of you. 
+{% lanimage "src/blog/attachments/hospital-exit-sign.png", "Hospital Exit Sign" %}
 ### :x Kafkaesque
 This word is used to describe situations that are weirdly absurd, complex and illogical. It is derived from the name of the writer **Franz Kafka** who often wrote about such situations.
 ### :x Framing Effect
