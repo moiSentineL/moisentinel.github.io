@@ -36,18 +36,24 @@
     <meta name="msapplication-TileColor" content="#2b5797">
     <meta name="msapplication-config" content="/media/meta/browserconfig.xml">
     <meta name="theme-color" content="#000000">
-
+    {# <link
+        rel="stylesheet"
+        href="https://unpkg.com/littlefoot/dist/littlefoot.css"
+        /> #}
     <link rel="stylesheet" href="/css/css.css">
     <link rel="preload" href="/css/IBMPlexMono-Regular.ttf" as="font" crossorigin>
 
     <link rel="dns-prefetch" href="https://www.googletagmanager.com">
     <link rel="dns-prefetch" href="https://www.google-analytics.com">  
+    
 </head>
 <body>
     {{ content | safe }}
 
     {% include "gtag.njk" %}
     {% include "nutshell.njk" %}
+    
+</script>
 </body>
 <footer>
     <hr>
