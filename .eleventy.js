@@ -9,6 +9,7 @@ const markdownItMath = require('markdown-it-mathjax3');
 const path = require("path");
 const Image = require("@11ty/eleventy-img");
 
+
 async function portraitimageShortcode(src, alt, sizes="(min-width: 650px) 1vw, 50vw") {
   let metadata = await Image(src, {
     widths: [500],
@@ -80,8 +81,8 @@ const renderPermalink = (slug, opts, state, idx) => {
       }),
       Object.assign(new state.Token("html_block", "", 0), {
         // Edit starts here:
-        content: `<span aria-hidden="true" class="header-anchor__symbol">#</span>
-        <span class="screen-reader-only">Direct link to this section</span>`,
+        content: `<span aria-hidden="true" class="header-anchor__symbol">#</span>`
+        // <span class="screen-reader-only">Direct link to this section</span>
         // Edit ends
       }),
       new state.Token("link_close", "a", -1),
@@ -98,12 +99,12 @@ const renderPermalink = (slug, opts, state, idx) => {
 
 
 module.exports = function(eleventyConfig) {
-
+    
     eleventyConfig.addLiquidShortcode("porimage", portraitimageShortcode);
     eleventyConfig.addLiquidShortcode("lanimage", landimageShortcode);
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPlugin(readingTime);
-    
+
     eleventyConfig.setFrontMatterParsingOptions({
         excerpt: true,
         excerpt_separator: "<-->"
