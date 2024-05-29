@@ -4,12 +4,41 @@
   <subtitle>These are the proof that I am human, because I make mistakes.</subtitle>
   <link href="https://nibirsan.org/feed.xml" rel="self"/>
   <link href="https://nibirsan.org"/>
-  <updated>2024-05-25T16:51:55Z</updated>
+  <updated>2024-05-28T17:48:15Z</updated>
   <id>https://nibirsan.org</id>
   <author>
     <name>Nibir Sankar</name>
     <email>nibirsankar26@gmail.com</email>
   </author>
+    <entry>
+        <title>End of Part I: Algebra</title>
+        <link href="https://nibirsan.org/blog/math/end-of-part-i-algebra/"/>
+        <summary>
+          Revision, opportunity and learning.
+        </summary>
+        <updated>2024-05-28T17:48:15Z</updated>
+        <id>https://nibirsan.org/blog/math/end-of-part-i-algebra/</id>
+        <content xml:lang="en" type="html">&lt;p&gt;I am about two weeks too late to write this.&lt;/p&gt;
+&lt;p&gt;About two weeks ago, I finished The first part of &lt;a href=&quot;https://amzn.to/3UElWTL&quot;&gt;Basic Mathematics&lt;/a&gt;...&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;/images/part-1-algebra basic math toc-500w.webp 500w&quot; sizes=&quot;(min-width: 650px) 1vw, 50vw&quot; /&gt;&lt;img alt=&quot;Table of Contents&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://nibirsan.org/images/part-1-algebra%20basic%20math%20toc-500w.jpeg&quot; width=&quot;500&quot; height=&quot;703&quot; /&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p class=&quot;caption&quot;&gt;Table of Contents&lt;/p&gt;
+&lt;p&gt;...and I am really glad that I did (I know, cliché.)&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2 id=&quot;summary&quot; tabindex=&quot;-1&quot;&gt;Summary &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/math/end-of-part-i-algebra/#summary&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I had already read most of the stuff in Grade 9 and 10, so it was easy for me to grasp things. But I had to re-learn some of the things, as I didn&#39;t have a good foundation in some concepts. Thus, it was a great revision opportunity.&lt;/p&gt;
+&lt;p&gt;Chapter 2 and 4 were easy af. The three-variable linear equations were a &lt;em&gt;bit&lt;/em&gt; new to me. I took my time with that.&lt;/p&gt;
+&lt;p&gt;Chapter 1 and 3 were the most impactful. I had to learn some proofs and theorems, which were pretty fun. I had some tough luck with inequalities, but they were pretty fun in the end. The interlude was pretty fun to read too.&lt;/p&gt;
+&lt;p&gt;All in all, reading this made me realise that this is &lt;strong&gt;not&lt;/strong&gt; for the &lt;em&gt;complete&lt;/em&gt; beginners; it requires a bit of basic math knowledge (kind of ironic, considering the book is named &amp;quot;Basic Mathematics&amp;quot; itself).&lt;/p&gt;
+&lt;p&gt;The language is not simple, but it is concise and clear in &lt;em&gt;mathematical&lt;/em&gt; standards (not that I have read multiple math books...)&lt;/p&gt;
+&lt;h2 id=&quot;impacte&quot; tabindex=&quot;-1&quot;&gt;Impacte &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/math/end-of-part-i-algebra/#impacte&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I was so interested that I even wrote a &lt;a href=&quot;https://nibirsan.org/blog/math/why-a0-equals-to-1&quot;&gt;blog post about it&lt;/a&gt;. And &lt;a href=&quot;https://nibirsan.org/blog/p/donald-s-im-mortality&quot;&gt;another&lt;/a&gt;, incorporating the things I had learned.&lt;/p&gt;
+&lt;p&gt;It helped me look things through the more &lt;em&gt;logical&lt;/em&gt; side of the brain. Instead of being too &amp;quot;algebraic&amp;quot;, things were actually more on a physical plane in which you can move things and manipulate them. Something like arranging a physical puzzle, except you&#39;re working with proofs, theorems and equations. That&#39;s the best I could describe 💀.&lt;/p&gt;
+&lt;h2 id=&quot;next-up...&quot; tabindex=&quot;-1&quot;&gt;Next up... &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/math/end-of-part-i-algebra/#next-up...&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The next part is called &amp;quot;Intuitive Geometry&amp;quot;, which will take that &amp;quot;physical puzzle&amp;quot; feeling to another level. And as I am writing this, I have already completed the first chapter... and it&#39;s interesting indeed.&lt;/p&gt;
+&lt;p&gt;And I&#39;ve realised that I need to work on my geometric abilities. My &amp;quot;intuition&amp;quot; is a bit &lt;em&gt;off&lt;/em&gt;. But I can definitely work on that.&lt;/p&gt;
+&lt;p&gt;More updates will soon follow.&lt;/p&gt;
+</content>
+    </entry>
     <entry>
         <title>Hospitals are Kafkaesque</title>
         <link href="https://nibirsan.org/blog/p/hospitals-are-kafkaesque/"/>
