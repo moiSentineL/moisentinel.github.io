@@ -13,7 +13,7 @@ I am about two weeks too late to write this.
 
 About two weeks ago, I finished The first part of [Basic Mathematics](https://amzn.to/3UElWTL)...
 
-{% porimage "src/blog/attachments/part-1-algebra%20basic%20math%20toc.png", "Table of Contents" %}
+{% porimage "src/blog/attachments/part-1-algebra basic math toc.png", "Table of Contents" %}
 
 Table of Contents {.caption}
 
