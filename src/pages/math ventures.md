@@ -4,6 +4,7 @@ permalink: "/blog/math/index.html"
 ---
 ## Update
 umm... [:It's harder than I thought](#:xLore). I couldn't grasp a lot of things. Isometries officially kicked my butt. I realised that it was not great for a 10th Grader (soon to be 11th) like me. Perhaps I need a bit more BASIC-Basic Mathematics. 
+For now, I am putting an hold on grinding Basic Mathematics by Serge Lang. I will continue learning math from Khan Academy and much more.
 
 **What about the future?** Well, I want to keep posting about math, regardless of the source. I will keep posting what I learn, what is interesting and what is not.
 
