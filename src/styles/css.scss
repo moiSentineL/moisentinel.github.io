@@ -1,12 +1,12 @@
 @font-face {
-    font-family: IBM Plex Mono;
-    src: url("IBMPlexMono-Regular.ttf");
-    font-display: swap;
+  font-family: IBM Plex Mono;
+  src: url("IBMPlexMono-Regular.ttf");
+  font-display: swap;
 }
 
 @font-face {
-    font-family: Recursive;
-    src: url('https://fonts.googleapis.com/css2?family=Recursive:wght,MONO@300..800,0.5&display=swap');
+  font-family: Recursive;
+  src: url("https://fonts.googleapis.com/css2?family=Recursive:wght,MONO@300..800,0.5&display=swap");
 }
 
 $transwhite: #e0e0e0;
@@ -19,371 +19,398 @@ $lime-green: #70ff99;
 $violet: #9770ff;
 
 @mixin theme($theme) {
-    @if $theme == dark {
-        @media screen and (prefers-color-scheme: dark) {
-            @content;
-        } 
+  @if $theme == dark {
+    @media screen and (prefers-color-scheme: dark) {
+      @content;
     }
+  }
 
-    @if $theme == light {
-        @media screen and (prefers-color-scheme: light) {
-            @content;
-        }
+  @if $theme == light {
+    @media screen and (prefers-color-scheme: light) {
+      @content;
     }
+  }
 }
 
 html {
-    display: flex;
-    max-width: 69ch;
-    padding: 4em 1em;
-    justify-content: center;
-    margin: auto;
-    line-height: 1.5;
-    font-size: 1.3em;
-    font-family: Recursive, monospace;
+  display: flex;
+  max-width: 69ch;
+  padding: 4em 1em;
+  justify-content: center;
+  margin: auto;
+  line-height: 1.5;
+  font-size: 1.3em;
+  font-family: Recursive, monospace;
 }
 
 .excerpt {
-    font-size: 1em; 
-    line-height: 1.5;
-    margin: 0 0 0.5em;
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 0 0 0.5em;
 }
 
 .nextread {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 .caption {
-    color: #909090;
-    font-size: 82%;
-    font-style: italic;
-    text-align: center;
+  color: #909090;
+  font-size: 82%;
+  font-style: italic;
+  text-align: center;
 }
 
 body {
-   overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 iframe {
-    max-width: 100%;
-    margin: auto;
-    display: block;
+  max-width: 100%;
+  margin: auto;
+  display: block;
 }
 
 mjx-container {
-    padding: 1rem;
-    border-radius: 15px;
-    overflow-x: auto;
-    overflow-y: hidden;
-
+  padding: 1rem;
+  border-radius: 15px;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 @media screen and (max-width: 650px) {
-    html{
-        font-size: 100%;
-    }
-
+  html {
+    font-size: 100%;
+  }
 }
 
 @include theme(light) {
-    html{
-        color: black;
-    }
-    ::selection {
-        background: #C8FFFD;
-      }
-    pre, code {
-        background: #e0e0e0;
-    }
-    blockquote{
-        border-left: 2px solid black;
-    }
-    table, th, td{
-        border: thin solid black;
-    }
-    a {
-        color: black
-    }
-    h4.excerpt {
-        color: #909090;
-    }
+  html {
+    color: black;
+  }
+  ::selection {
+    background: #c8fffd;
+  }
+  pre,
+  code {
+    background: #e0e0e0;
+  }
+  blockquote {
+    border-left: 2px solid black;
+  }
+  table,
+  th,
+  td {
+    border: thin solid black;
+  }
+  a {
+    color: black;
+  }
+  h4.excerpt {
+    color: #909090;
+  }
 }
 
 @include theme(dark) {
-    html{
-        color: #e0e0e0;
-        background-color: #121212;
-    }
-    ::selection {
-        background: #C8FFFD;
-        color: black;
-      }
-    pre, code {
-        background: rgb(48, 48, 48);
-    }
-    blockquote{
-        border-left: 2px solid #e0e0e0;
-    }
-    table, th, td{
-        border: thin solid #e0e0e0;
-    }
-    a {
-        color:#e0e0e0;
-    }
-    
-    h4.excerpt {
-        color: #b5b5b5;
-    }
+  html {
+    color: #e0e0e0;
+    background-color: #121212;
+  }
+  ::selection {
+    background: #c8fffd;
+    color: black;
+  }
+  pre,
+  code {
+    background: rgb(48, 48, 48);
+  }
+  blockquote {
+    border-left: 2px solid #e0e0e0;
+  }
+  table,
+  th,
+  td {
+    border: thin solid #e0e0e0;
+  }
+  a {
+    color: #e0e0e0;
+  }
+
+  h4.excerpt {
+    color: #b5b5b5;
+  }
 }
 
-h1,h2,h3,h4,h5,h6 {
-    margin: 1em 0 0.5em;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1em 0 0.5em;
 }
 .title {
-    margin: 1em 0 0.2em;
+  margin: 1em 0 0.2em;
 }
 
-  
-p,ul,ol {
-    margin-bottom: 1em;
+p,
+ul,
+ol {
+  margin-bottom: 1em;
 }
 
-.postlist{
-    padding: unset;
-    list-style-type: none;
+.postlist {
+  padding: unset;
+  list-style-type: none;
 }
 
-.post{
-    margin: 0 0 1.5em;
-    display: list-item;
-    list-style-type: none;
+.post {
+  margin: 0 0 1.5em;
+  display: list-item;
+  list-style-type: none;
 
-    padding-bottom: 0.5em;
-    padding-right: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
 
-    @include theme(light) {
-        box-shadow: 0px 3px 0px black, 4px 0px 0px 0px black;
-    }
-    @include theme(dark) {
-        box-shadow: 0px 3px 0px #e0e0e0, 4px 0px 0px 0px #e0e0e0;
-    }
+  @include theme(light) {
+    box-shadow: 0px 3px 0px black, 4px 0px 0px 0px black;
+  }
+  @include theme(dark) {
+    box-shadow: 0px 3px 0px #e0e0e0, 4px 0px 0px 0px #e0e0e0;
+  }
 }
-  
 
 .post-meta {
-    text-align: right;
+  text-align: right;
 }
 
 .footnote-item {
-    line-height: 1.2;
+  line-height: 1.2;
 }
 
 .edit {
-    padding: 1rem;
-    border-radius: 15px;
-    @include theme(light) {
-        border: thin solid #000000;
-    }
-    @include theme(dark) {
-        border: thin solid #e0e0e0; 
-    }
-    
+  padding: 1rem;
+  border-radius: 15px;
+  @include theme(light) {
+    border: thin solid #000000;
+  }
+  @include theme(dark) {
+    border: thin solid #e0e0e0;
+  }
 }
 
 img {
-    max-width: 100%;
-    margin: 0.5rem auto;
-    display: block;
-    height:auto;
+  max-width: 100%;
+  margin: 0.5rem auto;
+  display: block;
+  height: auto;
 }
 
 blockquote {
-    font-style: italic;
-    margin: 0 0.3rem 0 0.3rem;
+  font-style: italic;
+  margin: 0 0.3rem 0 0.3rem;
 
-    p {
-        margin: 0 0.3rem 0 1.5rem;
-    }
+  p {
+    margin: 0 0.3rem 0 1.5rem;
+  }
 }
 
 pre {
-    font-size: 14px;
-    max-height: 300px;
-    overflow: scroll;
-    padding: 1rem;
-    border-radius: 15px;
-    white-space: pre-wrap;
-    word-break: break-all;
+  font-size: 14px;
+  max-height: 300px;
+  overflow: scroll;
+  padding: 1rem;
+  border-radius: 15px;
+  white-space: pre-wrap;
+  word-break: break-all;
 }
 
-table { width: 100%; }
+table {
+  width: 100%;
+}
 
-table, th, td {
+table,
+th,
+td {
   border-collapse: collapse;
   padding: 0.4rem;
-
 }
 
 .table-wrapper {
-    overflow-x: auto;
+  overflow-x: auto;
 }
 
 a {
-    text-decoration: underline;
-    text-decoration-thickness: .3ex;
-    text-decoration-color: #5B84B1FF;
+  text-decoration: underline;
+  text-decoration-thickness: 0.3ex;
+  text-decoration-color: #5b84b1ff;
 
-    &:hover {
-        font-weight: bold;
-        text-decoration-color: #FC766AFF;
-    }
-
+  &:hover {
+    font-weight: bold;
+    text-decoration-color: #fc766aff;
+  }
 }
 
 .posttitle {
-    font-size: 1.2em;
-    font-weight: bold;
-    text-decoration: none;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: none;
 
-    &:hover {
-        text-decoration: underline;
-        text-decoration-thickness: .3ex;
-        text-decoration-color: #5B84B1;
-    }
-
+  &:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.3ex;
+    text-decoration-color: #5b84b1;
+  }
 }
 
 .header-anchor {
-    color: #909090;
-    text-decoration: none;
-    @media screen and (min-width: 700px) {
-      left: 0.15rem;
-      position: relative;
-      width: 0.8em;
-    }
-
+  color: #909090;
+  text-decoration: none;
+  @media screen and (min-width: 700px) {
+    left: 0.15rem;
+    position: relative;
+    width: 0.8em;
+  }
 }
-  
+
 .header-anchor__symbol {
-    @media screen and (min-width: 700px) and (hover: hover) {
-        visibility: hidden;
+  @media screen and (min-width: 700px) and (hover: hover) {
+    visibility: hidden;
 
-        h2:hover &,
-        h3:hover &,
-        h4:hover &,
-        h5:hover &,
-        h6:hover &,
-        .header-anchor:focus & {
-            visibility: visible;
-        }
+    h2:hover &,
+    h3:hover &,
+    h4:hover &,
+    h5:hover &,
+    h6:hover &,
+    .header-anchor:focus & {
+      visibility: visible;
     }
+  }
 }
-
 
 .screen-reader-only {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 .archive {
-    font-size: 1em;
-    font-weight: bold;
-    text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
 
-    &:hover {
-        text-decoration: underline;
-        text-decoration-thickness: .3ex;
-        text-decoration-color: #5B84B1;
-    }
+  &:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.3ex;
+    text-decoration-color: #5b84b1;
+  }
 }
-
 
 .footnote-link {
-    @include theme(light) {
-        text-decoration: none;
-        color: #0C359E;  
-    }
-    @include theme(dark) {
-        text-decoration: none;
-        color: #5B84B1;  
-    }
+  @include theme(light) {
+    text-decoration: none;
+    color: #0c359e;
+  }
+  @include theme(dark) {
+    text-decoration: none;
+    color: #5b84b1;
+  }
 
-    &:hover {
-        text-decoration: underline;
-        text-decoration-thickness: .3ex;
-        text-decoration-color: #FC766AFF;
-    }
+  &:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 0.3ex;
+    text-decoration-color: #fc766aff;
+  }
 }
 
-
 tag {
-    font-size: 80%;
-    margin: 0;
+  font-size: 80%;
+  margin: 0;
 
-    #life {text-decoration-color: $naples-yellow}
-    #literature {text-decoration-color: $pale-azure}
-    #philosophy {text-decoration-color: $atomic-tangerine}
-    #technical {text-decoration-color: $mindaro}
-    #musings {text-decoration-color: $cyclamen}
-    #debugging {text-decoration-color: $naples-yellow}
-    #essay {text-decoration-color: $pale-azure}
-    #rationality {text-decoration-color: $mindaro}
-    #people {text-decoration-color: $atomic-tangerine}
-    #culture {text-decoration-color: $cyclamen}
-    #psychology {text-decoration-color: $lime-green}
-    #fitness {text-decoration-color: $lime-green}
-    #math {text-decoration-color: $violet}
-    #assamese {text-decoration-color: $violet}
-
+  #life {
+    text-decoration-color: $naples-yellow;
+  }
+  #literature {
+    text-decoration-color: $pale-azure;
+  }
+  #philosophy {
+    text-decoration-color: $atomic-tangerine;
+  }
+  #technical {
+    text-decoration-color: $mindaro;
+  }
+  #musings {
+    text-decoration-color: $cyclamen;
+  }
+  #debugging {
+    text-decoration-color: $naples-yellow;
+  }
+  #essay {
+    text-decoration-color: $pale-azure;
+  }
+  #rationality {
+    text-decoration-color: $mindaro;
+  }
+  #people {
+    text-decoration-color: $atomic-tangerine;
+  }
+  #culture {
+    text-decoration-color: $cyclamen;
+  }
+  #psychology {
+    text-decoration-color: $lime-green;
+  }
+  #fitness {
+    text-decoration-color: $lime-green;
+  }
+  #math {
+    text-decoration-color: $violet;
+  }
+  #assamese {
+    text-decoration-color: $violet;
+  }
 }
 
 nav {
-    // position: sticky;
-    // top: 0px;
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    // background: $transwhite;
-    // backdrop-filter: blur(1px);
+  // position: sticky;
+  // top: 0px;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  // background: $transwhite;
+  // backdrop-filter: blur(1px);
 }
 
-footer{
-    font-size: small;
-    text-align: center;
-    padding: 25px;
-    padding-top: 0.5em;
+footer {
+  font-size: small;
+  text-align: center;
+  padding: 25px;
+  padding-top: 0.5em;
 }
-
 
 div {
-
-
 }
 
 .tag {
-    display: flex;
-    flex-direction: row;
-    
-    @media screen and (max-width: 500px) {
-        flex-direction: column;
-    }
+  display: flex;
+  flex-direction: row;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+  }
 }
 
 span {
-
 }
 
 .reading {
-    margin-left: auto;
-    font-size: 80%;
-    @media screen and (max-width: 500px) {
-        margin: 0;
-    }
-
+  margin-left: auto;
+  font-size: 80%;
+  @media screen and (max-width: 500px) {
+    margin: 0;
+  }
 }
