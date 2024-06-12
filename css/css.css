@@ -62,15 +62,18 @@ mjx-container {
     color: black;
   }
   ::selection {
-    background: #C8FFFD;
+    background: #c8fffd;
   }
-  pre, code {
+  pre,
+  code {
     background: #e0e0e0;
   }
   blockquote {
     border-left: 2px solid black;
   }
-  table, th, td {
+  table,
+  th,
+  td {
     border: thin solid black;
   }
   a {
@@ -86,16 +89,19 @@ mjx-container {
     background-color: #121212;
   }
   ::selection {
-    background: #C8FFFD;
+    background: #c8fffd;
     color: black;
   }
-  pre, code {
+  pre,
+  code {
     background: rgb(48, 48, 48);
   }
   blockquote {
     border-left: 2px solid #e0e0e0;
   }
-  table, th, td {
+  table,
+  th,
+  td {
     border: thin solid #e0e0e0;
   }
   a {
@@ -105,7 +111,12 @@ mjx-container {
     color: #b5b5b5;
   }
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 1em 0 0.5em;
 }
 
@@ -113,7 +124,9 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1em 0 0.2em;
 }
 
-p, ul, ol {
+p,
+ul,
+ol {
   margin-bottom: 1em;
 }
 
@@ -192,7 +205,9 @@ table {
   width: 100%;
 }
 
-table, th, td {
+table,
+th,
+td {
   border-collapse: collapse;
   padding: 0.4rem;
 }
@@ -219,7 +234,7 @@ a:hover {
 .posttitle:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.3ex;
-  text-decoration-color: #5B84B1;
+  text-decoration-color: #5b84b1;
 }
 
 .header-anchor {
@@ -262,19 +277,19 @@ a:hover {
 .archive:hover {
   text-decoration: underline;
   text-decoration-thickness: 0.3ex;
-  text-decoration-color: #5B84B1;
+  text-decoration-color: #5b84b1;
 }
 
 @media screen and (prefers-color-scheme: light) {
   .footnote-link {
     text-decoration: none;
-    color: #0C359E;
+    color: #0c359e;
   }
 }
 @media screen and (prefers-color-scheme: dark) {
   .footnote-link {
     text-decoration: none;
-    color: #5B84B1;
+    color: #5b84b1;
   }
 }
 .footnote-link:hover {
