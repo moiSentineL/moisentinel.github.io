@@ -64,6 +64,14 @@ body {
   overflow-x: hidden;
 }
 
+strong {
+  color: $naples-yellow;
+}
+
+em {
+  color: $pale-azure;
+}
+
 iframe {
   max-width: 100%;
   margin: auto;
