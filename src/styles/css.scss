@@ -65,11 +65,21 @@ body {
 }
 
 strong {
-  color: $naples-yellow;
+  @include theme(dark) {
+    color: $naples-yellow;
+  }
+  @include theme(light) {
+    color: $atomic-tangerine;
+  }
 }
 
 em {
-  color: $pale-azure;
+  @include theme(dark) {
+    color: $pale-azure;
+  }
+  @include theme(light) {
+    color: $lime-green;
+  }
 }
 
 iframe {
