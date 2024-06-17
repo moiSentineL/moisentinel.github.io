@@ -39,12 +39,26 @@ body {
   overflow-x: hidden;
 }
 
-strong {
-  color: #ffd670;
+@media screen and (prefers-color-scheme: dark) {
+  strong {
+    color: #ffd670;
+  }
+}
+@media screen and (prefers-color-scheme: light) {
+  strong {
+    color: #ff9770;
+  }
 }
 
-em {
-  color: #70d6ff;
+@media screen and (prefers-color-scheme: dark) {
+  em {
+    color: #70d6ff;
+  }
+}
+@media screen and (prefers-color-scheme: light) {
+  em {
+    color: #70ff99;
+  }
 }
 
 iframe {
