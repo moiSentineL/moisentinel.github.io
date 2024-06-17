@@ -39,6 +39,14 @@ body {
   overflow-x: hidden;
 }
 
+strong {
+  color: #ffd670;
+}
+
+em {
+  color: #70d6ff;
+}
+
 iframe {
   max-width: 100%;
   margin: auto;
