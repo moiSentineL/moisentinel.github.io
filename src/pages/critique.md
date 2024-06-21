@@ -1,5 +1,4 @@
 ---
-layout: pages/post.njk
 permalink: "/critique/index.html"
 aliases:
 tags:
