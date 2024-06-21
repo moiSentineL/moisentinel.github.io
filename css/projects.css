@@ -242,4 +242,20 @@ footer {
   padding-top: 0.5em;
 }
 
+audio {
+  width: 100%;
+}
+
+div .audio-player input[type=range] {
+  flex: 5;
+}
+div .audio-player span {
+  flex: 1;
+  text-align: center;
+}
+div .audio-player label {
+  font-size: small;
+  flex: 2;
+}
+
 /*# sourceMappingURL=projects.css.map */
