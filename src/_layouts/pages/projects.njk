@@ -20,6 +20,28 @@ layout: projects-base.njk
 </header>
 <main>
 <hr>
+    <div class="audio-player">
+        <audio controls>
+            <source src="/media/draft.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <label for="pbrate">Speed:</label>
+        <input type="range" id="pbrate" min=.5 max=3 value=1 step=.1>
+        <span></span>
+        <script>
+            const audio = document.querySelector('.audio-player  audio');
+            const playbackrate = document.querySelector('.audio-player input');
+            const display = document.querySelector('.audio-player span');
+            const displayvalue = val => {
+            return parseInt(val * 100, 10) + '%'
+            }
+            display.innerText = displayvalue(audio.playbackRate);
+            playbackrate.addEventListener('change', e => {
+            audio.playbackRate = playbackrate.value;
+            display.innerText = displayvalue(playbackrate.value);
+            });
+        </script>
+    </div>
 {{ content | safe }}
 
 </main>
