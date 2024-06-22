@@ -422,6 +422,10 @@ div {
   }
 }
 
+.twitter-tweet {
+  margin: auto;
+}
+
 span {
 }
 
@@ -431,4 +435,9 @@ span {
   @media screen and (max-width: 500px) {
     margin: 0;
   }
+}
+
+audio {
+  width: 100%;
+  padding: 1em 0 1em;
 }
