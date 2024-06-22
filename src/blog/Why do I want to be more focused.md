@@ -12,7 +12,7 @@ It has been a while since I have not been focused enough. I have been juggling t
 
 I can't seem to have only ONE thing in my attention space, even though ironically, I have been an advocate for the "focus movement" for quite some time. It's really uncomfortable when you notice that you are unable to talk to your loved ones without doing anything else or study without seeing yourself chatting on Discord. 
 
-I've been reading Chris Bailey's Hyperfocus [insert affiliate], and it is really insightful. It talks about how you work efficiently (and that is by keeping ONE complex task in hand at one time) and how you become more focused in general. Also, I am revisiting [this section](https://visionoflife.substack.com/i/144590780/not-being-focused-enough) of one of my essays.
+I've been reading Chris Bailey's [Hyperfocus](https://amzn.to/3xtF1PU), and it is really insightful. It talks about how you work efficiently (and that is by keeping ONE complex task in hand at one time) and how you become more focused in general. Also, I am revisiting [this section](https://visionoflife.substack.com/i/144590780/not-being-focused-enough) of one of my essays.
 
 I feel that it's a good time to regain my focus, especially since my classes will be starting soon. And I will follow the book's lessons to work on that. 
 
