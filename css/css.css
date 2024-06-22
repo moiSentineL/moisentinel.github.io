@@ -390,6 +390,10 @@ footer {
   }
 }
 
+.twitter-tweet {
+  margin: auto;
+}
+
 .reading {
   margin-left: auto;
   font-size: 80%;
@@ -398,6 +402,11 @@ footer {
   .reading {
     margin: 0;
   }
+}
+
+audio {
+  width: 100%;
+  padding: 1em 0 1em;
 }
 
 /*# sourceMappingURL=css.css.map */
