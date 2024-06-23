@@ -34,6 +34,11 @@ html {
   font-style: italic;
   text-align: center;
 }
+.caption a {
+  color: #909090;
+  text-decoration: underline;
+  text-decoration-color: #909090;
+}
 
 body {
   overflow-x: hidden;
@@ -57,7 +62,7 @@ body {
 }
 @media screen and (prefers-color-scheme: light) {
   em {
-    color: #70ff99;
+    color: #9770ff;
   }
 }
 
