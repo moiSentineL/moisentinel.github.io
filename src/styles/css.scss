@@ -58,6 +58,12 @@ html {
   font-size: 82%;
   font-style: italic;
   text-align: center;
+
+  a {
+    color: #909090;
+    text-decoration: underline;
+    text-decoration-color: #909090;
+  }
 }
 
 body {
@@ -78,7 +84,7 @@ em {
     color: $pale-azure;
   }
   @include theme(light) {
-    color: $lime-green;
+    color: $violet;
   }
 }
 
