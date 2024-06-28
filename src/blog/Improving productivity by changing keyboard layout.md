@@ -11,7 +11,6 @@ date: 2024-06-28T18:45:15+05:30
 ---
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">how to be more humble: switch to a different keyboard layout. trust me, you WILL be humbled.<br><br>(typed w/ tarmak-1)</p>&mdash; Nibir Sankar (@moisentinel) <a href="https://twitter.com/moisentinel/status/1806301507341394203?ref_src=twsrc%5Etfw">June 27, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
----
 ## Backstory
 Okay so, I am trying to switch to [Colemak](https://colemak.com/) using the [Tarmak](https://forum.colemak.com/topic/1858-learn-colemak-in-steps-with-the-tarmak-layouts/) transitional layouts, and I changed my keyboard layout in both my phone (colemak) and pc (tarmak-1). And a thought came to my mind...
 
