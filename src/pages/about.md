@@ -9,20 +9,21 @@ I am a High Schooler from India who thrives to learn new things, looks out for s
 
 ## Now
 
-Making [YouTube](https://youtube.com/@nibirsankar) videos based on my writing. Also, [improving my math fundamentals](/blog/p/finding-attunement/) and searching for new opportunies and experiences. Upgrading my skills, so that I can focus on doing what really matters to me. Zoning in on knowledge working and augmenting cognition -> [search me, lol](/search/) 
+Making [YouTube](https://youtube.com/@nibirsankar) videos to [teach](https://youtube.com/playlist?list=PLo9XlrGEbSgj1YFpL378x3AzjmfjVzidu&si=GkEY5rP-UYW_nHOO) math, science and philosophy topics in a fun way, [as a part](https://x.com/moisentinel/status/1809638218293182567) of buildspace's [nights&weekends s5](https://sage.buildspace.so/nws5). Started Grade 11, trying to study a horrendous amount of stuff (I don't like Chemistry). Working on a few projects: [flomo](https://flomo.nibirsan.org/), *this* website, and clubs. AND I am currently [switching to Colemak](https://twitter.com/moisentinel/status/1806301507341394203?ref_src=twsrc%5Etfw).
 
-Feel free to hit me up if you have anything to talk about relating to these stuff.
+Not doing so great emotionally and socially though; I feel like I suddenly have so many responsibilities. Lol wish me luck for the next couple of months, because things are prolly gonna get worse.
+
+*Last Updated: July 11, 2024*
 
 ## This year
 
-
 My main goals for this year are:
 
-*   Becoming a knowledge worker- consume, consolidate, create.
-*   Creating content- this blog, [newsletter](https://visionoflife.substack.com/), [YouTube](https://youtube.com/@nibirsankar) and [podcast](/pantheon/).
-*   Getting more fit- health = wealth.
-*   Spending more time with friends and family, and developing new connections
-*   Becoming more confident- spread out and face fears, carpe diem.
+* Becoming a knowledge worker- consume, consolidate, create.
+* Creating content- this blog, [newsletter](https://visionoflife.substack.com/), [YouTube](https://youtube.com/@nibirsankar) and [podcast](/pantheon/).
+* Getting more fit- health = wealth.
+* Spending more time with friends and family, and developing new connections
+* Becoming more confident- spread out and face fears, carpe diem.
 
 ## No but, who are you exactly?
 
@@ -48,8 +49,8 @@ In that order:
 
 *   Discord- @moisentinel
 *   [Email](mailto:nibirsankar26@gmail.com)
-*   [GitHub](https://github.com/moiSentineL)
-*   [LinkedIn](https://www.linkedin.com/in/nibirsankar/)
 *   [X/Twitter](https://twitter.com/moisentinel)
+*   [LinkedIn](https://www.linkedin.com/in/nibirsankar/)
+*   [GitHub](https://github.com/moiSentineL)
 
 Now that you've seen what makes me tick, consider reading my [blog](https://nibirsan.org/blog/).
