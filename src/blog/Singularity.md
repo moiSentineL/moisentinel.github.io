@@ -3,7 +3,6 @@ aliases:
 tags:
   - post
   - life
-  - lifestyle
   - people
 added: July 14, 2024
 link: https://nibirsan.org/blog/p/singularity
