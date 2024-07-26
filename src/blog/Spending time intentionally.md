@@ -12,7 +12,7 @@ content-type: blog
 ---
 Let's just stop using the term "productivity" to mean "doing more in less time". Instead, we should use the word to mean "doing more intentionally". 
 
-And in that context, I have not been productive lately. While I use a somewhat productivity-rich system, it is not quite working. So I need do iterate, and come back with an even better system to spend my time intentionally. Because:
+And in that context, I have not been productive lately. While I use a somewhat productivity-rich system, it is not quite working. So I need to iterate, and come back with an even better system to spend my time intentionally. Because:
 
 >You don't rise to the level of your goals, you fall down to the level of your system.
 >-James Clear, Atomic Habits.
@@ -37,7 +37,7 @@ Prioritising makes sure that you're working on what matters.
   Tasks like sleeping, eating, cleaning up are maintainance task and don't contribute to your *progression*. What does help you progress is writing a book, training for a hackathon, getting ready for that basketball tournament, and so on.
 - Automate the maintainance tasks as much as you can. Save time.
   There are no shortcut for sleeping, eating and exercising though.
-- Use Retrospective Time-Table the Progressive one. ^[Ali Abdaal. (2019, February 24). _How to study for exams - The Retrospective Revision Timetable_. [YouTube](https://www.youtube.com/watch?v=b7o09a7t4RA).]
+- Use Retrospective Time-Table instead of the Progressive one. ^[Ali Abdaal. (2019, February 24). _How to study for exams - The Retrospective Revision Timetable_. [YouTube](https://www.youtube.com/watch?v=b7o09a7t4RA).]
 - Keep a tracker for important metrics like health, studies, relationships, etc.
 - "Hell yeah, or no."
 ### Energise
