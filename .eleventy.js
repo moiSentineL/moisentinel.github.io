@@ -6,6 +6,7 @@ const readingTime = require("eleventy-plugin-reading-time");
 const markdownItFootnote = require("markdown-it-footnote");
 const markdownItAttrs = require("markdown-it-attrs");
 const markdownItMath = require("markdown-it-mathjax3");
+const markdownItVideo = require("markdown-it-video");
 const path = require("path");
 const Image = require("@11ty/eleventy-img");
 
@@ -121,7 +122,13 @@ module.exports = function (eleventyConfig) {
     .use(markdownItFootnote)
     .use(require("markdown-it-imsize"), { autofill: true })
     .use(markdownItAttrs)
-    .use(markdownItMath, { tex: { tags: "equ" } });
+    .use(markdownItMath, { tex: { tags: "equ" } })
+    .use(markdownItVideo, {
+      youtube: { width: 640, height: 390 },
+      vimeo: { width: 500, height: 281 },
+      vine: { width: 600, height: 600, embed: "simple" },
+      prezi: { width: 550, height: 400 },
+    });
 
   // Customize Markdown rendering
   markdownLib.renderer.rules.table_open = () =>
