@@ -3,7 +3,6 @@ aliases:
 tags:
   - post
   - debugging
-  - others
 added: March 25, 2024
 link: https://moisentinel.github.io/blog/p/reading-effectively
 excerpt: how to read and how to not - notes for the self
