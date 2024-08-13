@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive:CRSV,MONO@1,0.75&display=swap");
 @font-face {
   font-family: IBM Plex Mono;
   src: url("IBMPlexMono-Regular.ttf");
@@ -6,6 +7,14 @@
 @font-face {
   font-family: Recursive;
   src: url("https://fonts.googleapis.com/css2?family=Recursive:wght,MONO@300..800,0.5&display=swap");
+}
+@font-face {
+  font-family: Manrope;
+  src: url(https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap);
+}
+@font-face {
+  font-family: "Playfair Display" c;
+  src: url(https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap);
 }
 html {
   display: flex;
