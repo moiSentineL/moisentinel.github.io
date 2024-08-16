@@ -4,12 +4,62 @@
   <subtitle>These are the proof that I am human, because I make mistakes.</subtitle>
   <link href="https://nibirsan.org/feed.xml" rel="self"/>
   <link href="https://nibirsan.org"/>
-  <updated>2024-08-08T14:32:01Z</updated>
+  <updated>2024-08-16T07:49:59Z</updated>
   <id>https://nibirsan.org</id>
   <author>
     <name>Nibir Sankar</name>
     <email>nibirsankar26@gmail.com</email>
   </author>
+    <entry>
+        <title>Reflections on Existence and Meaning</title>
+        <link href="https://nibirsan.org/blog/p/reflections-on-existence-and-meaning/"/>
+        <summary>
+          Meditations 8.20
+        </summary>
+        <updated>2024-08-16T07:49:59Z</updated>
+        <id>https://nibirsan.org/blog/p/reflections-on-existence-and-meaning/</id>
+        <content xml:lang="en" type="html">&lt;blockquote&gt;
+&lt;p&gt;Nature is like someone throwing a ball in the air, gauging its rise and arc-and where it will fall. And what does the ball gain as it flies upward? Or lose when it plummets to earth?&lt;/p&gt;
+&lt;p&gt;What does the bubble gain from its existence? Or lose by bursting? And the same for a candle.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Meditations 8.20&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;What is Marcus Aurelius trying to tell? This &amp;quot;parable&amp;quot; is hard to understand, and I can only &lt;em&gt;assume&lt;/em&gt; what it is saying.&lt;/p&gt;
+&lt;p&gt;It is saying that nature is ever-changing, but that it is an &amp;quot;isolated&amp;quot; system and nothing changes &lt;em&gt;inside&lt;/em&gt; it. For nature doesn&#39;t do anything outside the norms of &lt;em&gt;logos&lt;/em&gt;. [Nature is like...]&lt;/p&gt;
+&lt;p&gt;It might also be saying that existence &lt;em&gt;per se&lt;/em&gt; doesn&#39;t mean anything. [What does the bubble...]. But I believe that it is what you &lt;em&gt;do&lt;/em&gt; with that existence that matters; the purpose is the work that is to be done, which creates meaning for itself (here I borrow from the Camus).&lt;/p&gt;
+&lt;p&gt;We could also look at it from another side and analyse the metaphor in human life: we do not gain anything from success or lose anything from failure. It simply doesn&#39;t matter, and it is &lt;em&gt;natural&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Reflecting on such topics is highly impersonal, subjective and difficult. One can only touch the surface without tiring or experiencing existential dread.&lt;/p&gt;
+</content>
+    </entry>
+    <entry>
+        <title>Notes on Spaced Repetition and Mathematics</title>
+        <link href="https://nibirsan.org/blog/p/notes-on-spaced-repetition-and-mathematics/"/>
+        <summary>
+          Short Reflections On Michael Nielsen&#39;s essay
+        </summary>
+        <updated>2024-08-13T14:38:41Z</updated>
+        <id>https://nibirsan.org/blog/p/notes-on-spaced-repetition-and-mathematics/</id>
+        <content xml:lang="en" type="html">&lt;p&gt;These are the notes/stuff I learned on Michael A. Nielsen&#39;s 2019 essay titled &amp;quot;Using spaced repetition systems to see through a piece of mathematics&amp;quot;. [&lt;a href=&quot;https://nibirsan.org/blog/p/notes-on-spaced-repetition-and-mathematics/#works-cited&quot;&gt;1&lt;/a&gt;]&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;To see through a piece of mathematics, you must dissect it and familiarise yourself with its individual parts. You must tear it apart and analyse as if you were trying to solve a literal puzzle.&lt;/p&gt;
+&lt;p&gt;Construct questions, and answer them, from different perspectives and leave pieces blank in questions. The more variation (redundancy) you have, the clearer the proof/theorem/piece of mathematics will be.&lt;/p&gt;
+&lt;p&gt;Put effort in both specialized and generalised statements. It may be very time-intensive but it is worth it, for it will make you a bit sure about that concept. Things will seem very clear and thorough.&lt;/p&gt;
+&lt;p&gt;This can be done in Anki to improve the cognitive process and remember the individual &amp;amp; broader concepts for a longer duration. Use Cloze Deletions, Reverses, etc. (cf. &lt;a href=&quot;https://supermemo.guru/wiki/20_rules_of_knowledge_formulation&quot;&gt;20 Rules of Formulating Knowledge&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;There will be a time when the answers will become a part of yourself that then you&#39;ll recognise the &amp;quot;truth&amp;quot; of that particular piece of mathematics.&lt;/p&gt;
+&lt;h3 id=&quot;summary&quot; tabindex=&quot;-1&quot;&gt;Summary &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/notes-on-spaced-repetition-and-mathematics/#summary&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Redundancy&lt;/li&gt;
+&lt;li&gt;Looking from Different Angles&lt;/li&gt;
+&lt;li&gt;Anki and Spaced Repetition&lt;/li&gt;
+&lt;li&gt;Truth.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;works-cited&quot; tabindex=&quot;-1&quot;&gt;Works Cited &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/notes-on-spaced-repetition-and-mathematics/#works-cited&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Michael A. Nielsen, “Using spaced repetition systems to see through a piece of mathematics” &lt;a href=&quot;http://cognitivemedium.com/srs-mathematics&quot;&gt;http://cognitivemedium.com/srs-mathematics&lt;/a&gt;, 2019.&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+    </entry>
     <entry>
         <title>Stoner</title>
         <link href="https://nibirsan.org/blog/p/stoner/"/>
