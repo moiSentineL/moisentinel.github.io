@@ -4,10 +4,11 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: Recursive;
-  src: url("https://fonts.googleapis.com/css2?family=Recursive:wght,MONO@300..800,0.5&display=swap");
-}
+// @import url('https://fonts.googleapis.com/css2?family=Recursive:CRSV,MONO@1,0.75&display=swap'); 
+      
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@90,200..900;100,200..900&display=swap');
+
+
 
 $transwhite: #e0e0e0;
 $pale-azure: #70d6ffff;
@@ -39,8 +40,8 @@ html {
   justify-content: center;
   margin: auto;
   line-height: 1.5;
-  font-size: 1.3em;
-  font-family: Recursive, monospace;
+  font-size: 1.2em;
+  font-family: Inconsolata, monospace;
 }
 
 .excerpt {
@@ -116,6 +117,15 @@ mjx-container {
   }
   pre,
   code {
+  }
+}
+
+@include theme(light) {
+  html {
+    color: black;
+  }
+  ::selection {
+    background: #c8fffd;
     background: #e0e0e0;
   }
   blockquote {
@@ -170,6 +180,8 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: Inconsolata;
+  font-variation-settings: "wdth" 90;
   margin: 1em 0 0.5em;
 }
 .title {
@@ -196,10 +208,14 @@ ol {
   padding-right: 0.5em;
 
   @include theme(light) {
-    box-shadow: 0px 3px 0px black, 4px 0px 0px 0px black;
+    box-shadow:
+      0px 3px 0px black,
+      4px 0px 0px 0px black;
   }
   @include theme(dark) {
-    box-shadow: 0px 3px 0px #e0e0e0, 4px 0px 0px 0px #e0e0e0;
+    box-shadow:
+      0px 3px 0px #e0e0e0,
+      4px 0px 0px 0px #e0e0e0;
   }
 }
 
