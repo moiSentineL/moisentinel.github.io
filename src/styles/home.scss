@@ -1,14 +1,5 @@
-@font-face {
-    font-family: IBM Plex Mono;
-    src: url("IBMPlexMono-Regular.ttf");
-    font-display: swap;
-}
-
-
-@font-face {
-    font-family: Recursive;
-    src: url('https://fonts.googleapis.com/css2?family=Recursive:wght,MONO@300..800,0.5&display=swap')
-}
+// for homepage
+// reduced workload to css.scss
 
 html {
     display: flex;
@@ -31,7 +22,7 @@ html {
     padding-bottom: 0rem;
     line-height: 0.5;
     font-size: 300%;
-    margin-top: 2em;
+    margin-top: 1rem;
     margin-bottom:0.6em;
 }
 .whothis{
@@ -72,88 +63,6 @@ html {
     }
     
 }
-    
-
-@media screen and (prefers-color-scheme: light) {
-    html{
-        color: black;
-    }
-    ::selection {
-        background: #C8FFFD;
-      }
-    pre, code {
-        background: #e0e0e0;
-    }
-    blockquote{
-        border: thin solid black;
-    }
-    table, th, td{
-        border: thin solid black;
-    }
-    a {
-        color: black
-    }
-    h4.excerpt {
-        color: #909090;
-    }
-}
-
-@media screen and (prefers-color-scheme: dark) {
-    html{
-        color: #e0e0e0;
-        background-color: #121212;
-    }
-    ::selection {
-        background: #C8FFFD;
-        color: black;
-      }
-    pre, code {
-        background: rgb(48, 48, 48);
-    }
-    blockquote{
-        border: thin solid #e0e0e0;
-    }
-    table, th, td{
-        border: thin solid #e0e0e0;
-    }
-    tag {
-        color: #000000 !important;
-    }
-    a {
-        color:#e0e0e0;
-    }
-    
-    h4.excerpt {
-        color: #b5b5b5;
-    }
-}
-
-h1,h2,h3,h4,h5,h6 {
-    margin: 1em 0 0.5em;
-}
-.title {
-    margin: 1em 0 0.2em;
-}
-
-  
-p,ul,ol {
-    margin-bottom: 1em;
-}
-
-.postlist{
-    padding: unset;
-    list-style-type: none;
-}
-
-.post{
-    margin: 0 0 1em;
-    display: list-item;
-    list-style-type: none;
-}
-
-.post-meta {
-    text-align: right;
-}
 
 img {
     max-width: 100%;
@@ -178,61 +87,3 @@ img {
         height: auto; 
     }
 }
-
-blockquote {
-    font-style: italic;
-    margin: 0 0.3rem 0 0.3rem
-}
-
-blockquote p {
-    margin: 0 0.3rem 0 0.3rem;
-}
-
-pre {
-    font-size: 14px;
-    max-height: 300px;
-    overflow: scroll;
-    padding: 1rem;
-    border-radius: 15px;
-    white-space: pre-wrap;
-    word-break: break-all;
-}
-
-table { width: 100%; }
-
-table, th, td {
-  border-collapse: collapse;
-  padding: 0.4rem;
-
-}
-
-.table-wrapper {
-    overflow-x: auto;
-}
-
-a {
-    text-decoration: underline;
-    text-decoration-thickness: .3ex;
-    text-decoration-color: #5B84B1FF;
-}
-
-a:hover {
-    font-weight: bold;
-    text-decoration-color: #FC766AFF;
-}
-
-
-nav {
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-footer{
-    font-size: small;
-    text-align: center;
-    padding: 25px;
-    padding-top: 0.5em;
-}
-
-

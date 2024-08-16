@@ -1,14 +1,6 @@
-@font-face {
-  font-family: IBM Plex Mono;
-  src: url("IBMPlexMono-Regular.ttf");
-  font-display: swap;
-}
+// css go brr
 
-// @import url('https://fonts.googleapis.com/css2?family=Recursive:CRSV,MONO@1,0.75&display=swap'); 
-      
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@90,200..900;100,200..900&display=swap');
-
-
 
 $transwhite: #e0e0e0;
 $pale-azure: #70d6ffff;
@@ -41,7 +33,7 @@ html {
   margin: auto;
   line-height: 1.5;
   font-size: 1.2em;
-  font-family: Inconsolata, monospace;
+  font-family: "Inconsolata", monospace;
 }
 
 .excerpt {
@@ -180,7 +172,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Inconsolata;
   font-variation-settings: "wdth" 90;
   margin: 1em 0 0.5em;
 }
@@ -433,6 +424,7 @@ footer {
 }
 
 div {
+  
 }
 
 .tag {
@@ -449,6 +441,7 @@ div {
 }
 
 span {
+
 }
 
 .reading {
