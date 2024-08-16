@@ -83,8 +83,13 @@ mjx-container {
   ::selection {
     background: #c8fffd;
   }
-  pre,
-  code {
+}
+@media screen and (prefers-color-scheme: light) {
+  html {
+    color: black;
+  }
+  ::selection {
+    background: #c8fffd;
     background: #e0e0e0;
   }
   blockquote {
