@@ -1,9 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@90,200..900;100,200..900&display=swap");
-@font-face {
-  font-family: IBM Plex Mono;
-  src: url("IBMPlexMono-Regular.ttf");
-  font-display: swap;
-}
 html {
   display: flex;
   max-width: 69ch;
@@ -12,7 +7,7 @@ html {
   margin: auto;
   line-height: 1.5;
   font-size: 1.2em;
-  font-family: Inconsolata, monospace;
+  font-family: "Inconsolata", monospace;
 }
 
 .excerpt {
@@ -88,13 +83,8 @@ mjx-container {
   ::selection {
     background: #c8fffd;
   }
-}
-@media screen and (prefers-color-scheme: light) {
-  html {
-    color: black;
-  }
-  ::selection {
-    background: #c8fffd;
+  pre,
+  code {
     background: #e0e0e0;
   }
   blockquote {
@@ -146,7 +136,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Inconsolata;
   font-variation-settings: "wdth" 90;
   margin: 1em 0 0.5em;
 }
