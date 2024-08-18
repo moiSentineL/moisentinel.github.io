@@ -48,7 +48,7 @@ I participated in YUVIKA '23 (Young Scientist Programme) held by ISRO and was a 
 In that order:
 
 *   Discord- @moisentinel
-*   [Email](mailto:nibirsankar26@gmail.com)
+*   [Email](mailto:nibir@nibirsan.org)
 *   [X/Twitter](https://twitter.com/moisentinel)
 *   [LinkedIn](https://www.linkedin.com/in/nibirsankar/)
 *   [GitHub](https://github.com/moiSentineL)
