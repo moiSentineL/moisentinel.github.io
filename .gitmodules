@@ -1,0 +1,3 @@
+[submodule "src/pages/beliefs"]
+	path = src/pages/beliefs
+	url = git@github.com:moiSentineL/beliefs.git

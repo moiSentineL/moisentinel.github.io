@@ -86,6 +86,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(readingTime);
 
+  eleventyConfig.ignores.delete("**/README.md/**");
+
   // Configure front matter parsing
   eleventyConfig.setFrontMatterParsingOptions({
     excerpt: true,
