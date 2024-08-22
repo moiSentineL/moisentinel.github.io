@@ -6,6 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
+      - name: Pull beliefs
+        run: |
+          git clone https://github.com/moiSentineL/beliefs.git markdown-temp
+          cp -r markdown-temp/beliefs.md src/pages/
+          rm -rf markdown-temp
       - name: Setup Node.js environment
         uses: actions/setup-node@v4.0.2 
         with:
