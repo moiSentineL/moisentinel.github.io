@@ -3,24 +3,14 @@
 
 html {
     display: flex;
+    max-width: 75ch;
+    padding: 2em 1em;
     justify-content: center;
+    margin: auto;
     line-height: 1.6;
     font-size: 1.1em;
     font-family: Recursive, monospace;
     align-items: center;
-}
-
-body {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 75ch;
-    height: auto;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
 }
 
 .header{
@@ -28,14 +18,13 @@ body {
     flex-direction: row;
     padding-bottom: 2ch;
 }
-
 .name{
     padding-bottom: 0rem;
     line-height: 0.5;
     font-size: 300%;
+    margin-top: 1rem;
     margin-bottom:0.6em;
 }
-
 .whothis{
     padding-bottom: 0rem;
     line-height: 0.5;
