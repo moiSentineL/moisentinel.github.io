@@ -2,26 +2,86 @@
 // reduced workload to css.scss
 
 html {
-    display: flex;
-    justify-content: center;
+    position: fixed;
+    height: 100vh;
+    max-width: 75ch;
     line-height: 1.6;
     font-size: 1.1em;
     font-family: Recursive, monospace;
-    align-items: center;
 }
 
+// body {
+//     position: fixed;
+//     top: 50%;
+//     left: 50%;
+//     max-width: 75ch;
+//     height: auto;
+//     -webkit-transform: translate(-50%,-50%);
+//     -moz-transform: translate(-50%,-50%);
+//     -ms-transform: translate(-50%,-50%);
+//     -o-transform: translate(-50%,-50%);
+//     transform: translate(-50%,-50%);
+// }
+
+/* Base styles for the body */
 body {
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    // width: 50%;
+    // height: 50%;
+        // widthr: 100px;
     position: fixed;
+    max-width: 100%;
+    max-height: 100%;
     top: 50%;
     left: 50%;
-    width: 75ch;
-    height: auto;
-    -webkit-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -o-transform: translate(-50%,-50%);
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
+
+// /* Medium screens */
+// @media screen and (min-width: 768px) {
+//     body {
+//         width: 80%;
+//     }
+// }
+
+// /* Large screens */
+// @media screen and (min-width: 1024px) {
+//     body {
+//         width: 70%;
+//     }
+// }
+
+// /* Extra large screens */
+// @media screen and (min-width: 1440px) {
+//     body {
+//         width: 60%;
+//     }
+// }
+
+// /* Ensure the body doesn't get too small on very narrow screens */
+// // @media screen and (max-width: 640px) {
+// //     body {
+// //         width: 95%;
+// //         padding: 10px;
+// //     }
+// //     html, body {
+// //         height: 100%;
+// //         overflow: auto;
+// //     }
+// // }
+
+// /* Additional styles to handle overflow */
+// html, body {
+//     height: 100vh;
+//     overflow: auto;
+// }
 
 .header{
     display: flex;
@@ -47,7 +107,15 @@ body {
     font-weight: 500;
 }
 
+@media screen and (max-width: 700px) {
+    body {
+        position: relative;
+    }
+}
+
 @media screen and (max-width: 650px) {
+
+
     html{
         font-size: 100%;
     }
@@ -57,7 +125,7 @@ body {
         flex-direction: column;
     }
     .name{
-        margin-top: 0rem;
+        margin-top: 0em;
         padding-top: 0rem;
         padding-bottom: 0rem;
         margin-bottom: 0.75rem;
