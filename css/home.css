@@ -1,24 +1,13 @@
 html {
-  position: fixed;
-  height: 100vh;
+  display: flex;
   max-width: 75ch;
+  padding: 2em 1em;
+  justify-content: center;
+  margin: auto;
   line-height: 1.6;
   font-size: 1.1em;
   font-family: Recursive, monospace;
-}
-
-/* Base styles for the body */
-body {
-  position: fixed;
-  max-width: 100%;
-  max-height: 100%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  align-items: center;
 }
 
 .header {
@@ -31,6 +20,7 @@ body {
   padding-bottom: 0rem;
   line-height: 0.5;
   font-size: 300%;
+  margin-top: 1rem;
   margin-bottom: 0.6em;
 }
 
@@ -45,11 +35,6 @@ body {
   font-weight: 500;
 }
 
-@media screen and (max-width: 700px) {
-  body {
-    position: relative;
-  }
-}
 @media screen and (max-width: 650px) {
   html {
     font-size: 100%;
@@ -59,7 +44,7 @@ body {
     flex-direction: column;
   }
   .name {
-    margin-top: 0em;
+    margin-top: 0rem;
     padding-top: 0rem;
     padding-bottom: 0rem;
     margin-bottom: 0.75rem;
