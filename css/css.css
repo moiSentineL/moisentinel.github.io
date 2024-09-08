@@ -397,6 +397,10 @@ footer {
   margin: auto;
 }
 
+.nutshell-bubble-overflow-section svg {
+  display: none;
+}
+
 .reading {
   margin-left: auto;
   font-size: 80%;
