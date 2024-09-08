@@ -94,6 +94,7 @@ mjx-container {
   overflow-y: hidden;
 }
 
+
 @media screen and (max-width: 650px) {
   html {
     font-size: 110%;
@@ -438,6 +439,14 @@ div {
 
 .twitter-tweet {
   margin: auto;
+}
+
+.nutshell-bubble-overflow-section {
+  // current workaround to avoid double math blocks in nutshells
+  svg {
+      display: none;
+  } 
+
 }
 
 span {
