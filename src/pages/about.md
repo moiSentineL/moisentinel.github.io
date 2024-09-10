@@ -5,15 +5,21 @@ title: About Me
 ---
 ## TL;DR
 
-I am a High Schooler from India who thrives to learn new things, looks out for self-improvement and loves autonomy. I am interested in [polymathy](/blog/p/another-renaissance), autodidactism, philosophy and math among many. I love talking to new people, music, reading and writing.
+I am a High Schooler (junior) from India who thrives to learn new things, looks out for self-improvement and loves autonomy. I am interested in [polymathy](/blog/p/another-renaissance), autodidactism, philosophy and math among many. I love talking to new people, music, reading and writing.
 
 ## Now
 
-Making [YouTube](https://youtube.com/@nibirsankar) videos to [teach](https://youtube.com/playlist?list=PLo9XlrGEbSgj1YFpL378x3AzjmfjVzidu&si=GkEY5rP-UYW_nHOO) math, science and philosophy topics in a fun way, [as a part](https://x.com/moisentinel/status/1809638218293182567) of buildspace's [nights&weekends s5](https://sage.buildspace.so/nws5). Started Grade 11, trying to study a horrendous amount of stuff (I don't like Chemistry). Working on a few projects: [flomo](https://flomo.nibirsan.org/), *this* website, and clubs. AND I am currently [switching to Colemak](https://twitter.com/moisentinel/status/1806301507341394203?ref_src=twsrc%5Etfw).
+Learning [fundamentals of AI Safety](https://course.aisafetyfundamentals.com/home/alignment) as "extra reading" for [NYAS's Junior Academy](https://www.nyas.org/learning/high-school-research-programs/the-junior-academy/) 2024 Fall Cohort - "Ethical AI" Challenge, starting 23rd September. And as a consequence, I am learning a little [Linear Algebra](https://medium.com/sho-jp/towards-understanding-linear-algebra-part-1-d43710535503) and some Python as well. So far so good.
 
-Not doing so great emotionally and socially though; I feel like I suddenly have so many responsibilities. Lol wish me luck for the next couple of months, because things are prolly gonna get worse.
+The second in priority is prepping for my unit test (starting 21st September), the first in this year, and I think it will be harder than all my previous exams. But that is all based on hearsay, so you can't really be sure. Although I trust my study system (Obsidian + Anki + eff. strats) to help me out on this one. 
+Worst case scenario: I get to reflect on my mistakes.
 
-*Last Updated: July 11, 2024*
+Been maintaining a streak of meditating for 40 days straight (as of today), and a writing habit (wrote 6 [blogposts](/blog/archive/) and 3 [newsletters](https://run.nibirsan.org/substack/) In August; I'd say I am quite proud). 
+But not making enough videos for the [series](https://run.nibirsan.org/explanatory), and it is something I have to work on...
+
+well, stay frosty mates!
+
+*Last Updated: September 10, 2024*
 
 ## This year
 

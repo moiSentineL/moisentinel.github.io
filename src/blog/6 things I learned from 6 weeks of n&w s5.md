@@ -8,7 +8,7 @@ added: July 29, 2024
 link: https://nibirsan.org/blog/p/what-i-learned-from-6-weeks-of-nightsweekends-s5
 excerpt: It has been quite an experience.
 date: 2024-08-04T17:51:27+05:30
-status: needs work
+status: done
 content-type: blog
 ---
 [buildspace](https://buildspace.so/)'s [nights&weekends](https://buildspace.so/nw) s5 has been an *experience* for me. It was unlike anything. I've been to academic workshops, science camps and stuff, but nothing came close to this.
