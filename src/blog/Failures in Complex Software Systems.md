@@ -54,4 +54,4 @@ Result? A failed algorithm driven by primitive social instincts.
 3. Misinformation during elections
 4. Pandemic misinformation: consider every false information we got during COVID-19..
 ## What do we learn?
-Technology is equivalent to the fire for the *[Homo erectus](https://en.wikipedia.org/wiki/Homo_erectus)*. It is helpful, but very, very dangerous if not used carefully.
+Technology for us, is equivalent to the fire for the *[Homo erectus](https://en.wikipedia.org/wiki/Homo_erectus)*. It is helpful, but very, very dangerous if not used carefully.
