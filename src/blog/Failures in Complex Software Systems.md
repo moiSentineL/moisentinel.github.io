@@ -4,6 +4,7 @@ tags:
   - post
   - technical
   - people
+  - rationality
 added: September 12, 2024
 link: https://nibirsan.org/blog/p/failures-in-complex-software-systems
 excerpt: a case study.
