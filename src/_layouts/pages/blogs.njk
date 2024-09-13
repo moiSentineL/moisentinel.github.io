@@ -31,26 +31,8 @@ layout: base.njk
 <main>
     <hr>
     {{ content | safe }}
-    <h2>Here are my most recent posts:</h2>
-    <ul class="postlist">
-        {%- for post in collections.post | reverse -%}
-            {% if loop.index0 < 5 %}
-                <li class="post">
-                    <a href="{{ post.url }}" class="posttitle">{{ post.data.title }}</a> <time datetime="{{ post.date }}" style="color: #909090">{{ post.date | formatDate }}</time>
-                    <br>
-                    <span>{{ post.data.excerpt }}</span>
-                    <br>
-                    <tag>
-                    {% for tag in post.data.tags -%}
-                        {% if tag !== 'post' %}
-                            <a id="{{ tag }}" href="/blog/t/{{ tag }}">#{{ tag }}</a>
-                        {% endif %}
-                    {%- endfor %}
-                    </tag>
-                    
-                </li>
-            {% endif %}
-        {%- endfor -%}
+    <h2>Recent Posts</h2> 
+    {% include "postlist.njk" %}
     </ul>   
     <div style="text-align: center">
         <h4><a href="/blog/archive/">Read More</a> | Subscribe via <a href="https://nibirsan.org/feed.xml">RSS</a></h4>
