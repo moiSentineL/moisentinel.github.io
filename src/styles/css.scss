@@ -59,6 +59,30 @@ html {
   }
 }
 
+.neonText {
+  color: #fff;
+  animation: flicker 1.5s infinite alternate;
+      // 0 0 25px #0fa,
+
+  // text-shadow: rgba(255,162,0,0.75) 0px 0px 18px;
+
+}
+
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+    text-shadow:
+      0 0 2px #fff,
+      0 0 20px #0fa,
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
 body {
   overflow-x: hidden;
 }
@@ -179,6 +203,7 @@ h6 {
 .title {
   margin: 1em 0 0.2em;
 }
+
 
 p,
 ul,
