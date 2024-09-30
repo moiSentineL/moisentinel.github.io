@@ -6,7 +6,7 @@ tags:
   - essay
   - life
 added: September 27, 2024
-link: https://nibirsan.org/blog/p/analysing-the-prestige
+link: https://nibirsan.org/blog/p/thoughts-on-the-prestige-2006
 excerpt: It is all but a magician's act.
 date: 2024-09-30T13:54:59+05:30
 status: done
