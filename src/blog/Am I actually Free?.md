@@ -3,7 +3,7 @@ aliases:
 tags:
   - post
   - philosophy
-  - musings
+  - debugging
 added: October 2, 2024
 link: https://nibirsan.org/blog/p/am-i-actually-free
 excerpt: an (edited) excerpt from my journal
