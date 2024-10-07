@@ -197,13 +197,15 @@ h6 {
   font-variation-settings: "wdth" 90;
   margin: 1em 0 0.5em;
 }
-.title {
-  margin: 1em 0 0.2em;
-}
 
 h1, h2, h3 {
   @extend .neonText;
 }
+
+.title {
+  margin: 1em 0 0.2em;
+}
+
 
 p,
 ul,
