@@ -32,6 +32,18 @@ html {
   text-decoration-color: #909090;
 }
 
+.neonText, h1, h2, h3 {
+  animation: flicker 5s infinite alternate;
+}
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    text-shadow: 0 0 2px #fff, 0 0 20px var(--flicker-color);
+  }
+  20%, 24%, 55% {
+    text-shadow: none;
+  }
+}
 body {
   overflow-x: hidden;
 }
