@@ -47,8 +47,8 @@
 </style>
 <header>
     <div class="fcrow">
-        <h1 style="margin: 0 0 0 0; text-align: center; line-height: 1.2">Nibir's Brain Dump</h1>
-        <h2 style="margin: 0.5em 0 0 0;color: #909090; text-align: center; line-height: 1.2">yes I write too.</h2>
+        <h1 id="heads" style="margin: 0 0 0 0; text-align: center; line-height: 1.2">Nibir's Brain Dump</h1>
+        <h2 class="heads" style="margin: 0.5em 0 0 0;color: #909090; text-align: center; line-height: 1.2">yes I write too.</h2>
     </div>
 </header>
 <nav>
@@ -63,14 +63,9 @@
 </nav>
 <main>
     <hr>
-    <p align="center">
-<em>"your blog gave me an existential crisis damn."</em>
-<br>
-- that <a href="https://archive.is/msBIv">reddit</a> user.
-</p>
-<p>Hey there! Welcome to my brain dump. It's contains stuff related to philosophy, life, people, observations and the occasional musing on the absurdity of life.</p>
-<p>You're free to read the posts as you like, but to get started, you can  view the <a href="/blog/top/">top posts</a> or the <a href="/blog/archive/">archive</a>. You can also scroll down to the bottom of this page and browse by #tags.</p>
-<p>If you like what I write about, and want to keep coming for more, consider subscribing via <a href="/feed.xml">RSS</a> to get new posts right into your virtual doorstep. Also, consider subscribing to my <a href="https://visionoflife.substack.com/">newsletter/substack</a> for more polished content.</p>
+    <p>Hey there! Welcome to my blog sort of thing. I <em>definitely</em> don't post nonsensical stuff here. It's mostly about philosophy, life, people and observations. You're free to view the posts as you like, although there's the <a href="/blog/archive/">archive</a> you can go to. You can also scroll down on this page and browse by #tags.</p>
+<p>Good luck! (you might really need it..) And if you want to keep coming for more, consider subscribing via <a href="/feed.xml">RSS</a> to get new posts right into your virtual doorstep.</p>
+<p>Use of <a href="https://hypothes.is">hypothes.is</a> or any other web-highlighter is encouraged for a better internet, for all of us. Also, consider subscribing to my <a href="https://visionoflife.substack.com/">newsletter</a>.</p>
 <hr>
     <h2>Recent Posts</h2> 
     <ul class="postlist">
@@ -207,7 +202,25 @@ Nutshell.setOptions({
     dontEmbedHeadings: true, // If 'true', removes the "embed this as a nutshell" option on headings
 });
 </script>
-</script>
+
+  <script>
+    // Array of colors
+    const colors = [
+    "#e0e0e0",  // $transwhite
+    "#70d6ff",  // $pale-azure
+    "#ff70a6",  // $cyclamen
+    "#ff9770",  // $atomic-tangerine
+    "#ffd670",  // $naples-yellow
+    "#e9ff70",  // $mindaro
+    "#70ff99",  // $lime-green
+    "#9770ff"   // $violet
+    ];
+    // Select a random color
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+    // Apply the random color to a CSS variable
+    document.documentElement.style.setProperty('--flicker-color', randomColor);
+  </script>
 </body>
 <footer>
     <hr>

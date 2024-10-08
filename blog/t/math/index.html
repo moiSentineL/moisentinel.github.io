@@ -49,8 +49,9 @@
 </style>
 <header>
     <div class="fcrow">
-        <h1 style="margin: 0 0 0 0; text-align: center; line-height: 1.2">Nibir's Brain Dump</h1>
-        <h2 style="margin: 0.5em 0 0 0;color: #909090; text-align: center; line-height: 1.2">yes I write too.</h2>
+        <h1 style="margin: 0 0 0 0; text-align: center; line-height: 1.2;">Nibir's Brain Dump</h1>
+        <h2 style="margin: 0.5em 0 0 0; text-align: center; line-height: 1.2">yes I write too.</h2>
+        
     </div>
 </header>
 <nav>
@@ -124,7 +125,25 @@ Nutshell.setOptions({
     dontEmbedHeadings: true, // If 'true', removes the "embed this as a nutshell" option on headings
 });
 </script>
-</script>
+
+  <script>
+    // Array of colors
+    const colors = [
+    "#e0e0e0",  // $transwhite
+    "#70d6ff",  // $pale-azure
+    "#ff70a6",  // $cyclamen
+    "#ff9770",  // $atomic-tangerine
+    "#ffd670",  // $naples-yellow
+    "#e9ff70",  // $mindaro
+    "#70ff99",  // $lime-green
+    "#9770ff"   // $violet
+    ];
+    // Select a random color
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+    // Apply the random color to a CSS variable
+    document.documentElement.style.setProperty('--flicker-color', randomColor);
+  </script>
 </body>
 <footer>
     <hr>
