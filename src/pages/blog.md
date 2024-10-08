@@ -2,9 +2,16 @@
 layout: pages/blogs.njk
 permalink: "/blog/index.html"
 ---
-Hey there! Welcome to my blog sort of thing. I _definitely_ don't post nonsensical stuff here. It's mostly about philosophy, life, people and observations. You're free to view the posts as you like, although there's the [archive](/blog/archive/) you can go to. You can also scroll down on this page and browse by #tags. 
+<p align="center">
+<em>"your blog gave me an existential crisis damn."</em>
+<br>
+- that <a href="https://archive.is/msBIv">reddit</a> user.
+</p>
 
-Good luck! (you might really need it..) And if you want to keep coming for more, consider subscribing via [RSS](/feed.xml) to get new posts right into your virtual doorstep.
+Hey there! Welcome to my brain dump. It's contains stuff related to philosophy, life, people, observations and the occasional musing on the absurdity of life. 
 
-Use of [hypothes.is](https://hypothes.is) or any other web-highlighter is encouraged for a better internet, for all of us. Also, consider subscribing to my [newsletter](https://visionoflife.substack.com/).
+You're free to read the posts as you like, but to get started, you can  view the [top posts](/blog/top/) or the [archive](/blog/archive/). You can also scroll down to the bottom of this page and browse by #tags. 
+
+If you like what I write about, and want to keep coming for more, consider subscribing via [RSS](/feed.xml) to get new posts right into your virtual doorstep. Also, consider subscribing to my [newsletter/substack](https://visionoflife.substack.com/) for more polished content. 
+
 <hr>
