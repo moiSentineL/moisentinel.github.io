@@ -59,9 +59,29 @@ html {
   }
 }
 
+.neonText {
+  animation: flicker 5s infinite alternate;
+}
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+    text-shadow:
+      0 0 1px #fff,
+      0 0 18px var(--flicker-color),
+  
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
 body {
   overflow-x: hidden;
 }
+
+
 
 strong {
   @include theme(dark) {
@@ -146,6 +166,7 @@ mjx-container {
     background: #c8fffd;
     color: black;
   }
+
   pre,
   code {
     background: rgb(48, 48, 48);
@@ -176,9 +197,15 @@ h6 {
   font-variation-settings: "wdth" 90;
   margin: 1em 0 0.5em;
 }
+
+h1, h2, h3 {
+  @extend .neonText;
+}
+
 .title {
   margin: 1em 0 0.2em;
 }
+
 
 p,
 ul,
