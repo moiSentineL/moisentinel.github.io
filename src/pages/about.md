@@ -11,17 +11,15 @@ I am interested in [polymathy](/blog/p/another-renaissance) + autodidactism, [ph
 
 ## Now
 
-Learning [fundamentals of AI Safety](https://course.aisafetyfundamentals.com/home/alignment) as "extra reading" for [NYAS's Junior Academy](https://www.nyas.org/learning/high-school-research-programs/the-junior-academy/) 2024 Fall Cohort - "Ethical AI" Challenge, starting 23rd September. And as a consequence, I am learning a little [Linear Algebra](https://medium.com/sho-jp/towards-understanding-linear-algebra-part-1-d43710535503) and some Python as well. So far so good.
+September and October have been quite interesting. I mostly worked on learning about AI Safety/Research, getting my laptop fixed, exams (and recuperating from it), and making better habits. I also posted a few blogs and videos, and went halfway through the Oxford General Philosophy [Course](https://github.com/moiSentineL/oxford-general-philosophy-2009)
 
-The second in priority is prepping for my unit test (starting 21st September), the first in this year, and I think it will be harder than all my previous exams. But that is all based on hearsay, so you can't really be sure. Although I trust my study system (Obsidian + Anki + eff. strats) to help me out on this one. 
-Worst case scenario: I get to reflect on my mistakes.
+And, I will mainly focus on getting done with my half-yearly exams (a lot of credit is on stake), and improving my Financial Literacy and marketing skills; something that I have been wanting to do since a long time. I am also planning to do some hobby projects like making some app, improving my guitar skills and making a [podcast](https://run.nibirsan.org/podcast).
 
-Been maintaining a streak of meditating for 40 days straight (as of today), and a writing habit (wrote 6 [blogposts](/blog/archive/) and 3 [newsletters](https://run.nibirsan.org/substack/) In August; I'd say I am quite proud). 
-But not making enough videos for the [series](https://run.nibirsan.org/explanatory), and it is something I have to work on...
+Meditation streak: 97 days, as of writing this. Made a habit of reading before bed and going through Anki after meals. Also committing myself to a Reading Day every month, where I read (and finish) a book all day.
 
-well, stay frosty mates!
+Lately, I have been obsessed with coffee, pencils and music for no reason. 
 
-*Last Updated: September 10, 2024*
+*Last Updated: November 06, 2024*
 
 ## This year
 
