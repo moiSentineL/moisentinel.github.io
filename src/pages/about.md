@@ -11,9 +11,9 @@ I am interested in [polymathy](/blog/p/another-renaissance) + autodidactism, [ph
 
 ## Now
 
-After my exams ended in November, I fell in a deep productivity rut. [It wasn't nice](https://visionoflife.substack.com/p/being-stuck-in-a-rut-is-not-fine). I am back at square one, but I have one advantage: more experience than my previous self, and I think that will help me become a better human (something like the game Hades.)
+After my exams ended in November, I fell in a deep productivity rut. [It wasn't nice](https://visionoflife.substack.com/p/being-stuck-in-a-rut-is-not-fine). I am back at square one, but I have one advantage: more experience than my previous self, and I think that will help me become a better human (something like the game Hades).
 
-So, I have been [trying to improve my focus](https://fatebook.io/q/will-i-reach-20h-deep-work-week-by-the--cm4qqi21l0000fm0rdho6fvgr) and getting back my curiosity. Scholzian Resilience helps a lot. I am also waking up a bit early these days, and trying to sleep early (the latter is hard, given my workaholism). I am also doing study-with-me livestreams on my [YouTube channel](https://www.youtube.com/@nibirsankar) (at 2pm IST and 7pm IST. Do join!) to be more accountable for my actions. 
+So, I have been [trying to improve my focus](https://fatebook.io/q/will-i-reach-20h-deep-work-week-by-the--cm4qqi21l0000fm0rdho6fvgr) and getting back my curiosity. Scholzian Resilience helps a lot. I am also waking up a bit early these days, and trying to sleep early (the latter is hard, given my workaholism). I am also doing study-with-me livestreams on my [YouTube channel](https://www.youtube.com/@nibirsankar) (at 2pm IST and 7pm IST) to be more accountable for my actions. Do join my streams. Let's study together 🔥
 
 I had to leave the philosophy [course](https://github.com/moiSentineL/oxford-general-philosophy-2009) I was doing because I couldn't make time for it, and there was very little reading material. So, I couldn't follow after a certain point. But thankfully I found a [course on Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking/) (as of writing this, I am on Week 1). I am especially enjoying the abstract-ness of mathematics. Formal Logic feels like a bridge between philosophy and math, and boy I am liking it! (mathematical masochism). 
 
@@ -49,9 +49,6 @@ I am that guy who is fueled by curiosity. I often need a "challenge" and hence I
 
 I love my work ethic and my process of creation. I tend to be workaholic sometimes, and love my work (apart from meaningless school stuff).
 
-%% You can read about my beliefs [here](/beliefs/), although it is very, very incomplete.
- %%
- 
 Few of my blogs that display some of my personality:
 
 *   [I am an addict](https://moisentinel.github.io/blog/p/i-am-an-addict)- a poem I wrote in my native language
