@@ -11,15 +11,25 @@ I am interested in [polymathy](/blog/p/another-renaissance) + autodidactism, [ph
 
 ## Now
 
-September and October have been quite interesting. I mostly worked on learning about AI Safety/Research, getting my laptop fixed, exams (and recuperating from it), and making better habits. I also posted a few blogs and videos, and went halfway through the Oxford General Philosophy [Course](https://github.com/moiSentineL/oxford-general-philosophy-2009)
+After my exams ended in November, I fell in a deep productivity rut. [It wasn't nice](https://visionoflife.substack.com/p/being-stuck-in-a-rut-is-not-fine). I am back at square one, but I have one advantage: more experience than my previous self, and I think that will help me become a better human (something like the game Hades.)
 
-And, I will mainly focus on getting done with my half-yearly exams (a lot of credit is on stake), and improving my Financial Literacy and marketing skills; something that I have been wanting to do since a long time. I am also planning to do some hobby projects like making some app, improving my guitar skills and making a [podcast](https://run.nibirsan.org/podcast).
+So, I have been [trying to improve my focus](https://fatebook.io/q/will-i-reach-20h-deep-work-week-by-the--cm4qqi21l0000fm0rdho6fvgr) and getting back my curiosity. Scholzian Resilience helps a lot. I am also waking up a bit early these days, and trying to sleep early (the latter is hard, given my workaholism). I am also doing study-with-me livestreams on my [YouTube channel](https://www.youtube.com/@nibirsankar) (at 2pm IST and 7pm IST. Do join!) to be more accountable for my actions. 
 
-Meditation streak: 97 days, as of writing this. Made a habit of reading before bed and going through Anki after meals. Also committing myself to a Reading Day every month, where I read (and finish) a book all day.
+I had to leave the philosophy [course](https://github.com/moiSentineL/oxford-general-philosophy-2009) I was doing because I couldn't make time for it, and there was very little reading material. So, I couldn't follow after a certain point. But thankfully I found a [course on Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking/) (as of writing this, I am on Week 1). I am especially enjoying the abstract-ness of mathematics. Formal Logic feels like a bridge between philosophy and math, and boy I am liking it! (mathematical masochism). 
 
-Lately, I have been obsessed with coffee, pencils and music for no reason. 
+If you're interested in math, and or philosophy, I would love to have a chat with you. Please [reach out](#okay%2C-you-seem-cool-enough%2C-where-can-i-reach-you%3F)!
 
-*Last Updated: November 06, 2024*
+Some New and Old Habits:
+- Meditation Streak - 145 Days 🔥
+- Waking up at 7am
+- Tracking Focus and Energy levels after Deep Work Sessions.
+- Using [fatebook.io](https://fatebook.io/) to track decisions.
+- Regular doses of coffee (starting ~9am, max 2pm)
+- Using [Anki as Reading List](https://vihaansondhi.substack.com/p/cron-for-the-mind).
+
+Lately, I've been obsessed with [Linux](https://github.com/moiSentineL/dotfiles), A7X, [productivity tools](https://github.com/moiSentineL/Tomato.C) for no reason.
+
+*Last Updated: December 24, 2024*
 
 ## This year
 
@@ -39,8 +49,9 @@ I am that guy who is fueled by curiosity. I often need a "challenge" and hence I
 
 I love my work ethic and my process of creation. I tend to be workaholic sometimes, and love my work (apart from meaningless school stuff).
 
-You can read about my beliefs [here](/beliefs/), although it is very, very incomplete.
-
+%% You can read about my beliefs [here](/beliefs/), although it is very, very incomplete.
+ %%
+ 
 Few of my blogs that display some of my personality:
 
 *   [I am an addict](https://moisentinel.github.io/blog/p/i-am-an-addict)- a poem I wrote in my native language
@@ -58,11 +69,11 @@ I participated in YUVIKA '23 (Young Scientist Programme) held by ISRO and was a 
 
 ## Okay, you seem cool enough, where can I reach you?
 
-I am very particular about replying times. People close to me *know* that I am very hard to reach. 
+I am not a very *reachable* person. Anyone who knows me personally would know that this is normal behavior.
 
-But don't fear! If you like what I am doing, and want to talk about something **interesting**, drop a DM or an email: 
+But don't fear! If you like what I am doing, or want to talk about something **interesting**, drop a DM or an email: 
 
+*   [Email](mailto:nibir@nibirsan.org) (preferred)
 *   Discord- `@moisentinel`
-*   [Email](mailto:nibir@nibirsan.org)
 
 Now that you've seen what makes me tick, consider reading my [blog](https://nibirsan.org/blog/), or [subscribe](https://nibirsan.org/substack) to my newsletter to get free goodies.
