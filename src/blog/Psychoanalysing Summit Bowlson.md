@@ -5,29 +5,38 @@ tags:
   - people
   - musings
   - literature
+  - Blog
 added: December 10, 2024
 link: https://nibirsan.org/blog/p/psychoanalysing-summit-bowlson
-excerpt: a sad case.
+excerpt: a sad case (edited)
 date: 2024-12-25T14:16:27+05:30
 status: done
 content-type: blog
 ---
-## Background to the text 
+## Foreword
 Summit Bowlson is a physics teacher at Central High School, Minnesota. This sentence says a lot more than you think. You see, physicists, especially physicists who teach, are a bit eccentric. Consider Walter Levin; great guy, purely eccentric. We don't even have to bring Richard Feynman; everyone knows he was the Spiderman in the Physicist Cinematic Universe.
 
 These are the good guys, but the main character in our story (or, *scholarly* text, to be precise), is unique. He's an angel and a devil, a jerk and the-best-teacher-ever: all at the same time. The lack of determination is clearly visible. 
 
-Summit Bowlson's eccentricity is on par with his lack of social skills and rational opinions that don't involve physics. His equally lackluster students acknowledge this when they laugh at his lame jokes on money and business and ridicules against the humanities and the social sciences, and so on. Psychology is not a pure science, yet a psychoanalyst has written the text and analysed the very person who says humanities are for the inferior. What an irony.
+Summit Bowlson's eccentricity is on par with his lack of social skills and rational opinions that don't involve physics. His equally lackluster students acknowledge this when they laugh and applaud at his ludicrous jokes on money and business, the ridicules against the humanities and the social sciences, and so on. Psychology is not a pure science, yet a psychoanalyst has written the text and analysed the very person who says humanities are for the inferior. What an irony.
 
-Someone I admire once told me that one's lack of social skills should not be held up to them if they are brilliant. Summit Bowlson is indeed brilliant, which is why I'd like to include some things where he is exceptional:
+Someone I admire once told me that one's lack of social skills should not be held up to them if they are brilliant. Not sure if I completely agree to that, but Summit Bowlson is indeed brilliant, which is why I'd like to include some things where he is exceptional:
 - Physics: He likes it. He is great at it.
 - Solving problems that involve logic. 
 - Has great mathematical aptitude.
 - Lazying around and letting the students check their own copies as they laugh and laugh and laugh.
 
-But Summit Bowlson fails as a physics teacher. His students open their mouth and gape at a derivation which was written and explained in the span of only 3 minutes. "Any doubts?" Bowlson asks, but the lack of response can only mean that they haven't understood anything, and that they're too scared to say it out loud.
+But Summit Bowlson fails as a physics teacher. His students open their mouth and gape at a difficult derivation which was written *and* explained in the span of only 3 minutes. "Any doubts?" Bowlson asks, but the lack of response can only mean that they haven't understood anything, and that they're too scared to say it out loud.
 
-One might even say that Summit Bowlson got the job of a schoolteacher by mistake. He should've been a researcher, a professor even. But he's stuck at Central High School, a school that sucks ass which has equally un-baffling and pathetic students. It is obvious that one may experience what the psychoanalyst has written.
+One might even say that Summit Bowlson got the job of a schoolteacher by mistake. He should've been a researcher, a professor even. But he's stuck at Central High School, a school that sucks ass, a decrepit state and a degrading education system. It is obvious that one may experience what the psychoanalyst has written.
+
+<p style="text-align:left;">
+    Dated 30th February, 2024
+    <span style="float:right;">
+        John Suave Ray, Jr. PhD
+    </span>
+</p>
+---
 
 <h2 align="center">Psychoanalysing Summit Bowlson, schoolteacher, 34</h2>
 
