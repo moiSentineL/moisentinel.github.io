@@ -7,7 +7,7 @@ title: About Me
 
 I am a junior high-schooler from India who thrives to learn new things, improve everyday and **create** good stuff. I love autonomy.
 
-I am interested in [polymathy](/blog/p/another-renaissance) + autodidactism, [philosophy](/blog/t/philosophy/), [math](/blog/math/), [open-source](https://run.nibirsan.org/gh) among many. I love talking to new people, playing music, reading, writing and making stuff in my free time..
+I am interested in [polymathy](/blog/p/another-renaissance) + autodidactism, [philosophy](/blog/t/philosophy/), [math](/blog/math/), [open-source](https://run.nibirsan.org/gh) among many. I love talking to new people, reading, playing music, writing and making stuff in my free time..
 
 ## Now
 
@@ -33,36 +33,46 @@ Lately, I've been obsessed with [Linux](https://github.com/moiSentineL/dotfiles)
 
 ## This year
 
-My main goals for this year are:
+My main themes for this year are:
 
-* Becoming a knowledge worker- consume, consolidate, create.
-* Creating content- this blog, [newsletter](https://visionoflife.substack.com/), [YouTube](https://youtube.com/@nibirsankar) and [podcast](/pantheon/).
-* Getting more fit- health = wealth.
-* Spending more time with friends and family, and developing new connections
-* Becoming more confident- spread out and face fears, carpe diem.
+- **Work**: Focusing on both formal education and self education
+- **Health**: Creating better systems
+	- via habits, ritualisation and tracking
+- **Relationships**: Accepting family responsibilities and be closer to parents
+- **Personal Growth**: Seeking the virtuous life
+	- imo "virtuous" = stoicism + minimalism + prioritisation + absurdism)
+
+Goals and Habits for each theme will be implemented on Quarterly and Weekly basis. The themes are inspired by Stoicism and the want to improve myself and how I handle things.
 
 ## No but, who are you exactly?
 
-The question of my existence is as absurd as the existence of the afternoon coffee in my mug. But yes, I do have a certain personality, which is hard to describe on paper. I will try my best.
+The question of my existence is as absurd as the existence of the afternoon coffee in my mug. I mean, why *should* it happen?
 
-I am that guy who is fueled by curiosity. I often need a "challenge" and hence I always try to learn something new. I like the idea of helping people, even though they can be jerks at times (I am sorta aligned to Stoicism). I want to transcend beyond the norms, and do things that *actually matter.*
+I am someone who likes thinking *very* much. I love dwelling on philosophical questions and deriving overcomplicated, mathematical solutions to day-to-day problems (like choosing which soap I should buy). Just Kidding! Although it does seem like that when I throw terms like "confirmation bias" or "statistical base-rate" around.
 
-I love my work ethic and my process of creation. I tend to be workaholic sometimes, and love my work (apart from meaningless school stuff).
+I think of myself as curious. I like doing a lot of things: learning new things, math, reading, philosophy, livestreaming, making music and videos, writing and the list goes on. **But there's only one end goal. That is, to do something that actually matters, to create *meaningful* stuff.**
 
-Few of my blogs that display some of my personality:
+I love my work ethic and the process of creation and the endorphins it releases, though I can be a *bit* workaholic and ambitious at times. 
 
-*   [I am an addict](https://moisentinel.github.io/blog/p/i-am-an-addict)- a poem I wrote in my native language
-*   [why do I study?](https://moisentinel.github.io/blog/p/why-do-i-study)
-*   [when you have metamorphosised](https://moisentinel.github.io/blog/p/when-you-have-metamorphosised)
+My philosophy is inspired by:
+- Stoicism
+- Rationality
+- Digital Minimalism
+- Doing things that matter
+- James Scholz (my idol)
 
-I also love working on productivity and cognition systems: Obsidian, Spaced Repetition, workflows, AI, etc. 
-I can also help you reach out to people that knows things beyond my understanding (I have a few friends whom I count on, for their *expert* guidance).
+I appreciate updating my beliefs and trying to improve myself. I also love building better systems using Anki/SRS, Obsidian and other productivity tools/techniques. I am a memory and psychology enthusiast.
 
+I value deep and genuine connections with people. I am very much interested in meeting new people.
+
+So, **I am a scholar, a builder and a person who improves everyday**.
 ### Flexing (i don't do that anymore)
 
-I am a self-taught guitarist, programmer, musician. I know and speak several languages: Assamese (Native), English, Hindi, Sanskrit (a bit); in that order of proficiency. An aspiring researcher; published a [paper](https://osf.io/preprints/socarxiv/ytwqd/) about environment in my region.
+I am a self-taught guitarist, programmer, musician. I know and speak several languages: Assamese (Native), English, Hindi and Sanskrit (a bit), in that order of proficiency. Published a [paper](https://osf.io/preprints/socarxiv/ytwqd/) about the *environment* in my region.
 
-I participated in YUVIKA '23 (Young Scientist Programme) held by ISRO and was a participant in ANVIKA '23 Programme hosted by Indian Institute of Space Science and Technology. I am eager to attend more programs/camps. And the goal here is to learn new things and skills that make me a better person and help me do great things for the world.
+I participated in YUVIKA '23 (Young Scientist Programme) held by ISRO and was a participant in ANVIKA '23 Programme hosted by Indian Institute of Space Science and Technology. 
+
+Attended NYAS Junior Academy Fall '24 and yada yada. More on my [LinkedIn](https://www.linkedin.com/in/nibirsankar).
 
 ## Okay, you seem cool enough, where can I reach you?
 
