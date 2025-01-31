@@ -7,7 +7,7 @@ tags:
 added: January 30, 2025
 link: https://nibirsan.org/blog/p/incomprehensible
 excerpt: How do you stop feeling ashamed?
-date: 2024-01-31T14:30:50+05:30
+date: 2025-01-31T14:30:50+05:30
 status: done
 content-type: blog
 ---
