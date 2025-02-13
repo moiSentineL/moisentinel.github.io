@@ -11,25 +11,26 @@ I am interested in [polymathy](/blog/p/another-renaissance) + autodidactism, [ph
 
 ## Now
 
-After my exams ended in November, I fell in a deep productivity rut. [It wasn't nice](https://visionoflife.substack.com/p/being-stuck-in-a-rut-is-not-fine). I am back at square one, but I have one advantage: more experience than my previous self, and I think that will help me become a better human (something like the game Hades).
+The start of 2025 wasn't very great. My 8-year-old pet dog passed away, my family in shambles, my relationships took a toll, I had not prepped well for my exams, and so on. 
 
-So, I have been [trying to improve my focus](https://fatebook.io/q/will-i-reach-20h-deep-work-week-by-the--cm4qqi21l0000fm0rdho6fvgr) and getting back my curiosity. Scholzian Resilience helps a lot. I am also waking up a bit early these days, and trying to sleep early (the latter is hard, given my workaholism). I am also doing study-with-me livestreams on my [YouTube channel](https://www.youtube.com/@nibirsankar) (at 2pm IST and 7pm IST) to be more accountable for my actions. Do join my streams. Let's study together 🔥
+I managed to live through all this. I knew my responsibilities (as a son, student and a human) and I knew that I had to do them well. I knew [this life was going to be hard](/blog/p/notes-on-the-virtuous-life), and that's why I tried doing my best. Thankfully, my exams went well enough, and this month (Feb) has been much better than January. **I still am healing.** 
 
-I had to leave the philosophy [course](https://github.com/moiSentineL/oxford-general-philosophy-2009) I was doing because I couldn't make time for it, and there was very little reading material. So, I couldn't follow after a certain point. But thankfully I found a [course on Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking/) (as of writing this, I am on Week 1). I am especially enjoying the abstract-ness of mathematics. Formal Logic feels like a bridge between philosophy and math, and boy I am liking it! (mathematical masochism). 
+I have some [themes for this year](/about/#this-year) which I want to work on. It required a significant amount of introspection to understand what I want and what needs improving. Journaling in an *active* way helped a lot. I have understood a lot about myself and life by writing my thoughts down, and I encourage you to try it as well!
 
-If you're interested in math, and or philosophy, I would love to have a chat with you. Please [reach out](#okay%2C-you-seem-cool-enough%2C-where-can-i-reach-you%3F)!
+I am still doing the [course on Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking/), and it's so good that it is makes me want to pursue Discrete Math + Comp Sci for my undergrads. Though I can imagine it being *super* hard.
 
-Some New and Old Habits:
-- Meditation Streak - 145 Days 🔥
-- Waking up at 7am
-- Tracking Focus and Energy levels after Deep Work Sessions.
-- Using [fatebook.io](https://fatebook.io/) to track decisions.
-- Regular doses of coffee (starting ~9am, max 2pm)
-- Using [Anki as Reading List](https://vihaansondhi.substack.com/p/cron-for-the-mind).
+I have started a new workout routine (based on [this reddit post](https://old.reddit.com/r/naturalbodybuilding/comments/fivvhv/the_quarantine_workout_template/)). It is completely made of bodyweight exercises. I realised I needed to step away from my previous routine ([Dumbbell Stopgap](https://old.reddit.com/r/Fitness/comments/zc0uy/a_beginner_dumbbell_program_the_dumbbell_stopgap/)) to a more flexible and scalable one. So far so good! 
+I've also started to eat better food and work on my diet plan. I think it is super cool and makes me feel proud about myself.
 
-Lately, I've been obsessed with [Linux](https://github.com/moiSentineL/dotfiles), A7X, [productivity tools](https://github.com/moiSentineL/Tomato.C) for no reason.
+Some New and Old habits:
+- Meditation Streak - 199 Days 🔥
+- Study-with-me streams on [YouTube](https://www.youtube.com/@nibirsankar/streams) (as much as I can)
+- [Training to be ambidextrous](http://youtube.com/post/Ugkxi1AjYTWUxugBOT0FhWWMaHT5YttQ0D4c?si=fVkmzYZlYgx-U1FQ)
+- Reading almost everyday.
 
-*Last Updated: December 24, 2024*
+Lately, I am obsessed with ThinkPads (T14 and T480!!!!), [sore muscles](https://www.healthline.com/health/doms) and [fitness](https://www.youtube.com/channel/UCfQgsKhHjSyRLOp9mnffqVg).
+
+*Last Updated: Feb 13, 2025*
 
 ## This year
 
