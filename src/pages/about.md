@@ -13,7 +13,7 @@ I am interested in [polymathy](/blog/p/another-renaissance) + autodidactism, [ph
 
 The start of 2025 wasn't very great. My 8-year-old pet dog passed away, my family in shambles, my relationships took a toll, I had not prepped well for my exams, and so on. 
 
-I managed to live through all this. I knew my responsibilities (as a son, student and a human) and I knew that I had to do them well. I knew [this life was going to be hard](/blog/p/notes-on-the-virtuous-life), and that's why I tried doing my best. Thankfully, my exams went well enough, and this month (Feb) has been much better than January. **I still am healing.** 
+I managed to live through all this. I knew my responsibilities (as a son, student and a human) and I knew that I had to do them well. I knew [this life was going to be hard](/blog/p/notes-on-the-virtuous-life), and that's why I tried doing my best. Thankfully, my exams went well enough, and this month (Feb) has been much better than January. **I am healing.** 
 
 I have some [themes for this year](/about/#this-year) which I want to work on. It required a significant amount of introspection to understand what I want and what needs improving. Journaling in an *active* way helped a lot. I have understood a lot about myself and life by writing my thoughts down, and I encourage you to try it as well!
 
@@ -28,7 +28,7 @@ Some New and Old habits:
 - [Training to be ambidextrous](http://youtube.com/post/Ugkxi1AjYTWUxugBOT0FhWWMaHT5YttQ0D4c?si=fVkmzYZlYgx-U1FQ)
 - Reading almost everyday.
 
-Lately, I am obsessed with ThinkPads (T14 and T480!!!!), [sore muscles](https://www.healthline.com/health/doms) and [fitness](https://www.youtube.com/channel/UCfQgsKhHjSyRLOp9mnffqVg).
+Lately, I am obsessed with ThinkPads (T14 and T480!!!!), [fitness](https://www.youtube.com/channel/UCfQgsKhHjSyRLOp9mnffqVg) and study plans.
 
 *Last Updated: Feb 13, 2025*
 
