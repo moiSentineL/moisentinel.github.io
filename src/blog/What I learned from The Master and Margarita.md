@@ -2,7 +2,8 @@
 aliases: 
 tags:
   - post
-  - literature
+  - books
+  - culture
 added: April 11, 2024
 link: https://nibirsan.org/blog/p/what-i-learned-from-the-master-and-margarita
 excerpt: Mikhail Bulgakov's MASTERpiece

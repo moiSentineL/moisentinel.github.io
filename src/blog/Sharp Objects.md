@@ -2,8 +2,8 @@
 aliases: 
 tags:
   - post
-  - literature
   - psychology
+  - books
 added: September 14, 2024
 link: https://nibirsan.org/blog/p/sharp-objects
 excerpt: a disturbing page-turner

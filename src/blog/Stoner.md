@@ -2,7 +2,7 @@
 aliases: 
 tags:
   - post
-  - literature
+  - books
 added: July 11, 2024
 link: https://nibirsan.org/blog/p/stoner
 excerpt: Reviewing John William's "Stoner"

@@ -2,7 +2,7 @@
 aliases: 
 tags:
   - post
-  - literature
+  - books
 added: December 27, 2024
 link: https://nibirsan.org/blog/p/lolita
 excerpt: book so good, you don't understand it.

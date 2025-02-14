@@ -3,8 +3,8 @@ aliases:
 tags:
   - post
   - life
-  - literature
   - debugging
+  - books
 added: May 5, 2024
 link: https://nibirsan.org/blog/p/five-things-i-learned-from-make-epic-money
 excerpt: Ankur Warikoo's great introduction to personal financing.
