@@ -1,7 +1,11 @@
 ---
 layout: base.njk
 ---
-<a href="/">{{ site.back_home_text }}/home</a><br>
-<a href="/blog/">{{ site.back_home_text }}/blog</a>
+<a href="/">{{ site.back_home_text }}/home</a>
 
+    <div style="text-align: center; ">
+        <h1 style="margin-top: 0.5em;">/ about me /</h1>
+	<p>also view: <a href="/blog/">blog</a>, <a href="/pages/">pages</a> </p>
+    </div>
+<hr>
 {{ content | safe }}
