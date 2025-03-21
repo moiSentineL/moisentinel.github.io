@@ -11,26 +11,32 @@ I am interested in [polymathy](/blog/p/another-renaissance) + autodidactism, [ph
 
 ## Now
 
-The start of 2025 wasn't very great. My 8-year-old pet dog passed away, my family in shambles, my relationships took a toll, I had not prepped well for my exams, and so on. 
+My 11th Grade is officially over. I just got done with my final exams and it sure does feel great. But yeah, this academic year went SOOPER fast. I didn't have a moment to rest. It was boss fights after boss fights.
 
-I managed to live through all this. I knew my responsibilities (as a son, student and a human) and I knew that I had to do them well. I knew [this life was going to be hard](/blog/p/notes-on-the-virtuous-life), and that's why I tried doing my best. Thankfully, my exams went well enough, and this month (Feb) has been much better than January. **I am healing.** 
+I am on a fallow period, to recharge myself and do some maintenance. I want to get started with some things before I start my my academic year:
 
-I have some [themes for this year](/about/#this-year) which I want to work on. It required a significant amount of introspection to understand what I want and what needs improving. Journaling in an *active* way helped a lot. I have understood a lot about myself and life by writing my thoughts down, and I encourage you to try it as well!
+- trip with best friends
+- work on the RPG game I've been thinking about (updates coming soon!)
+- streamline content posting workflow
+- buy a used ThinkPad (pref. T14 G1 AMD)
+- new [podcast](https://run.nibirsan.org/podcast) episodes (new season! and with guests!)
+- finish the [math course](https://www.coursera.org/learn/mathematical-thinking/)
+- reach level 2 of philosophy curricula
+- cope up with film backlogs
+- workspace edits?
 
-I am still doing the [course on Mathematical Thinking](https://www.coursera.org/learn/mathematical-thinking/), and it's so good that it is makes me want to pursue Discrete Math + Comp Sci for my undergrads. Though I can imagine it being *super* hard.
+Also, I have been having some really fun time focusing and doing deep work while streaming on [YouTube](https://www.youtube.com/@nibirsankar). I think I will continue that throughout the year (as much I can; check forecast [here](https://fatebook.io/q/will-i-continue-study-with-me-streams--cm8ijkt6p0000hrgpad3s9qvh).) And I'd very much like if you'd join the sessions as well! 
+I stream at 2pm IST; check schedule [here](run.nibirsan.org/stream-schedule).
 
-I have started a new workout routine (based on [this reddit post](https://old.reddit.com/r/naturalbodybuilding/comments/fivvhv/the_quarantine_workout_template/)). It is completely made of bodyweight exercises. I realised I needed to step away from my previous routine ([Dumbbell Stopgap](https://old.reddit.com/r/Fitness/comments/zc0uy/a_beginner_dumbbell_program_the_dumbbell_stopgap/)) to a more flexible and scalable one. So far so good! 
-I've also started to eat better food and work on my diet plan. I think it is super cool and makes me feel proud about myself.
+**Some New and Old Habits:**
+- Meditation Streak - 229 Days 🔥
+- [Bodyweight exercises](https://old.reddit.com/r/naturalbodybuilding/comments/fivvhv/the_quarantine_workout_template/) go brrr
+- Reading almost everyday
+- I love journaling!
 
-Some New and Old habits:
-- Meditation Streak - 199 Days 🔥
-- Study-with-me streams on [YouTube](https://www.youtube.com/@nibirsankar/streams) (as much as I can)
-- [Training to be ambidextrous](http://youtube.com/post/Ugkxi1AjYTWUxugBOT0FhWWMaHT5YttQ0D4c?si=fVkmzYZlYgx-U1FQ)
-- Reading almost everyday.
+Lately, I have been obsessed with Nietzsche, the idea of Love and listening to fiction podcasts.
 
-Lately, I am obsessed with ThinkPads (T14 and T480!!!!), [fitness](https://www.youtube.com/channel/UCfQgsKhHjSyRLOp9mnffqVg) and study plans.
-
-*Last Updated: Feb 13, 2025*
+*Last Updated: Mar 21, 2025*
 
 ## This year
 
