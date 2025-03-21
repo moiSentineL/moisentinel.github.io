@@ -1,5 +1,5 @@
 ---
-layout: pages/top-posts.njk
+layout: core/top-posts.njk
 permalink: /blog/top/index.html
 ---
 Here is the list of curated posts that I have published over the span of X Years, Y months, Z days. I've picked these posts because I like them very much, and I think each post reflects an unique aspect of my personality and character. 

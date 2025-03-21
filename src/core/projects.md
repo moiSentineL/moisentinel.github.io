@@ -1,4 +1,4 @@
 ---
-layout: pages/projects.njk
+layout: core/projects.njk
 permalink: "/projects/"
 ---

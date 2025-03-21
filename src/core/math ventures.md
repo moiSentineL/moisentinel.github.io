@@ -1,5 +1,5 @@
 ---
-layout: pages/math-ventures.njk
+layout: core/math-ventures.njk
 permalink: "/blog/math/index.html"
 ---
 

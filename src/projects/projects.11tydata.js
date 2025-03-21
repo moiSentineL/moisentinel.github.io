@@ -1,7 +1,7 @@
 module.exports = {
   eleventyComputed: {
     title: (data) => data.title || data.page.filePathStem.split("/").pop(),
-    layout: "pages/post.njk",
+    layout: "core/post.njk",
     permalink: "projects/{{ title | slugify }}/index.html",
   },
 };
