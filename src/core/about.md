@@ -19,7 +19,7 @@ I am on a fallow period, to recharge myself and do some maintenance. I want to g
 - work on the RPG game I've been thinking about (updates coming soon!)
 - streamline content posting workflow
 - buy a used ThinkPad (pref. T14 G1 AMD)
-- new [podcast](https://run.nibirsan.org/podcast) episodes (new season! and with guests!)
+- new [podcast](https://nibirsan.org/podcast) episodes (new season! and with guests!)
 - finish the [math course](https://www.coursera.org/learn/mathematical-thinking/)
 - reach level 2 of philosophy curricula
 - cope up with film backlogs
