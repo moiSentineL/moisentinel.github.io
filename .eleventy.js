@@ -176,7 +176,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("mathposts", function (collection) {
-    const colle = collection.getFilteredByTag("math");
+    const colle = collection.getFilteredByGlob("src/blog/math/*.md");
 
     for (let i = 0; i < colle.length; i++) {
       const prevPostmath = colle[i - 1];
