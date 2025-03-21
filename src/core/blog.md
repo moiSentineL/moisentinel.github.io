@@ -1,5 +1,5 @@
 ---
-layout: pages/blogs.njk
+layout: core/blogs.njk
 permalink: "/blog/index.html"
 ---
 <p align="center">

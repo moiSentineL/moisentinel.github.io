@@ -1,4 +1,4 @@
 ---
-layout: pages/archives.njk
+layout: core/archives.njk
 permalink: "/blog/archive/index.html"
 ---

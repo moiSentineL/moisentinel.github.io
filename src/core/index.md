@@ -1,5 +1,5 @@
 ---
-layout: pages/homepage.njk
+layout: core/homepage.njk
 permalink: "/"
 ---
 Hi there! I am **Nibir Sankar** from Assam, India. I am currently in High School, searching for a meaningful life.

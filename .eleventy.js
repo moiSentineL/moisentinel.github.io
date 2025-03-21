@@ -189,10 +189,24 @@ module.exports = function (eleventyConfig) {
     return colle;
   });
 
+  eleventyConfig.addCollection("mypages", function (collection) {
+    const page_collection = collection.getFilteredByGlob("src/pages/*.md");
+
+    for (let i = 0; i < page_collection.length; i++) {
+      const prevPage = page_collection[i - 1];
+      const nextPage = page_collection[i + 1];
+
+      page_collection[i].data["prevPage"] = prevPage;
+      page_collection[i].data["nextPage"] = nextPage;
+    }
+
+    return page_collection;
+  });
+
   // Add filter for post tags
   eleventyConfig.addFilter("postTags", (tags) =>
     Object.keys(tags)
-      .filter((k) => !["posts", "post", "all", "mathposts"].includes(k))
+      .filter((k) => !["posts", "post", "all", "mathposts", "mypages"].includes(k))
       .map((k) => ({ name: k, count: tags[k].length }))
       .sort((a, b) => b.count - a.count)
   );

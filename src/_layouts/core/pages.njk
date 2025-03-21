@@ -1,0 +1,18 @@
+---
+layout: base.njk
+---
+<a href="/pages/">{{ site.back_home_text }}/pages</a><br>
+
+<article>
+  <p class="post-meta">
+    <time datetime="{{ page.date }}">{{ page.date | formatDate }}</time>
+  </p>
+  
+  <h1 class="title">{{ title }}</h1>
+  <h4 class="excerpt">{{ excerpt }}</h4>
+<hr>
+
+  {{ content | safe }}
+
+</article>
+<h4 align="center"><a href="/blog/archive/">read my blog</a></h4>
