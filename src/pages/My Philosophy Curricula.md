@@ -3,11 +3,11 @@ aliases:
 tags:
   - Blog/u
 added: March 21, 2025
-link: https://nibirsan.org/blog/p/my-philosophy-curricula
 excerpt: yes does it work/
 date: 2025-03-21T15:54:24+05:30
 status: needs work
 content-type: blog
+perma: "/phil/index.html"
 ---
 The main motive of this checklist is to get upto speed with 1000s of years of philosophy to be able to comprehend what Nietzsche is saying in his primary works like "*Thus Spoke Zarathustra*".
 
