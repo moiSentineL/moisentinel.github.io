@@ -2,10 +2,11 @@
   "name": "nibir-sankar",
   "description": "A minimalistic personal website",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "watch:sass": "sass --watch src/styles:_site/css",
     "build:sass": "sass src/styles:_site/css",
-    "watch:eleventy": "npx @11ty/eleventy --serve",
-    "build:eleventy": "npx @11ty/eleventy",
+    "watch:eleventy": "pnpm dlx @11ty/eleventy --serve",
+    "build:eleventy": "pnpm dlx @11ty/eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*"
   },
