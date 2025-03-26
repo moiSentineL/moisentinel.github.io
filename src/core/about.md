@@ -21,7 +21,7 @@ I am on a fallow period, to recharge myself and do some maintenance. I want to g
 - buy a used ThinkPad (pref. T14 G1 AMD)
 - new [podcast](https://nibirsan.org/podcast) episodes (new season! and with guests!)
 - finish the [math course](https://www.coursera.org/learn/mathematical-thinking/)
-- reach level 2 of philosophy curricula
+- reach level 2 of [philosophy curricula](https://nibirsan.org/phil/)
 - cope up with film backlogs
 - workspace edits?
 
