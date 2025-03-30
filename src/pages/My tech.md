@@ -11,7 +11,7 @@ status: needs work
 content-type: blog
 perma: /tech/index.html
 ---
-### Main Workspace
+## Main Workspace
 - Acer Nitro AN515-52 
 	- i5-8300H (undervolted)
 	- GTX 1050Ti 4GB
@@ -24,7 +24,7 @@ perma: /tech/index.html
 I run a minimal, but pleasing Arch config with <s>Hyprland</s> BSPWM, which works seemingly well for my needs and helps me focus. 
 
 I use an ergonomic mouse and a keyboard with the Colemak layout. Aah I love the Extend layer! 
-### Stream Rig / Secondary 
+## Stream Rig / Secondary 
 - HP Pavillion 15-r033tx
 	- i3-4005U
 	- GT 820M
@@ -33,7 +33,7 @@ I use an ergonomic mouse and a keyboard with the Colemak layout. Aah I love the 
 I find having another PC extremely helpful in keeping me focused and avoid any unforeseen calamities (crashing, freezes, etc). 
 
 Having a separate PC just for streaming allows me to stop worrying and do what truly matters (study!!). (I use a BSPWM+Ubuntu rig, a much stable and safe system)
-### Other Devices
+## Other Devices
 #### E-reader: Kobo Clara BW
 
 I recently got this Kobo e-reader to read books, papers, and so on. It has been a wonderful experience so far. It is very pleasant to read. My only wish is that I want to review my Anki decks on this device^[It is possible on Android e-ink devices like Onyx Boox Palma, but they are WAYYY too expensive for me].
@@ -48,14 +48,14 @@ I use this point and shoot camera to take pictures whenever I go out. I don't ty
 
 But unfortunately, the image stabilizer doesn't work that great anymore.
 ### Software 
-#### OS
+### OS
 - EndeavourOS (Arch-based) on Primary Rig
 - Linux Mint (Ubuntu) on Secondary Rig
-#### WMs
+### WMs
 - Hyprland
 - BSPWM
 [dots](https://github.com/moiSentineL/dotfiles/)
-#### Essentials
+### Essentials
 - Obsidian
 - Anki
 - Tomato.C
@@ -65,7 +65,7 @@ But unfortunately, the image stabilizer doesn't work that great anymore.
 - Firefox (w/ betterfox, textfox)
 - wisdom-tree
 - Calibre
-#### Websites and Tools
+### Websites and Tools
 - fatebook.io
 - lofi.cafe
 - mynoise.net -> brownish white, vintage office, waterfall (to help me sleep)
