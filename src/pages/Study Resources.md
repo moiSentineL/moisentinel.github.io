@@ -10,7 +10,7 @@ status: done
 content-type: blog
 perma: /resources/index.html
 ---
-A scholar needs to have a shit ton of resources that he/she can refer to for studying or learning. This is especially helpful if he/she is an [[Memory system, Self Learning|autodidact]].
+A scholar needs to have a shit ton of resources that he/she can refer to for studying or learning. This is especially helpful if he/she is an [:autodidact](#:xautodidact).
 
 Currently, I am starting my senior year of highschool in a CBSE school with an NCERT syllabus. And I **do not recommend reading the NCERT books at all.** I adore these resources that I have listed to improve your knowledge and to have fun while studying.
 
@@ -55,3 +55,7 @@ Last Updated: *March 31, 2025*
 - MITx
 - edX
 - Coursera
+
+#### :x autodidact
+**noun**
+1. a self-taught person
