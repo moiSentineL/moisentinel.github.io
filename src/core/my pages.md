@@ -2,7 +2,7 @@
 layout: core/my-pages.njk
 permalink: "/pages/index.html"
 ---
-This are some pages which are more "permanent" and reflect more about me than my blogs. It includes my philosophy, tech, beliefs and so on.
+This are some pages which are persistent and more "helpful" than my blogs. These are the pages that reflect the most about my philosophy, beliefs and so on.
 
 (work in progress)
 
