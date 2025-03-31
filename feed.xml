@@ -4,12 +4,83 @@
   <subtitle>These are the proof that I am human, because I make mistakes.</subtitle>
   <link href="https://nibirsan.org/feed.xml" rel="self"/>
   <link href="https://nibirsan.org"/>
-  <updated>2025-02-11T09:03:38Z</updated>
+  <updated>2025-03-31T09:25:56Z</updated>
   <id>https://nibirsan.org</id>
   <author>
     <name>Nibir Sankar</name>
     <email>nibirsankar26@gmail.com</email>
   </author>
+    <entry>
+        <title>Right and Wrong</title>
+        <link href="https://nibirsan.org/blog/p/right-and-wrong/"/>
+        <summary>
+          Primer on Normative ethical theory
+        </summary>
+        <updated>2025-03-31T09:25:56Z</updated>
+        <id>https://nibirsan.org/blog/p/right-and-wrong/</id>
+        <content xml:lang="en" type="html">&lt;p&gt;Imagine there&#39;s someone knocking at your door in the middle of the night. You go up to the door, and lo and behold! It&#39;s Norman The Kid-killer!&lt;/p&gt;
+&lt;p&gt;He says, &amp;quot;My good sir, being in receipt of your humble kindness, I, Norman, with utmost gratitude, would like to ask you the whereabouts of your children, so that I may slit their throats while they dream of the fairyland. Many thanks!&amp;quot;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What do you do?&lt;/strong&gt; Do you tell them the truth? Or do you lie?&lt;/p&gt;
+&lt;p&gt;Unless you&#39;re some insane and terrible person or Immanuel Kant, of course you&#39;d lie. But how do you know what is right and what is wrong?&lt;/p&gt;
+&lt;h1 id=&quot;what-is-right-and-what-is-wrong%3F&quot; tabindex=&quot;-1&quot;&gt;What is right and what is wrong? &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/right-and-wrong/#what-is-right-and-what-is-wrong%3F&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Whenever I discuss this topic with my friends, we mostly reach to a conclusion that morality is subjective. But is it really?&lt;/p&gt;
+&lt;p&gt;Normative ethical theory (a branch of ethics) investigates the question &amp;quot;How should one act in a moral sense?&amp;quot;. People adhere to different ethical models and each of those have different criterion to justify the morality of an action.&lt;/p&gt;
+&lt;p&gt;Let&#39;s see what these different models have in stock for us.&lt;/p&gt;
+&lt;h2 id=&quot;deontology&quot; tabindex=&quot;-1&quot;&gt;Deontology &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/right-and-wrong/#deontology&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Also known as &lt;strong&gt;&amp;quot;following rules is cool&amp;quot;.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Deontological theory uses the &amp;quot;&lt;em&gt;action&lt;/em&gt;&amp;quot; for classifying if something is moral or not. If the action obeys certain &amp;quot;pre-set&amp;quot; moral principles (e.g. &amp;quot;Thou shall not kill&amp;quot;), then it is &amp;quot;moral&amp;quot;, otherwise, not so much.&lt;/p&gt;
+&lt;p&gt;Let us go back to Norman the Kid-killer.&lt;/p&gt;
+&lt;p&gt;Say, you adhere to the moral principle that &amp;quot;lying is bad&amp;quot;. Then, from a deontological point-of-view, lying is &amp;quot;immoral&amp;quot;.&lt;/p&gt;
+&lt;p&gt;And thus, you&#39;ll tell the killer the location of your kids and they&#39;ll will die. But at least, you followed the rules! This is exactly what Kant would&#39;ve done, that stone cold bastard of a philosopher.&lt;/p&gt;
+&lt;h3 id=&quot;pros&quot; tabindex=&quot;-1&quot;&gt;Pros &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/right-and-wrong/#pros&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It is extremely reliable since you already know what to do.&lt;/li&gt;
+&lt;li&gt;You can avoid discretion and do the said thing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;cons&quot; tabindex=&quot;-1&quot;&gt;Cons &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/right-and-wrong/#cons&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It is really inflexible and very rigid.&lt;/li&gt;
+&lt;li&gt;Doesn&#39;t &amp;quot;care&amp;quot; about the actual intentions of the person doing the action (as long as it obeys the rules).&lt;/li&gt;
+&lt;li&gt;May get your kids killed.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&quot;edit&quot;&gt;&lt;strong&gt;Moral Absolutism&lt;/strong&gt; is the most extreme form of Deontological theory where you have a sort of &lt;em&gt;dogmatist&lt;/em&gt; view. A moral absolulist would rather prefer millions dying out of agony than lying.&lt;/p&gt;
+&lt;h2 id=&quot;consequentialism&quot; tabindex=&quot;-1&quot;&gt;Consequentialism &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/right-and-wrong/#consequentialism&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Also known as &lt;strong&gt;&amp;quot;I am right because nothing bad happened&amp;quot;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Consequentialism puts weight on the &amp;quot;&lt;em&gt;consequence&lt;/em&gt;&amp;quot; rather than the actions for classifying something as moral or not. So, as long as the outcome is okay, you&#39;re good to go!&lt;/p&gt;
+&lt;p&gt;Going back to Norman the Kid-killer scenario.&lt;/p&gt;
+&lt;p&gt;You don&#39;t really want your kids to get killed (consequence). So, if you lie, then from a consequentialist point-of-view, lying is &amp;quot;moral&amp;quot;.&lt;/p&gt;
+&lt;p&gt;So you&#39;ll lie about their location (tell him that they&#39;re at your in-laws or something) and live happily ever after!&lt;/p&gt;
+&lt;h3 id=&quot;pros-1&quot; tabindex=&quot;-1&quot;&gt;Pros &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/right-and-wrong/#pros-1&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It is very flexible.&lt;/li&gt;
+&lt;li&gt;Cares about the &amp;quot;intentions&amp;quot; of the action.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;cons-1&quot; tabindex=&quot;-1&quot;&gt;Cons &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/right-and-wrong/#cons-1&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;It is really vague because it is hard to really know the consequences and whether they&#39;ll work out just fine, to be able to decide what to do.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p class=&quot;edit&quot;&gt;&lt;strong&gt;Utilitarianism&lt;/strong&gt; is a form of Consequentialism, which seeks to maximise on the utility of any action.&lt;/p&gt;
+&lt;h1 id=&quot;which-one-to-pick%3F&quot; tabindex=&quot;-1&quot;&gt;Which one to pick? &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/right-and-wrong/#which-one-to-pick%3F&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Neither, or maybe, both. Because every situation calls for a different approach of making decisions. In reality, Deontology vs Consequentialism is a spectrum, and we belong somewhere in the middle of it.&lt;/p&gt;
+&lt;p&gt;But perhaps, it might be better to look at another ethical model: Virtue Ethics.&lt;/p&gt;
+&lt;h2 id=&quot;virtue-ethics&quot; tabindex=&quot;-1&quot;&gt;Virtue Ethics &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/right-and-wrong/#virtue-ethics&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Instead of focusing on rules (Deontology) or outcomes (Consequentialism), morality in virtue ethics is evaluated by &lt;em&gt;character&lt;/em&gt; and &lt;em&gt;values&lt;/em&gt; of the individual.&lt;/p&gt;
+&lt;p&gt;It emphasises &lt;em&gt;virtues&lt;/em&gt; like honesty, courage, bravery, and so on.&lt;/p&gt;
+&lt;p&gt;In the same Norman the Kid-killer scenario, if you are aligned to such a model, you might end up engaging in a fist vs. knife fight so that you can disarm him, pin him down on your doorway, call the police and save the day.&lt;/p&gt;
+&lt;p&gt;Why? Because you&#39;re &lt;strong&gt;brave&lt;/strong&gt;, &lt;strong&gt;just&lt;/strong&gt; and &lt;strong&gt;courageous&lt;/strong&gt;. You&#39;ll do what aligns with your &lt;em&gt;identity&lt;/em&gt;, not because of rules or any outcomes.&lt;/p&gt;
+&lt;p class=&quot;edit&quot;&gt;&lt;strong&gt;Stoicism&lt;/strong&gt; is a very popular form of Virtue Ethics, and I think it is pretty sustainable.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/right-and-wrong/#conclusion&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One more example.&lt;/p&gt;
+&lt;p&gt;Imagine someone insults you in public.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Deontologist:&lt;/strong&gt; &amp;quot;I won’t insult them back because following rules against rudeness is my duty.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Consequentialist:&lt;/strong&gt; &amp;quot;If I ignore them, the situation won’t escalate, and that’s the best outcome.&amp;quot;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Virtue Ethicist (Stoic example):&lt;/strong&gt; &amp;quot;A wise and just person wouldn’t let insults disturb their peace. I’ll remain calm because that aligns with my character.&amp;quot;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;conclusion-of-conclusion&quot; tabindex=&quot;-1&quot;&gt;Conclusion of Conclusion &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/right-and-wrong/#conclusion-of-conclusion&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I&#39;d say: Do whatever you want as long as it doesn&#39;t break the greater harmony. &amp;quot;What is &#39;greater harmony&#39;&amp;quot;, you say? Well, figure it out yourself.&lt;/p&gt;
+</content>
+    </entry>
     <entry>
         <title>Notes on the Virtuous Life</title>
         <link href="https://nibirsan.org/blog/p/notes-on-the-virtuous-life/"/>
