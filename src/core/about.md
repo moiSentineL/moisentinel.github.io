@@ -5,7 +5,7 @@ title: About Me
 ---
 ## TL;DR
 
-I am a junior high-schooler from India who thrives to learn new things, improve everyday and **create** good stuff. I love autonomy.
+I am a senior high-schooler from India who thrives to learn new things, improve everyday and **create** good stuff. I love autonomy.
 
 I am interested in [polymathy](/blog/p/another-renaissance) + autodidactism, [philosophy](/blog/t/philosophy/), [math](/blog/math/), [open-source](https://run.nibirsan.org/gh) among many. I love talking to new people, reading, playing music, writing and making stuff in my free time..
 
@@ -53,7 +53,7 @@ Goals and Habits for each theme will be implemented on Quarterly and Weekly basi
 
 ## No but, who are you exactly?
 
-The question of my existence is as absurd as the existence of the afternoon coffee in my mug. I mean, why *should* it happen?
+I am an awareness trapped in a human body passing through space and time.
 
 I am someone who likes thinking *very* much. I love dwelling on philosophical questions and deriving overcomplicated, mathematical solutions to day-to-day problems (like choosing which soap I should buy). Just Kidding! Although it does seem like that when I throw terms like "confirmation bias" or "statistical base-rate" around.
 
