@@ -11,33 +11,37 @@ I am interested in [polymathy](/blog/p/another-renaissance) + autodidactism, [ph
 
 ## Now
 
-My 11th Grade is officially over. I just got done with my final exams and it sure does feel great. But yeah, this academic year went SOOPER fast. I didn't have a moment to rest. It was boss fights after boss fights.
+Wow, things have been really fast since the last time I updated this. So, a couple of big-hitters: my 12th Grade started, *I* had full firmware update, and I did some travelling with my friends and family.
 
-I am on a fallow period, to recharge myself and do some maintenance. I want to get started with some things before I start my my academic year:
+I felt that things were getting a bit serious after my fallow period ended and 12th Grade started. I needed to revamp my whole system in order to survive and do stuff efficiently. And so it happened:
 
-- trip with best friends
-- work on the RPG game I've been thinking about (updates coming soon!)
-- streamline content posting workflow
-- buy a used ThinkPad (pref. T14 G1 AMD)
-- new [podcast](https://nibirsan.org/podcast) episodes (new season! and with guests!)
-- finish the [math course](https://www.coursera.org/learn/mathematical-thinking/)
-- reach level 2 of [philosophy curricula](https://nibirsan.org/phil/)
-- cope up with film backlogs
-- workspace edits?
+- I renovated my Obsidian vault / capturing method / progress trackers.
+- did a [Productivity Purge](https://www.lesswrong.com/posts/RaNhnNjExip36NMxM/advice-for-newly-busy-people)
+- carried out some experiments with [physical note-taking](https://github.com/moiSentineL/war-of-becoming/blob/main/systems/my-physical-notetaking-system.md) for school
+- and now declared a [war](https://github.com/moiSentineL/war-of-becoming) on mediocrity, comfort and tradition.
 
-Also, I have been having some really fun time focusing and doing deep work while streaming on [YouTube](https://www.youtube.com/@nibirsankar). I think I will continue that throughout the year (as much I can; check forecast [here](https://fatebook.io/q/will-i-continue-study-with-me-streams--cm8ijkt6p0000hrgpad3s9qvh).) And I'd very much like if you'd join the sessions as well! 
-I stream at 2pm IST; check schedule [here](run.nibirsan.org/stream-schedule).
+**Super stoked to see what's next.** 
+
+Right now, my focus is on mostly these things:
+
+1. Finishing Intro to Mathematical Thinking ([coursera](https://www.coursera.org/learn/mathematical-thinking/home/))
+2. Getting problem-solving intuition to further my math skills.
+3. Live-streaming and Deep Work on my [YouTube](https://youtube.com/@nibirsankar/streams).
+4. Learning a bit of Nihongo/Japanese.
+5. Fighting the [war](https://github.com/moiSentineL/war-of-becoming/) and becoming an Ubermensch War General.
+6. Usual school stuff till Summer Vacay starts, then move on to doing some hardcore stuff and academic speedruns.
+
+I have been reading some nice books lately, you can catch up [here](https://visionoflife.substack.com/p/books-i-enjoyed-recently). 
 
 **Some New and Old Habits:**
-- Meditation Streak - 229 Days 🔥
-- [Bodyweight exercises](https://old.reddit.com/r/naturalbodybuilding/comments/fivvhv/the_quarantine_workout_template/) go brrr
-- Reading almost everyday
-- I love journaling!
+- Meditation Streak - broke off due to a trip 😔. back to 11 days
+- Fitness journey go brr. I feel myself getting pumped!
+- Reading everyday, oh yeah!
+- Anki is back!
 
-Lately, I have been obsessed with Nietzsche, the idea of Love and listening to fiction podcasts.
+Lately, I have been obsessed with Vonnegut, pens (all kinds) and building *systems*.
 
-*Last Updated: Mar 21, 2025*
-
+*Last Updated: April 29th, 2025*
 ## This year
 
 My main themes for this year are:
