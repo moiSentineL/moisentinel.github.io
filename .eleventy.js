@@ -162,7 +162,7 @@ module.exports = function (eleventyConfig) {
 
   // Create collections
   eleventyConfig.addCollection("posts", function (collection) {
-    const coll = collection.getFilteredByTag("post");
+    const coll = collection.getFilteredByGlob("src/blog/*.md");
 
     for (let i = 0; i < coll.length; i++) {
       const prevPost = coll[i - 1];
@@ -204,13 +204,31 @@ module.exports = function (eleventyConfig) {
   });
 
   // Add filter for post tags
-  eleventyConfig.addFilter("postTags", (tags) =>
-    Object.keys(tags)
-      .filter((k) => !["posts", "post", "all", "mathposts", "mypages"].includes(k))
-      .map((k) => ({ name: k, count: tags[k].length }))
-      .sort((a, b) => b.count - a.count)
-  );
-
+eleventyConfig.addFilter("postTags", (tags) =>
+  Object.keys(tags)
+    .filter((k) =>
+      [
+        "literature",
+        "debugging",
+        "life",
+        "musings",
+        "people",
+        "fiction",
+        "philosophy",
+        "essay",
+        "technical",
+        "math",
+        "books",
+        "assamese",
+        "culture",
+        "rationality",
+        "psychology",
+        "fitness"
+      ].includes(k)
+    )
+    .map((k) => ({ name: k, count: tags[k].length }))
+    .sort((a, b) => b.count - a.count)
+);
   // Configure input/output directories
   return {
     dir: {
