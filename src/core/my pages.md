@@ -2,7 +2,9 @@
 layout: core/my-pages.njk
 permalink: "/pages/index.html"
 ---
-This are some pages which are persistent and more "helpful" than my blogs. These are the pages that reflect the most about my philosophy, beliefs and so on.
+These is the collection of my **"evergreen"** pages, which are more persistent and reflect more about me than my blogposts. 
 
-(work in progress)
+These might also help someone in need of some inspiration or ideas in some specific cases, like a [philosophy curricula](/phil/), or [study resources](/resources/). 
+
+(work in progress, forever.)
 
