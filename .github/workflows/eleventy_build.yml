@@ -1,5 +1,8 @@
 name: Eleventy Build
 
+on: 
+  push:
+  
 jobs:
   build_deploy:
     runs-on: ubuntu-latest
