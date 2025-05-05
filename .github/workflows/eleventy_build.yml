@@ -1,10 +1,5 @@
 name: Eleventy Build
 
-on: 
-  push:
-  repository_dispatch:
-    types: [beliefs]
-
 jobs:
   build_deploy:
     runs-on: ubuntu-latest
