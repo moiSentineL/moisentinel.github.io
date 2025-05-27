@@ -58,33 +58,6 @@ Last Updated: *March 31, 2025*
 - edX
 - Coursera
 
----
-## Backlinks
-[[Study Tips]]
-
-### Flashcards 
-
----
-%%
-Dates: [[December 19, 2024]]
-%%
-- [Better Explained](https://betterexplained.com/)
-	- Learn from intuition
-- [ossu/math](https://github.com/ossu/math)
-- [blackpenredpen](https://www.youtube.com/c/blackpenredpen); [100 derivative problems](https://archive.org/details/100-derivatives)
-- [Wumbo](https://wumbo.net/) Reference
-### Comp Sci
-- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
-- [CS50](https://pll.harvard.edu/course/cs50-introduction-computer-science)
-- [ossu/computer-science](https://github.com/ossu/computer-science)
-### Simulations
-- [PhET](https://phet.colorado.edu/) 
-## Courses
-- MIT OpenCourseWare
-- MITx
-- edX
-- Coursera
-
 #### :x autodidact
 **noun**
 1. a self-taught person
