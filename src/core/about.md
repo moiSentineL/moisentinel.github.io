@@ -11,37 +11,31 @@ I am interested in [polymathy](/blog/p/another-renaissance) + autodidactism, [ph
 
 ## Now
 
-Wow, things have been really fast since the last time I updated this. So, a couple of big-hitters: my 12th Grade started, *I* had full firmware update, and I did some travelling with my friends and family.
+It's crazy to see how things can change *so much* within just a month. A lot of stuff happened in May and June till now. Everything is summarised in this video:
 
-I felt that things were getting a bit serious after my fallow period ended and 12th Grade started. I needed to revamp my whole system in order to survive and do stuff efficiently. And so it happened:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vLMfNmEhHNg?si=KCFTvcijYdBRoZvr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-- I renovated my Obsidian vault / capturing method / progress trackers.
-- did a [Productivity Purge](https://www.lesswrong.com/posts/RaNhnNjExip36NMxM/advice-for-newly-busy-people)
-- carried out some experiments with [physical note-taking](https://github.com/moiSentineL/war-of-becoming/blob/main/systems/my-physical-notetaking-system.md) for school
-- and now declared a [war](https://github.com/moiSentineL/war-of-becoming) on mediocrity, comfort and tradition.
+I also participated in a hackathon and failed miserably, realised that I am a [judge-penitent](https://nibirsan.org/blog/p/the-fall/), and did a shit ton of reflection on my self-imposed brainwashes that I had done to myself as a young teenager.
 
-**Super stoked to see what's next.** 
+That was about the near *past*. Here's what I think I will be / am doing *now*:
 
-Right now, my focus is on mostly these things:
+- [grinding olympiad math](https://nibirsan.org/war-of-becoming/projects/project-math-machine/)
+- make a custom reading list-anki-tracker-cli thing (or maybe goodreads > anki?)
+- make a better, more streamlined content pipeline to create more engagement and a more aligned audience.
+- [ultralearning](https://nibirsan.org/war-of-becoming/projects/project-ultralearning/)
+- building better routine (w/ emphasis on sleep)
 
-1. Finishing Intro to Mathematical Thinking ([coursera](https://www.coursera.org/learn/mathematical-thinking/home/))
-2. Getting problem-solving intuition to further my math skills.
-3. Live-streaming and Deep Work on my [YouTube](https://youtube.com/@nibirsankar/streams).
-4. Learning a bit of Nihongo/Japanese.
-5. Fighting the [war](https://github.com/moiSentineL/war-of-becoming/) and becoming an Ubermensch War General.
-6. Usual school stuff till Summer Vacay starts, then move on to doing some hardcore stuff and academic speedruns.
-
-I have been reading some nice books lately, you can catch up [here](https://visionoflife.substack.com/p/books-i-enjoyed-recently). 
+I think my life has taken a new and wonderful turn. I am really eager to see what happens. Check the goals for the month June [here](https://nibirsan.org/war-of-becoming/goals/).
 
 **Some New and Old Habits:**
-- Meditation Streak - broke off due to a trip 😔. back to 11 days
-- Fitness journey go brr. I feel myself getting pumped!
-- Reading everyday, oh yeah!
-- Anki is back!
+- Meditation Streak - 57 days 🔥
+- Workout program is going OK-OK. I think I messed with my progression a bit
+- Love reading! I should probably do more reviews and stuff.
+- Trying to maintain 8hours of sleep + (11pm ~> 7am) sleep cycle. It's hard.
 
-Lately, I have been obsessed with Vonnegut, pens (all kinds) and building *systems*.
+Lately, I have been obsessed with CLI/TUI tools, my ThinkPad and being a manchild in my mancave.
 
-*Last Updated: April 29th, 2025*
+*Last Updated: June 10th, 2025*
 ## This year
 
 My main themes for this year are:
