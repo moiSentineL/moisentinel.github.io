@@ -5,7 +5,7 @@ tags:
   - me
 added: March 30, 2025
 link: https://nibirsan.org/beliefs
-excerpt: my beliefs on everything, collected in one places
+excerpt: my beliefs on everything, collected in one place
 date: 2025-06-19T09:30:06+05:30
 status: needs work
 content-type: blog
