@@ -2,8 +2,8 @@
 aliases: 
 tags:
   - post
-  - literature
   - life
+  - fiction
 added: February 13, 2024
 link: 
 excerpt: a poem about birds and nature.

@@ -3,6 +3,7 @@ aliases:
 tags:
   - post
   - literature
+  - fiction
 added: June 16, 2024
 link: https://nibirsan.org/blog/p/hypocrisy
 excerpt: I am a hypocrite. I am not a hypocrite.

@@ -1,31 +1,39 @@
-<style type="text/css">
-
-    .fcrow{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding-bottom: 0;
-        align-items: center;
-    }
-
-    @media screen and (max-width: 650px) {
-    }
-</style>
+<a href="/">{{ site.back_home_text }}</a><br>
 <header>
     <div class="fcrow">
-        <h1 style="margin: 0 0 0 0; text-align: center; line-height: 1.2;">Nibir's Brain Dump</h1>
+        <h1 style="margin: 1em 0 0 0; text-align: center; line-height: 1.2;">Nibir's Brain Dump</h1>
         <h2 style="margin: 0.5em 0 0 0; text-align: center; line-height: 1.2">yes I write too.</h2>
         {# color: #909090 #}
     </div>
 </header>
-<nav>
-    <div class="navlinks">
-        <a href="/blog/">blog</a>
-        <a href="/blog/top/">top posts</a>
-        <a href="/blog/archive/">archive</a>
-        <a href="/blog/math/">mathventures</a>
-        {# <a href="https://visionoflife.substack.com">newsletter</a> #}
-        <a href="/pages/">pages</a>
-        <a href="/about/">about me</a>
-    </div>
+
+<nav class="blog">
+    <a href="/blog/">main</a>
+
+    {% if not page.url.startsWith('/blog/top/') %}
+      <a href="/blog/top/">top posts</a>
+    {% else %}
+      <span class="current">top posts</span>
+    {% endif %}
+
+    {% if not page.url.startsWith('/blog/archive') %}
+      <a href="/blog/archive/">archive</a>
+    {% else %}
+      <span class="current">archive</span>
+    {% endif %}
+
+    {% if not page.url.startsWith('/blog/fiction/') %}
+      <a href="/blog/fiction/">fiction</a>
+    {% else %}
+      <span class="current">fiction</span>
+    {% endif %}
+
+    {% if not page.url.startsWith('/blog/books/') %}
+      <a href="/blog/books/">books</a>
+    {% else %}
+      <span class="current">books</span>
+    {% endif %}
+
 </nav>
+
+{% include "nav.njk" %}

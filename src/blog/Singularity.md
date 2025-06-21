@@ -4,6 +4,7 @@ tags:
   - post
   - life
   - people
+  - fiction
 added: July 14, 2024
 link: https://nibirsan.org/blog/p/singularity
 excerpt: poem for who's mine

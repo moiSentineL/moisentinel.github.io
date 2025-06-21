@@ -1,0 +1,40 @@
+---
+title: book reviews
+layout: base.njk
+---
+{% include "bloghead.njk" %}
+<main>
+    <hr>
+    <div style="text-align: center; ">
+        <h1 style="margin-top: 0.5em;">/ book reviews /</h1>
+    </div>
+    <div>
+        {{ content | safe }}
+    </div>
+    <hr>
+    <div>
+        <h3>All the posts sorted by date:</h3>
+    </div>
+    <ul class="postlist">
+        {%- for post in collections['books'] | reverse -%}
+            
+            <li class="post">
+                <a href="{{ post.url }}" class="posttitle">{{ post.data.title }}</a> <time datetime="{{ post.date }}" style="color: #909090">{{ post.date | formatDate }}</time>
+                <br>
+                <span>{{ post.data.excerpt }}</span>
+                <br>
+                <tag>
+                {% for tag in post.data.tags -%}
+                    {% if tag !== 'post' %}
+                        <a id="{{ tag }}" href="/blog/t/{{ tag }}">#{{ tag }}</a>
+                    {% endif %}
+                {%- endfor %}
+                </tag>
+                
+            </li>
+            
+        {%- endfor -%}
+    </ul>   
+</main>
+
+

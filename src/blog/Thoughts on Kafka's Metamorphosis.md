@@ -4,6 +4,7 @@ tags:
   - post
   - essay
   - books
+  - literature
 added: March 13, 2024
 link: https://moisentinel.github.io/blog/p/thoughts-on-kafkas-metamorphosis
 excerpt: half review, half contemplation

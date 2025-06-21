@@ -1,0 +1,33 @@
+<nav class="global">
+    {% if not page.url.startsWith('/blog/') %}
+      <a href="/blog/">brain dump</a>
+    {% else %}
+      <span class="current">brain dump</span>
+    {% endif %}
+
+    {% if not page.url.startsWith('/pages/') %}
+      <a href="/pages/">evergreen</a>
+    {% else %}
+      <span class="current">evergreen</span>
+    {% endif %}
+
+    {% if not page.url.startsWith('/projects/') %}
+      <a href="/projects/">projects</a>
+    {% else %}
+      <span class="current">projects</span>
+    {% endif %}
+
+    {% if not page.url.startsWith('/connect/') %}
+      <a href="/connect/">connect</a>
+    {% else %}
+      <span class="current">connect</span>
+    {% endif %}
+
+    {% if not page.url.startsWith('/about') %}
+      <a href="/about">about</a>
+    {% else %}
+      <span class="current">about</span>
+    {% endif %}
+</nav>
+
+

@@ -18,12 +18,9 @@ The config is in `.eleventy.js`
 
 ## License
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
+🧠 Content: All blog posts, essays, and writings are © [Nibir Sankar](https://nibirsan.org/). 
 
- You are free to:
+Please do not reuse without permission.  
+**Some specific posts may be Creative Commons licensed — they’ll be labeled.**
 
-  - Share — copy and redistribute the material in any medium or format
-  - Adapt — remix, transform, and build upon the material
-    The licensor cannot revoke these freedoms as long as you follow the license terms.
-
-The licensor cannot revoke these freedoms as long as you follow the license terms. 
+💻 Code: This site’s code is licensed under the MIT License. See [LICENSE](./LICENSE) for details.

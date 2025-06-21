@@ -1,12 +1,13 @@
 ---
-title: My Pages
 layout: base.njk
 ---
 <main>
-  <a href="/">{{ site.back_home_text }}/home</a><br>
+  <a href="/">{{ site.back_home_text }}</a><br>
     <div style="text-align: center; ">
-        <h1 style="margin-top: 0.5em;">/ my pages /</h1>
+        <h1 style="margin-top: 0.5em;">/ my evergreen pages /</h1>
+	{% include "nav.njk" %}
     </div>
+    <hr>
     <div>
         {{ content | safe }}
     </div>

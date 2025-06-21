@@ -1,0 +1,16 @@
+---
+layout: base.njk
+---
+<main>
+  <a href="/">{{ site.back_home_text }}</a><br>
+    <div style="text-align: center; ">
+        <h1 style="margin-top: 0.5em; ">/ {{ title }} /</h1>
+	{# <p class="coredesc">{{ description }}</p> #}
+	{% include "nav.njk" %}
+    </div>
+    <hr>
+    <div>
+        {{ content | safe }}
+    </div>
+</main>
+

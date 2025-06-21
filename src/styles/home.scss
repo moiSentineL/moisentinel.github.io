@@ -1,89 +1,80 @@
-// for homepage
-// reduced workload to css.scss
+// home
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
 
 html {
-    display: flex;
-    max-width: 75ch;
-    padding: 2em 1em;
-    justify-content: center;
-    margin: auto;
-    line-height: 1.6;
-    font-size: 1.1em;
-    font-family: Recursive, monospace;
-    align-items: center;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: auto;
 }
 
-.header{
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 2ch;
+.container {
+  font-family: "Newsreader", serif;
+  font-weight: 400;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.name{
-    padding-bottom: 0rem;
-    line-height: 0.5;
-    font-size: 300%;
-    margin-top: 1rem;
-    margin-bottom:0.6em;
+
+.name {
+  font-family: "Manrope", sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+  font-size: 3.6rem;
+  margin-bottom: 8px
 }
-.whothis{
-    padding-bottom: 0rem;
-    line-height: 0.5;
-    font-size: 150%;
-    margin-top: 0rem;
-    padding-top: 0rem;
-    margin-bottom:1em;
-    color: #909090;
-    font-weight: 500;
+
+.others {
+  margin: 0 auto 0;
+  font-size: 1.4rem;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 @media screen and (max-width: 650px) {
-    html{
-        font-size: 100%;
+    .container {
+        align-items: flex-start;
+        flex-wrap: wrap;
     }
 
-    .header{
-        display: flex;
-        flex-direction: column;
-    }
-    .name{
-        margin-top: 0rem;
-        padding-top: 0rem;
-        padding-bottom: 0rem;
-        margin-bottom: 0.75rem;
-        line-height: 0.85;
-        font-size: 200%;
-    }
-    .whothis{
-        padding-bottom: 0rem;
-        margin-bottom: 1rem;
-        line-height: 0.5;
-        margin-bottom:0.6em;
-        color: #909090;
-        font-weight: 500;
+    .name {
+       font-size: 2.2rem;
     }
     
-}
-
-img {
-    max-width: 100%;
-    margin: 0.5rem auto;
-    display: block;
-}
-
-.profile {
-    display: block;
-    width: 30%;
-    margin: auto 0 0 auto;
-    border-radius: 50%;
-    height: auto;
-
-    @media screen and (max-width:650px) {
-        align-self: center;
-        width: 50%;
-        margin: auto;
-        margin-top:1.5em;
-        margin-bottom: 0em;
-        border-radius: 50%;
-        height: auto; 
+    .others {
+       font-size: 1.2rem
+   }
+    
+    nav {
+       padding-top: 1em;
+       flex-direction: column;
+       align-items: flex-start;
     }
+
+    .brackets {
+       display: none
+   }
+
+
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(20%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.fadeInUp-animation {
+  animation: 1.5s fadeInUp;
+  transition-timing-function: ease-in-out;
 }

@@ -4,7 +4,7 @@ tags:
   - post
   - people
   - musings
-  - literature
+  - fiction
 added: December 10, 2024
 link: https://nibirsan.org/blog/p/psychoanalysing-summit-bowlson
 excerpt: a sad case (edited)
