@@ -4,8 +4,8 @@
   "scripts": {
     "watch:sass": "sass --watch src/styles:_site/css",
     "build:sass": "sass src/styles:_site/css",
-    "watch:eleventy": "npx eleventy --serve",
-    "build:eleventy": "npx eleventy",
+    "watch:eleventy": "pnpm exec eleventy --serve",
+    "build:eleventy": "pnpm exec eleventy",
     "start": "npm-run-all build:sass --parallel watch:*",
     "build": "npm-run-all build:*"
   },
