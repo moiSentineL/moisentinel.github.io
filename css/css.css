@@ -1,13 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@90,200..900;100,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@90,200..900;100,200..900&family=Karla:wght@200..800&display=swap");
 html {
   display: flex;
-  max-width: 69ch;
-  padding: 4em 1em;
+  max-width: 75ch;
+  padding: 3em 1em;
   justify-content: center;
   margin: auto;
   line-height: 1.5;
   font-size: 1.2em;
   font-family: "Inconsolata", monospace;
+  font-variation-settings: "wdth" 97;
 }
 
 .excerpt {
@@ -32,8 +33,22 @@ html {
   text-decoration-color: #909090;
 }
 
+.fcrow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 0;
+  align-items: center;
+}
+
 .neonText, h1, h2, h3 {
   animation: flicker 5s infinite alternate;
+}
+
+.coredesc {
+  padding: 0;
+  margin: 0 auto 0.6rem;
+  color: #c9c9c9;
 }
 
 @keyframes flicker {
@@ -44,13 +59,21 @@ html {
     text-shadow: none;
   }
 }
+@keyframes projectsflicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+    box-shadow: 0 0 1px #fff, 0 0 10px var(--flicker-color);
+  }
+  20%, 24%, 55% {
+    box-shadow: none;
+  }
+}
 body {
   overflow-x: hidden;
 }
 
 @media screen and (prefers-color-scheme: dark) {
   strong {
-    color: #ffd670;
+    color: #e9c46a;
   }
 }
 @media screen and (prefers-color-scheme: light) {
@@ -61,7 +84,7 @@ body {
 
 @media screen and (prefers-color-scheme: dark) {
   em {
-    color: #70d6ff;
+    color: #a2d2ff;
   }
 }
 @media screen and (prefers-color-scheme: light) {
@@ -129,7 +152,7 @@ mjx-container {
   }
   pre,
   code {
-    background: rgb(48, 48, 48);
+    background: #3c3c3c;
   }
   blockquote {
     border-left: 2px solid #e0e0e0;
@@ -152,8 +175,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-variation-settings: "wdth" 90;
+  font-family: "Karla", sans-serif;
   margin: 1em 0 0.5em;
+}
+
+h1, h2, h3 {
+  font-weight: 200;
 }
 
 .title {
@@ -234,6 +261,11 @@ pre {
   border-radius: 15px;
   white-space: pre-wrap;
   word-break: break-all;
+}
+
+code {
+  padding: 2px 6px 3px;
+  border-radius: 3px;
 }
 
 table {
@@ -385,15 +417,61 @@ tag #assamese {
 
 nav {
   text-align: center;
-  margin-top: 25px;
   margin-bottom: 25px;
 }
 
+.nonglobal {
+  display: none;
+}
+
+.blog {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.current {
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 0.3ex;
+  text-decoration-color: #fc766a;
+}
+
 footer {
-  font-size: small;
+  font-size: 75%;
   text-align: center;
   padding: 25px;
   padding-top: 0.5em;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  column-gap: 0.6rem;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  min-width: 235px;
+  flex-shrink: 1;
+  scroll-snap-align: start;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid #333;
+  animation: projectsflicker 5s infinite alternate;
+}
+
+.cardtitle {
+  font-weight: bold;
+}
+
+.carddesc {
+  font-size: 0.9rem;
+  color: #909090;
 }
 
 .tag {
