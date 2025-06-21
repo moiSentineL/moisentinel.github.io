@@ -2,8 +2,8 @@
 aliases: 
 tags:
   - post
-  - literature
   - musings
+  - fiction
 added: July 5, 2024
 link: https://nibirsan.org/blog/p/reflections-on-a-disturbed-life
 excerpt: réflexions sur une vie perturbée

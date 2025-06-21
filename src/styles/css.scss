@@ -1,6 +1,6 @@
 // css go brr
 
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@90,200..900;100,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@90,200..900;100,200..900&family=Karla:wght@200..800&display=swap');
 
 $transwhite: #e0e0e0;
 $pale-azure: #70d6ffff;
@@ -10,6 +10,8 @@ $naples-yellow: #ffd670ff;
 $mindaro: #e9ff70ff;
 $lime-green: #70ff99;
 $violet: #9770ff;
+$cobalt: #a2d2ff;
+$nice-sun: #e9c46a;
 
 @mixin theme($theme) {
   @if $theme == dark {
@@ -27,13 +29,14 @@ $violet: #9770ff;
 
 html {
   display: flex;
-  max-width: 69ch;
-  padding: 4em 1em;
+  max-width: 75ch;
+  padding: 3em 1em;
   justify-content: center;
   margin: auto;
   line-height: 1.5;
   font-size: 1.2em;
   font-family: "Inconsolata", monospace;
+  font-variation-settings: "wdth" 97;
 }
 
 .excerpt {
@@ -59,8 +62,22 @@ html {
   }
 }
 
+.fcrow {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 0;
+  align-items: center;
+}
+
 .neonText {
   animation: flicker 5s infinite alternate;
+}
+
+.coredesc {
+  padding: 0;
+  margin: 0 auto 0.6rem;
+  color: #c9c9c9;
 }
 
 @keyframes flicker {
@@ -77,6 +94,20 @@ html {
   }    
 }
 
+@keyframes projectsflicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+    box-shadow:
+      0 0 1px #fff,
+      0 0 10px var(--flicker-color),
+  
+  }
+  
+  20%, 24%, 55% {        
+      box-shadow: none;
+  }    
+}
+
 body {
   overflow-x: hidden;
 }
@@ -85,7 +116,7 @@ body {
 
 strong {
   @include theme(dark) {
-    color: $naples-yellow;
+    color: $nice-sun;
   }
   @include theme(light) {
     color: $atomic-tangerine;
@@ -94,7 +125,7 @@ strong {
 
 em {
   @include theme(dark) {
-    color: $pale-azure;
+    color: $cobalt;
   }
   @include theme(light) {
     color: $violet;
@@ -169,7 +200,7 @@ mjx-container {
 
   pre,
   code {
-    background: rgb(48, 48, 48);
+    background: #3c3c3c;
   }
   blockquote {
     border-left: 2px solid #e0e0e0;
@@ -194,12 +225,14 @@ h3,
 h4,
 h5,
 h6 {
-  font-variation-settings: "wdth" 90;
+  font-family: "Karla", sans-serif;
+//  font-variation-settings: "wdth" 90;
   margin: 1em 0 0.5em;
 }
 
 h1, h2, h3 {
   @extend .neonText;
+  font-weight: 200;
 }
 
 .title {
@@ -280,6 +313,11 @@ pre {
   border-radius: 15px;
   white-space: pre-wrap;
   word-break: break-all;
+}
+
+code {
+  padding: 2px 6px 3px;
+  border-radius: 3px;
 }
 
 table {
@@ -440,14 +478,29 @@ nav {
   // position: sticky;
   // top: 0px;
   text-align: center;
-  margin-top: 25px;
   margin-bottom: 25px;
   // background: $transwhite;
   // backdrop-filter: blur(1px);
 }
 
+.nonglobal {
+  display: none
+}
+
+.blog {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.current {
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-thickness: 0.3ex;
+  text-decoration-color: #fc766aff;
+}
+
 footer {
-  font-size: small;
+  font-size: 75%;
   text-align: center;
   padding: 25px;
   padding-top: 0.5em;
@@ -456,6 +509,38 @@ footer {
 div {
   
 }
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  column-gap: 0.6rem;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  min-width: 235px;
+  flex-shrink: 1;
+  scroll-snap-align: start;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid #333;
+  animation: projectsflicker 5s infinite alternate;
+}
+
+.cardtitle {
+  font-weight: bold;
+}
+
+.carddesc {
+  font-size: 0.9rem;
+  color: #909090
+}
+
 
 .tag {
   display: flex;

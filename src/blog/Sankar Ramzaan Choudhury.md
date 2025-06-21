@@ -2,8 +2,8 @@
 aliases: 
 tags:
   - post
-  - literature
   - assamese
+  - fiction
 added: August 5, 2024
 link: https://nibirsan.org/blog/p/sankar-ramzaan-choudhury
 excerpt: শংকৰ ৰমজান চৌধুৰী - poem

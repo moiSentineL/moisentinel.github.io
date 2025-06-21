@@ -2,8 +2,8 @@
 aliases: 
 tags:
   - post
-  - literature
   - musings
+  - fiction
 added: August 20, 2024
 link: https://nibirsan.org/blog/p/the-puzzle
 excerpt: poem about emptiness

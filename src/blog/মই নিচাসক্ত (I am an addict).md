@@ -6,6 +6,7 @@ tags:
   - literature
   - musings
   - assamese
+  - fiction
 added: February 17, 2024
 link: 
 excerpt: a confession, a poem.

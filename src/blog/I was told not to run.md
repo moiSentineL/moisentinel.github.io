@@ -2,7 +2,7 @@
 aliases: 
 tags:
   - post
-  - literature
+  - fiction
 added: October 28, 2024
 link: https://nibirsan.org/blog/p/i-was-told-not-to-run
 excerpt: poem; "running away is easy, it's the living that's hard"

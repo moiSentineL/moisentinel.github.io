@@ -4,6 +4,7 @@ tags:
   - post
   - literature
   - life
+  - fiction
 added: May 22, 2024
 link: https://nibirsan.org/blog/p/an-ode-to-sleep
 excerpt: I was literally sleepy.

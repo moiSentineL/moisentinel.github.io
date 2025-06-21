@@ -2,7 +2,7 @@
 aliases: 
 tags:
   - post
-  - literature
+  - fiction
 added: November 13, 2024
 link: https://nibirsan.org/blog/p/my-dog-talks-to-me
 excerpt: could you really believe this person?

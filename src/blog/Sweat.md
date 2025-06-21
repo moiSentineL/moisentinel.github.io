@@ -2,7 +2,7 @@
 aliases: 
 tags:
   - post
-  - literature
+  - fiction
 added: June 3, 2024
 link: https://nibirsan.org/blog/p/sweat
 excerpt: a piece of fiction, perhaps?

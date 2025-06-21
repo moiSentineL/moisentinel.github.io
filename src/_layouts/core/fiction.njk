@@ -1,12 +1,12 @@
 ---
-title: Mathventures
+title: nibir's fictional multiverse
 layout: base.njk
 ---
 {% include "bloghead.njk" %}
 <main>
     <hr>
     <div style="text-align: center; ">
-        <h1 style="margin-top: 0.5em;">/ mathventures /</h1>
+        <h1 style="margin-top: 0.5em;">/ nibir's fictional multiverse /</h1>
     </div>
     <div>
         {{ content | safe }}
@@ -16,7 +16,7 @@ layout: base.njk
         <h3>All the posts sorted by date:</h3>
     </div>
     <ul class="postlist">
-        {%- for post in collections.mathposts | reverse -%}
+        {%- for post in collections['fiction'] | reverse -%}
             
             <li class="post">
                 <a href="{{ post.url }}" class="posttitle">{{ post.data.title }}</a> <time datetime="{{ post.date }}" style="color: #909090">{{ post.date | formatDate }}</time>

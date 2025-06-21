@@ -50,6 +50,8 @@ async function landimageShortcode(
   return processImage(src, alt, sizes, [900, 1500]);
 }
 
+
+
 // Heading Anchor configuration
 const position = {
   false: "push",
@@ -85,6 +87,18 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLiquidShortcode("lanimage", landimageShortcode);
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(readingTime);
+
+  eleventyConfig.addPairedShortcode("card", function(content) {
+    const [title, ...descLines] = content.trim().split("\n");
+    const description = descLines.join("<br>").trim();
+    return `
+      <div class="card">
+        <div class="cardtitle">${title}</div>
+        <div class="carddesc">${description}</div>
+      </div>
+    `;
+  });
+
 
   eleventyConfig.ignores.delete("**/README.md/**");
 
@@ -173,20 +187,6 @@ module.exports = function (eleventyConfig) {
     }
 
     return coll;
-  });
-
-  eleventyConfig.addCollection("mathposts", function (collection) {
-    const colle = collection.getFilteredByGlob("src/blog/math/*.md");
-
-    for (let i = 0; i < colle.length; i++) {
-      const prevPostmath = colle[i - 1];
-      const nextPostmath = colle[i + 1];
-
-      colle[i].data["prevPostmath"] = prevPostmath;
-      colle[i].data["nextPostmath"] = nextPostmath;
-    }
-
-    return colle;
   });
 
   eleventyConfig.addCollection("mypages", function (collection) {

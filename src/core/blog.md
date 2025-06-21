@@ -8,12 +8,16 @@ permalink: "/blog/index.html"
 - that <a href="https://archive.is/msBIv">reddit</a> user.
 </p>
 
-Hey there! Welcome to my brain dump. It contains stuff related to philosophy, life, people, observations and the occasional musing on the absurdity of life. 
+Hi there! Welcome to my brain dump. It contains stuff related to philosophy, life, tech, books, fiction, and other weird stuff.
 
-You're free to read the posts as you like, but to get started, you can  view the [top posts](/blog/top/) or the [archive](/blog/archive/). You can also scroll down to the bottom of this page and browse by #tags. 
+You're free to read the posts as you like, but to get started:
+- You can check the curated [top posts](/blog/top/)
+- Or the [archive](/blog/archive/).
 
-I also have a [page](/pages/) for more evergreen and persistent notes you might want to have a look at.
+You can also scroll down to the bottom of this page and browse by #tags. 
 
-If you like what I write about, and want to keep coming for more, consider subscribing via [RSS](/feed.xml) to get new posts right into your virtual doorstep. Also, consider subscribing to my [newsletter/substack](https://visionoflife.substack.com/) for more polished content. 
+The navbar on the top will lead you to other parts of my website, including the [evergreen pages](/pages/) which contain more persistent notes on ideas, beliefs and life itself.
+
+If you like what I write about, consider subscribing via [RSS](/feed.xml) to get new posts delivered right onto your virtual doorstep. Also, consider subscribing to my [newsletter/substack](https://visionoflife.substack.com/) for more polished content. 
 
 <hr>

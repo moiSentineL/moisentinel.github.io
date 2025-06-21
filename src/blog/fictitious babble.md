@@ -4,6 +4,7 @@ date: 2023-12-27
 tags:
   - post
   - literature
+  - fiction
 excerpt: a short(est) fiction story.
 ---
 I found them grovelling, shovelling, up in the snow. It was a narrow road on a hill, and beyond the edge was oblivion. They said, "There ain't no point in grimacing, we do this everyday." There, on a cold morning, I found them whimpering.

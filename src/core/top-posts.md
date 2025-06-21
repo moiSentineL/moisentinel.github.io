@@ -1,4 +1,5 @@
 ---
+title: top posts
 layout: core/top-posts.njk
 permalink: /blog/top/index.html
 ---

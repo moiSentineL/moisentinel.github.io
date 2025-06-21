@@ -2,7 +2,6 @@
 aliases: 
 tags:
   - post
-  - literature
   - people
   - fiction
 added: April 27, 2025

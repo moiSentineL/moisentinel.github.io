@@ -4,7 +4,7 @@ tags:
   - post
   - people
   - musings
-  - literature
+  - fiction
 added: March 24, 2024
 link: https://moisentinel.github.io/blog/p/some-poem
 excerpt: poem against capitalism, indulgence and limitations set by modern society

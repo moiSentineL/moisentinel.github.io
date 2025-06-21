@@ -2,8 +2,8 @@
 aliases: 
 tags:
   - post
-  - literature
   - musings
+  - fiction
 added: January 2, 2025
 link: https://nibirsan.org/blog/p/happy-new-year
 excerpt: poem - welcome, 2025.

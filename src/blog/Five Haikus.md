@@ -2,8 +2,8 @@
 aliases: 
 tags:
   - post
-  - literature
   - life
+  - fiction
 added: June 16, 2024
 link: https://nibirsan.org/blog/p/four-haikus
 excerpt: amateur attempt to observe and contemplate through haikus.
