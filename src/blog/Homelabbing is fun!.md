@@ -20,7 +20,7 @@ I use Arch. Things get messy. You run into weird dependency errors, [AUR](https:
 
 Then Docker came into my life. I had heard about it so much, but never bothered to try it out. What it essentially does is create isolated environments (called "containers") for you to run your software on. Without *any* interference.
 
-![](https://www.youtube.com/watch?v=DQdB7wFEygo)
+@[youtube](https://www.youtube.com/watch?v=DQdB7wFEygo)
 
 Docker and Docker-compose are basically the same thing, except that docker-compose allows you to manage your containers with a simple `yaml` file. It's quite handy if you want to get a lot of stuff running, like this:
 
