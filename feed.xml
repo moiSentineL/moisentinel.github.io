@@ -4,12 +4,70 @@
   <subtitle>These are the proof that I am human, because I make mistakes.</subtitle>
   <link href="https://nibirsan.org/feed.xml" rel="self"/>
   <link href="https://nibirsan.org"/>
-  <updated>2025-07-01T07:08:05Z</updated>
+  <updated>2025-07-04T13:07:38Z</updated>
   <id>https://nibirsan.org</id>
   <author>
     <name>Nibir Sankar</name>
     <email>nibirsankar26@gmail.com</email>
   </author>
+    <entry>
+        <title>Homelabbing is fun!</title>
+        <link href="https://nibirsan.org/blog/p/homelabbing-is-fun/"/>
+        <summary>
+          Docker, tailscale and remote music production. Cool!
+        </summary>
+        <updated>2025-07-04T13:07:38Z</updated>
+        <id>https://nibirsan.org/blog/p/homelabbing-is-fun/</id>
+        <content xml:lang="en" type="html">&lt;p&gt;I love learning new tools and experimenting with them like a madman. Recently I discovered docker and tailscale, and oh boy...&lt;/p&gt;
+&lt;p&gt;Sure enough, I found myself diving deeper into the homelabbing culture (thanks reddit and youtube). But thankfully I have not yet bought an SBC (but I am desperate to get one!)&lt;/p&gt;
+&lt;h2 id=&quot;docker-and-docker-compose&quot; tabindex=&quot;-1&quot;&gt;Docker and Docker-compose &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/homelabbing-is-fun/#docker-and-docker-compose&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I use Arch. Things get messy. You run into weird dependency errors, &lt;a href=&quot;https://aur.archlinux.org/&quot;&gt;AUR&lt;/a&gt; BS, and typical problems that you might experience with a rolling-release type Linux distro.&lt;/p&gt;
+&lt;p&gt;Then Docker came into my life. I had heard about it so much, but never bothered to try it out. What it essentially does is create isolated environments (called &amp;quot;containers&amp;quot;) for you to run your software on. Without &lt;em&gt;any&lt;/em&gt; interference.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.youtube.com/watch?v=DQdB7wFEygo&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Docker and Docker-compose are basically the same thing, except that docker-compose allows you to manage your containers with a simple &lt;code&gt;yaml&lt;/code&gt; file. It&#39;s quite handy if you want to get a lot of stuff running, like this:&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://nibirsan.org/images/docker-ps-900w.webp 900w&quot; sizes=&quot;(min-width: 650px) 1vw, 50vw&quot; /&gt;&lt;img alt=&quot;docker&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://nibirsan.org/images/docker-ps-900w.jpeg&quot; width=&quot;900&quot; height=&quot;134&quot; /&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;Just make a folder where you will store your &lt;code&gt;yaml&lt;/code&gt; file and necessary configs, and run &lt;code&gt;sudo docker-compose up -d&lt;/code&gt;. (Make sure to check tutorials before lol).&lt;/p&gt;
+&lt;p&gt;And vóila, I now have my own music server (&lt;a href=&quot;https://www.navidrome.org/&quot;&gt;Navidrome&lt;/a&gt;), &lt;a href=&quot;https://jellyfin.org/&quot;&gt;Jellyfin&lt;/a&gt; which I can access from anywhere.&lt;/p&gt;
+&lt;p&gt;Wait, but how?&lt;/p&gt;
+&lt;h2 id=&quot;tailscale&quot; tabindex=&quot;-1&quot;&gt;Tailscale &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/homelabbing-is-fun/#tailscale&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://tailscale.com/&quot;&gt;Tailscale&lt;/a&gt; is (sort of) a VPN service that you can use to access your devices from anywhere.&lt;/p&gt;
+&lt;p&gt;So, what you can do is, keep your homelab at your home (duh!) and access it from that shitty bistro you visit every now and then.&lt;/p&gt;
+&lt;p&gt;All you have to do is connect to your Tailnet (that&#39;s the name for your Tailscale network) via the VPN (available on almost all possible OS&#39;s).&lt;/p&gt;
+&lt;p&gt;They also have this thing called &lt;code&gt;MagicDNS&lt;/code&gt;, which allows you to type in the &lt;em&gt;nickname&lt;/em&gt; of the device to access it, and you don&#39;t even have to type the IP!&lt;/p&gt;
+&lt;p&gt;&lt;picture&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://nibirsan.org/images/tailscale-magic-DNS-759w.webp 759w&quot; sizes=&quot;(min-width: 650px) 1vw, 50vw&quot; /&gt;&lt;img alt=&quot;magic DNS&quot; loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://nibirsan.org/images/tailscale-magic-DNS-759w.jpeg&quot; width=&quot;759&quot; height=&quot;545&quot; /&gt;&lt;/picture&gt;&lt;/p&gt;
+&lt;p&gt;You can also &lt;code&gt;ssh&lt;/code&gt; into any device like that!&lt;/p&gt;
+&lt;p&gt;Just do:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;ssh nibir@absurd
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or whatever the device name is. Super cool!&lt;/p&gt;
+&lt;p&gt;Also... I found a cool workflow to use Tailscale:&lt;/p&gt;
+&lt;h2 id=&quot;remote-music-production&quot; tabindex=&quot;-1&quot;&gt;Remote Music Production &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/homelabbing-is-fun/#remote-music-production&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;My producer friend lives 60kms away from my home, and we needed to make the song we&#39;ve been putting off for 1.5 years. And since I am the musician and have all the setup, I needed my friend to take control of my PC and DAW and help me record and mix stuff.&lt;/p&gt;
+&lt;p&gt;But how could he do it? We also needed crystal clear audio. Latency on his side didn&#39;t matter as long as the quality was nice; he didn&#39;t need to record anything.&lt;/p&gt;
+&lt;p&gt;So, we set up a tailnet of our own, connected our devices and used &lt;a href=&quot;https://app.lizardbyte.dev/Sunshine/?lng=en-US&quot;&gt;Sunshine&lt;/a&gt;+&lt;a href=&quot;https://moonlight-stream.org/&quot;&gt;Moonlight&lt;/a&gt; to control the PCs. These apps were actually made for playing games from other devices, but you could do more than that, right? Like, making music!&lt;/p&gt;
+&lt;p&gt;That is how I discovered Tailscale actually- we were struggling to get Sunshine+Moonlight working, there was some problem in my router settings that I couldn&#39;t figure it out. So I said, fuck it, let&#39;s try Tailscale.&lt;/p&gt;
+&lt;p&gt;And it worked perfectly.&lt;/p&gt;
+&lt;p&gt;Sunshine+Moonlight was working great. There was very low latency, but of course you cannot expect a LAN-like 10ms from a relayed connection. Now, the next problem was my Linux system. &lt;strong&gt;Sunshine couldn&#39;t pick up the audio.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;That&#39;s where &lt;a href=&quot;https://sonobus.net/&quot;&gt;Sonobus&lt;/a&gt; came in.&lt;/p&gt;
+&lt;p&gt;It&#39;s an open-source software for transferring audio from one device to another, and it integrates very well with your DAW. Just what we needed. &lt;a href=&quot;https://www.sonobus.net/sonobus_userguide.html#Using-Your-Own-Connection-Server-with-the-Standalone-App&quot;&gt;You can even host your own server&lt;/a&gt;, and since we were using Tailscale, we could access it without worry.&lt;/p&gt;
+&lt;p&gt;So, that&#39;s how my friend and I recorded one part of our song. &lt;a href=&quot;https://pillowcase.su/f/4ee3a8c2b320120877e84e3c9324573c&quot;&gt;Listen here&lt;/a&gt;!&lt;br /&gt;
+A lot more to do, but we at least we got something done!&lt;/p&gt;
+&lt;p&gt;Amazing experience. Though I have had to do some tweaking here and there. These reddit posts helped me.&lt;/p&gt;
+&lt;h2 id=&quot;future-plans%3F&quot; tabindex=&quot;-1&quot;&gt;Future plans? &lt;a class=&quot;header-anchor&quot; href=&quot;https://nibirsan.org/blog/p/homelabbing-is-fun/#future-plans%3F&quot;&gt;&lt;span aria-hidden=&quot;true&quot; class=&quot;header-anchor__symbol&quot;&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I wanna do a lot more with docker and tailscale.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Host wallabag&lt;/li&gt;
+&lt;li&gt;Buy an SBC&lt;/li&gt;
+&lt;li&gt;Move Navidrome there&lt;/li&gt;
+&lt;li&gt;and use Pi-Hole&lt;/li&gt;
+&lt;li&gt;yada yada yada blah blah&lt;/li&gt;
+&lt;li&gt;and so on.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Aah I will burn some of my money now.&lt;/p&gt;
+&lt;p&gt;Please feel free to send me some &lt;a href=&quot;https://buymeacoffee.com/nibirsan&quot;&gt;here&lt;/a&gt;. Or UPI: &lt;code&gt;nibir@fam&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Gracias!&lt;/p&gt;
+</content>
+    </entry>
     <entry>
         <title>Thank you Mr. Aristotle</title>
         <link href="https://nibirsan.org/blog/p/thank-you-mr-aristotle/"/>

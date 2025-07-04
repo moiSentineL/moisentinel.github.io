@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Eleventy v2.0.1">
+    <meta name="author" content="Nibir Sankar">
+    <meta name="copyright" content="Nibir Sankar">
+
+    
+        <meta name="description" content="Docker, tailscale and remote music production. Cool!">
+    
+
+ 
+    <title>Homelabbing is fun!</title>
+
+    <link rel="alternate" type="application/atom+xml" href="https://nibirsan.org/feed.xml" title="Nibir's Brain Dump"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/media/meta/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/media/meta/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/media/meta/favicon-16x16.png">
+    <link rel="manifest" href="/media/meta/site.webmanifest">
+    <link rel="mask-icon" href="/media/meta/safari-pinned-tab.svg" color="#2f2f2f">
+    <link rel="shortcut icon" href="/media/meta/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/media/meta/browserconfig.xml">
+    <meta name="theme-color" content="#000000">
+
+    <meta property="og:image" content="/media/meta/og-image.jpg" />
+            
+    <link rel="stylesheet" href="/css/css.css">
+
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">  
+    
+</head>
+<body>
+    <a href="/blog/">..</a>
+
+<article>
+  <p class="post-meta">
+    <time datetime="Fri Jul 04 2025 13:07:38 GMT+0000 (Coordinated Universal Time)">Jul 4, 2025</time>
+  </p>
+  
+  <h1 class="title">Homelabbing is fun!</h1>
+  <h4 class="excerpt">Docker, tailscale and remote music production. Cool!</h4>
+  <div class="tag">
+<tag>
+	
+            <a id="technical" href="/blog/t/technical">#technical</a>
+		
+</tag> <span class="reading">3 min read</span>
+</div>
+  <hr>
+  
+  <p>I love learning new tools and experimenting with them like a madman. Recently I discovered docker and tailscale, and oh boy...</p>
+<p>Sure enough, I found myself diving deeper into the homelabbing culture (thanks reddit and youtube). But thankfully I have not yet bought an SBC (but I am desperate to get one!)</p>
+<h2 id="docker-and-docker-compose" tabindex="-1">Docker and Docker-compose <a class="header-anchor" href="#docker-and-docker-compose"><span aria-hidden="true" class="header-anchor__symbol">#</span></a></h2>
+<p>I use Arch. Things get messy. You run into weird dependency errors, <a href="https://aur.archlinux.org/">AUR</a> BS, and typical problems that you might experience with a rolling-release type Linux distro.</p>
+<p>Then Docker came into my life. I had heard about it so much, but never bothered to try it out. What it essentially does is create isolated environments (called &quot;containers&quot;) for you to run your software on. Without <em>any</em> interference.</p>
+<p><img src="https://www.youtube.com/watch?v=DQdB7wFEygo" alt=""></p>
+<p>Docker and Docker-compose are basically the same thing, except that docker-compose allows you to manage your containers with a simple <code>yaml</code> file. It's quite handy if you want to get a lot of stuff running, like this:</p>
+<p><picture><source type="image/webp" srcset="/images/docker-ps-900w.webp 900w" sizes="(min-width: 650px) 1vw, 50vw"><img alt="docker" loading="lazy" decoding="async" src="/images/docker-ps-900w.jpeg" width="900" height="134"></picture></p>
+<p>Just make a folder where you will store your <code>yaml</code> file and necessary configs, and run <code>sudo docker-compose up -d</code>. (Make sure to check tutorials before lol).</p>
+<p>And vóila, I now have my own music server (<a href="https://www.navidrome.org/">Navidrome</a>), <a href="https://jellyfin.org/">Jellyfin</a> which I can access from anywhere.</p>
+<p>Wait, but how?</p>
+<h2 id="tailscale" tabindex="-1">Tailscale <a class="header-anchor" href="#tailscale"><span aria-hidden="true" class="header-anchor__symbol">#</span></a></h2>
+<p><a href="https://tailscale.com/">Tailscale</a> is (sort of) a VPN service that you can use to access your devices from anywhere.</p>
+<p>So, what you can do is, keep your homelab at your home (duh!) and access it from that shitty bistro you visit every now and then.</p>
+<p>All you have to do is connect to your Tailnet (that's the name for your Tailscale network) via the VPN (available on almost all possible OS's).</p>
+<p>They also have this thing called <code>MagicDNS</code>, which allows you to type in the <em>nickname</em> of the device to access it, and you don't even have to type the IP!</p>
+<p><picture><source type="image/webp" srcset="/images/tailscale-magic-DNS-759w.webp 759w" sizes="(min-width: 650px) 1vw, 50vw"><img alt="magic DNS" loading="lazy" decoding="async" src="/images/tailscale-magic-DNS-759w.jpeg" width="759" height="545"></picture></p>
+<p>You can also <code>ssh</code> into any device like that!</p>
+<p>Just do:</p>
+<pre><code class="language-bash">ssh nibir@absurd
+</code></pre>
+<p>or whatever the device name is. Super cool!</p>
+<p>Also... I found a cool workflow to use Tailscale:</p>
+<h2 id="remote-music-production" tabindex="-1">Remote Music Production <a class="header-anchor" href="#remote-music-production"><span aria-hidden="true" class="header-anchor__symbol">#</span></a></h2>
+<p>My producer friend lives 60kms away from my home, and we needed to make the song we've been putting off for 1.5 years. And since I am the musician and have all the setup, I needed my friend to take control of my PC and DAW and help me record and mix stuff.</p>
+<p>But how could he do it? We also needed crystal clear audio. Latency on his side didn't matter as long as the quality was nice; he didn't need to record anything.</p>
+<p>So, we set up a tailnet of our own, connected our devices and used <a href="https://app.lizardbyte.dev/Sunshine/?lng=en-US">Sunshine</a>+<a href="https://moonlight-stream.org/">Moonlight</a> to control the PCs. These apps were actually made for playing games from other devices, but you could do more than that, right? Like, making music!</p>
+<p>That is how I discovered Tailscale actually- we were struggling to get Sunshine+Moonlight working, there was some problem in my router settings that I couldn't figure it out. So I said, fuck it, let's try Tailscale.</p>
+<p>And it worked perfectly.</p>
+<p>Sunshine+Moonlight was working great. There was very low latency, but of course you cannot expect a LAN-like 10ms from a relayed connection. Now, the next problem was my Linux system. <strong>Sunshine couldn't pick up the audio.</strong></p>
+<p>That's where <a href="https://sonobus.net/">Sonobus</a> came in.</p>
+<p>It's an open-source software for transferring audio from one device to another, and it integrates very well with your DAW. Just what we needed. <a href="https://www.sonobus.net/sonobus_userguide.html#Using-Your-Own-Connection-Server-with-the-Standalone-App">You can even host your own server</a>, and since we were using Tailscale, we could access it without worry.</p>
+<p>So, that's how my friend and I recorded one part of our song. <a href="https://pillowcase.su/f/4ee3a8c2b320120877e84e3c9324573c">Listen here</a>!<br>
+A lot more to do, but we at least we got something done!</p>
+<p>Amazing experience. Though I have had to do some tweaking here and there. These reddit posts helped me.</p>
+<h2 id="future-plans%3F" tabindex="-1">Future plans? <a class="header-anchor" href="#future-plans%3F"><span aria-hidden="true" class="header-anchor__symbol">#</span></a></h2>
+<p>I wanna do a lot more with docker and tailscale.</p>
+<ul>
+<li>Host wallabag</li>
+<li>Buy an SBC</li>
+<li>Move Navidrome there</li>
+<li>and use Pi-Hole</li>
+<li>yada yada yada blah blah</li>
+<li>and so on.</li>
+</ul>
+<p>Aah I will burn some of my money now.</p>
+<p>Please feel free to send me some <a href="https://buymeacoffee.com/nibirsan">here</a>. Or UPI: <code>nibir@fam</code>.</p>
+<p>Gracias!</p>
+
+
+  <hr>
+	<div class="nextread">
+		<h3>Continue Reading</h3>
+			<p>
+			
+			
+			
+					<strong>Previous</strong>:
+					<a class="previous" href="/blog/p/thank-you-mr-aristotle/">Thank you Mr. Aristotle</a>
+			
+			</p>
+	</div>
+	<hr>
+	<script src="https://giscus.app/client.js"
+        data-repo="moiSentineL/moisentinel.github.io"
+        data-repo-id="R_kgDOLKbZeg"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOLKbZes4Cervi"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+	</script>	
+
+</article>
+
+    <!-- Google tag (gtag.js) -->
+<script src="https://www.googletagmanager.com/gtag/js?id=G-VT53HSCH2H" defer fetchpriority="low"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-VT53HSCH2H');
+</script>
+    <script src="https://cdn.jsdelivr.net/gh/ncase/nutshell/nutshell.min.js"></script>
+<script>
+Nutshell.setOptions({
+    startOnLoad: true, // Start Nutshell on load? (default: true)
+    lang: 'en', // Language (default: 'en', which is English)
+    dontEmbedHeadings: true, // If 'true', removes the "embed this as a nutshell" option on headings
+});
+</script>
+
+  <script>
+    // Array of colors
+    const colors = [
+    "#e0e0e0",  // $transwhite
+    "#70d6ff",  // $pale-azure
+    "#ff70a6",  // $cyclamen
+    "#ff9770",  // $atomic-tangerine
+    "#ffd670",  // $naples-yellow
+    "#e9ff70",  // $mindaro
+    "#70ff99",  // $lime-green
+    "#9770ff"   // $violet
+    ];
+    // Select a random color
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+
+    // Apply the random color to a CSS variable
+    document.documentElement.style.setProperty('--flicker-color', randomColor);
+  </script>
+</body>
+<footer>
+    <hr>
+	<p>Enjoyed this rabbit hole?</p>
+	<p>
+	👉 <a href="/start">Start Here</a> — or <a href="/now/">see what I have been upto</a>.
+	<br>
+	Subscribe to <a href="https://visionoflife.substack.com">my newsletter</a> for more thoughts & updates.
+	</p>
+	
+     <a href="https://github.com/moiSentineL/moisentinel.github.io">Source Code <3</a> | <a href="https://nibirsan.org/feed.xml">RSS</a></h4>
+	
+	<p>
+	Built & maintained by <a href="/about">Nibir Sankar</a>. 
+        <br>© 2025 All rights reserved. <br>
+	No cookies. No bullshit.
+	</p>
+
+    
+</footer>
+
+</html>
