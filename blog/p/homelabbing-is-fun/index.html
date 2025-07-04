@@ -57,7 +57,7 @@
 <h2 id="docker-and-docker-compose" tabindex="-1">Docker and Docker-compose <a class="header-anchor" href="#docker-and-docker-compose"><span aria-hidden="true" class="header-anchor__symbol">#</span></a></h2>
 <p>I use Arch. Things get messy. You run into weird dependency errors, <a href="https://aur.archlinux.org/">AUR</a> BS, and typical problems that you might experience with a rolling-release type Linux distro.</p>
 <p>Then Docker came into my life. I had heard about it so much, but never bothered to try it out. What it essentially does is create isolated environments (called &quot;containers&quot;) for you to run your software on. Without <em>any</em> interference.</p>
-<p><img src="https://www.youtube.com/watch?v=DQdB7wFEygo" alt=""></p>
+<p><div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item youtube-player" type="text/html" width="640" height="390" src="https://www.youtube.com/embed/DQdB7wFEygo" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div></p>
 <p>Docker and Docker-compose are basically the same thing, except that docker-compose allows you to manage your containers with a simple <code>yaml</code> file. It's quite handy if you want to get a lot of stuff running, like this:</p>
 <p><picture><source type="image/webp" srcset="/images/docker-ps-900w.webp 900w" sizes="(min-width: 650px) 1vw, 50vw"><img alt="docker" loading="lazy" decoding="async" src="/images/docker-ps-900w.jpeg" width="900" height="134"></picture></p>
 <p>Just make a folder where you will store your <code>yaml</code> file and necessary configs, and run <code>sudo docker-compose up -d</code>. (Make sure to check tutorials before lol).</p>
