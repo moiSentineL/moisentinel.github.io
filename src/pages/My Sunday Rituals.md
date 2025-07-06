@@ -1,7 +1,6 @@
 ---
 aliases: 
 tags:
-  - post
   - pages
 added: 2025-07-06
 link: https://nibirsan.org/sunday
