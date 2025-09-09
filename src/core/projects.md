@@ -34,6 +34,7 @@ where I taught math, science and philosophy to highschoolers in a fun, engaging 
 Billy's Prison Escape
 math (geometric) game [Satvik](https://github.com/and262144) and I made for [Summer of Math Exposition](https://some.3b1b.co/).
 [play](https://tri-sym.neocities.org)
+{% endcard %}
 </div>
 
 ---
