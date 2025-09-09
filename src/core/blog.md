@@ -13,11 +13,13 @@ Hi there! Welcome to my brain dump. It contains stuff related to philosophy, lif
 You're free to read the posts as you like, but to get started:
 - You can check the curated [top posts](/blog/top/)
 - Or the [archive](/blog/archive/).
+- There's also [fiction](/blog/fiction/).
+- And [books](/blog/books/) + reviews.
 
 You can also scroll down to the bottom of this page and browse by #tags. 
 
 The navbar on the top will lead you to other parts of my website, including the [evergreen pages](/pages/) which contain more persistent notes on ideas, beliefs and life itself.
 
-If you like what I write about, consider subscribing via [RSS](/feed.xml) to get new posts delivered right onto your virtual doorstep. Also, consider subscribing to my [newsletter/substack](https://visionoflife.substack.com/) for more polished content. 
+If you like what I write about, consider subscribing via [RSS](/feed.xml) to get new posts delivered right onto your virtual doorstep. Also, consider subscribing to my [newsletter/substack](https://visionoflife.substack.com/) for polished monthly digests. 
 
 <hr>

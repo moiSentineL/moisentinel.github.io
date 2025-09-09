@@ -6,7 +6,7 @@ Hi there. I am Nibir.
 
 I am obsessed with knowledge, systems and creation.
 
-I make things — videos, blog, code, and other weird stuff I can't talk about. I am also a scholar who loves thinking about math, philosophy and rationality. I am still in school, but I don't like it at all. 
+I make things — videos, blog, code, and other weird stuff I can't talk about. I am also a scholar who loves thinking/doing math, philosophy and rationality. I am still in school, but I don't like it at all. 
 
 I am an autodidact and wannabe polymath. I love to learn new stuff and yap about it.
 

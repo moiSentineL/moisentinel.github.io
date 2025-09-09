@@ -29,6 +29,11 @@ Explanatory Series
 where I taught math, science and philosophy to highschoolers in a fun, engaging way (as a part of [buildspace](https://nibirsan.org/blog/p/6-things-i-learned-from-6-weeks-of-n-and-w-s5/)).
 [watch](https://run.nibirsan.org/explanatory)
 {% endcard %}
+
+{% card %}
+Billy's Prison Escape
+math (geometric) game [Satvik](https://github.com/and262144) and I made for [Summer of Math Exposition](https://some.3b1b.co/).
+[play](https://tri-sym.neocities.org)
 </div>
 
 ---
@@ -38,7 +43,7 @@ where I taught math, science and philosophy to highschoolers in a fun, engaging 
 <div class="card-container">
 {% card %}
 War of Becoming
-my personal manifesto. it's dramatic and honest.  
+(now archived) my personal manifesto. it's dramatic and honest.  
 [read here](https://nibirsan.org/war-of-becoming)
 {% endcard %}
 

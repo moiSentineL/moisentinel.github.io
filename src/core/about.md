@@ -5,7 +5,7 @@ title: about me
 ---
 ## Who am I, you ask?
 
-I am an awareness trapped in a human body passing through space and time. Well, at least that what I would like to think.
+I am an awareness trapped in a human body passing through space and time. Or maybe a dimension-spanning, time-travelling duck. Who knows?
 
 But to be specific:
 
