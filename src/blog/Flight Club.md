@@ -32,4 +32,4 @@ I am no disciple or anything, but I thought it would be cool to note them down a
 12. Promise me that you'll never leave me at the airport.
 13. You'll never die. If you do, you can always press "Restart from Checkpoint." And you'll be back again at the save point. 
 
-If you're reading this, Mr. Case, then I am really grateful to have met you in the flight. I really hope you'd come alive someday and take me from this rotten place. I don't want to be here anymore. Please. Take me. Take me. No more, sir. Please. I am done. 
+If you're reading this, Mr. Case, sir, then I want to tell you that I am really grateful to have met you on the flight. I really hope you'd come alive someday and take me away from this rotten place. I don't want to be here anymore. Please. Take me. Take me. No more, sir. You're my only savior. Please. I am so done here.
