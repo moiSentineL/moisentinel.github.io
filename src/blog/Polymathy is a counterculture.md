@@ -11,6 +11,7 @@ excerpt: A Sociological Perspective.
 date: 2025-09-11T20:46:34+05:30
 status: done
 content-type: blog
+heroImage: "/media/hero/2025-09-11-polymathy.jpg"
 ---
 Recently I finished a grind for a math olympiad and thanks to [this article](https://itsmanah.substack.com/p/weak-connections) written by a friend, I fell into the loving arms of sociology. So I decided to dive deep for three days and I must say that I made a very, very good decision.
 

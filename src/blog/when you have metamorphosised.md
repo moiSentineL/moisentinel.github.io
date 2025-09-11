@@ -10,6 +10,7 @@ added: February 16, 2024
 link: 
 excerpt: everything changes once you start discovering yourself.
 date: 2024-02-17T13:28:17Z
+heroImage: "/media/hero/test.jpg"
 ---
 ## 1
 You're 15, 16, 17 or whatever years old, and you're walking that path you've always walked, and suddenly you start discovering yourself. You start defining your individuality. The path which you used to always walk changes and you start walking the [untrodden, unharmed path](https://www.poetryfoundation.org/poems/44272/the-road-not-taken). 

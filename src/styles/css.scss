@@ -580,3 +580,34 @@ audio {
   width: 100%;
   padding: 1em 0 1em;
 }
+
+
+.hero {
+  position: fixed;              /* stays behind content */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60vh;                 /* adjust height of hero */
+  background-size: cover;
+  background-position: center;
+  filter: blur(9px) brightness(0.6);
+  transition: opacity 0.5s ease-out; /* smooth fade */
+  opacity: 1;
+  transform: scale(1.05);       /* prevents edge gaps when blurred */
+  z-index: -1;                  /* keeps it behind everything */
+}
+
+/* gradient overlay for fading into page background */
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(18,18,18,0.4),
+    rgba(18,18,18,0) 50%,
+    rgba(18,18,18,0.8) 80%,
+    rgba(18,18,18,1) 100%
+  );
+}
+
