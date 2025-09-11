@@ -37,8 +37,9 @@
     <meta name="msapplication-config" content="/media/meta/browserconfig.xml">
     <meta name="theme-color" content="#000000">
 
-    <meta property="og:image" content="{{ heroImage or site.image }}" />
-    <meta property="twitter:image" content="{{ heroImage or site.image }}" />
+    <meta property="og:image" content="https://nibirsan.org{{ heroImage or site.image }}" />
+    <meta property="twitter:image" content="https://nibirsan.org{{ heroImage or site.image }}" />
+    <meta name="twitter:card" content="summary_large_image">
 
     {# <link
         rel="stylesheet"
