@@ -37,7 +37,9 @@
     <meta name="msapplication-config" content="/media/meta/browserconfig.xml">
     <meta name="theme-color" content="#000000">
 
-        <meta property="og:image" content="{{ heroImage or site.image }}" />
+    <meta property="og:image" content="{{ heroImage or site.image }}" />
+    <meta property="twitter:image" content="{{ heroImage or site.image }}" />
+
     {# <link
         rel="stylesheet"
         href="https://unpkg.com/littlefoot/dist/littlefoot.css"
