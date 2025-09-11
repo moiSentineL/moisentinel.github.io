@@ -516,7 +516,7 @@ audio {
   height: 60vh; /* adjust height of hero */
   background-size: cover;
   background-position: center;
-  filter: blur(9px) brightness(0.6);
+  filter: blur(8px) brightness(0.6);
   transition: opacity 0.5s ease-out; /* smooth fade */
   opacity: 1;
   transform: scale(1.05); /* prevents edge gaps when blurred */
