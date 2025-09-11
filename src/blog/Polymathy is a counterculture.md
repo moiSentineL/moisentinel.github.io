@@ -51,7 +51,7 @@ Interdisciplinary curiosity is social stigma. It takes a certain sense of awaren
 
 A polymath is *labelled* as the "Jack of all trades but master of none". But they forget the full version of the same line:
 
->A jack of all trades is a master of none, **but oftentimes better than a master of one**.^[Ansari, Salman. “The Polymath Playbook.”, https://salman.io/blog/polymath-playbook/.]
+>A jack of all trades is a master of none, **but oftentimes better than a master of one**.^[Ansari, Salman. "*[The Polymath Playbook](https://salman.io/blog/polymath-playbook/)*." Jul 5, 2020.]
 
 I think this mindset has become the norm because of the capitalist-rational society- 
 - Specialization helps the elite stay elite. Think of how much money coaching institutes earn. Would they want students to become *curious* all of a sudden?
