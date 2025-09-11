@@ -6,6 +6,8 @@ tags:
 ---
 <a href="/blog/">..</a>
 
+{% include "hero.njk" %}
+
 <article>
   <p class="post-meta">
     <time datetime="{{ page.date }}">{{ page.date | formatDate }}</time>
@@ -51,5 +53,14 @@ tags:
         crossorigin="anonymous"
         async>
 	</script>	
+
+<script>
+  const hero = document.querySelector('.hero');
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY;
+    const fadeHeight = 400; // how many pixels to fade hero
+    hero.style.opacity = Math.max(0, 1 - scrollY / fadeHeight);
+  });
+</script>
 
 </article>
