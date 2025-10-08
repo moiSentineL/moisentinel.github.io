@@ -25,8 +25,8 @@
     <meta name="msapplication-config" content="/media/meta/browserconfig.xml">
     <meta name="theme-color" content="#000000">
 
-    <meta property="og:image" content="https://nibirsan.org/media/meta/og-image.jpg" />
-    <meta property="twitter:image" content="https://nibirsan.org/media/meta/og-image.jpg" />
+    <meta property="og:image" content="https://nibirsan.org/media/hero/page-workout.jpg" />
+    <meta property="twitter:image" content="https://nibirsan.org/media/hero/page-workout.jpg" />
     <meta name="twitter:card" content="summary_large_image">
 
             
@@ -38,6 +38,11 @@
 </head>
 <body>
     <a href="/pages/">../pages</a><br>
+
+
+<div class="hero" style="background-image: url('/media/hero/page-workout.jpg');"></div>
+
+
 
 <article>
   <p class="post-meta">
@@ -163,6 +168,16 @@ I think have a stronger lower body than upper.</p>
         crossorigin="anonymous"
         async>
 	</script>	
+
+<script>
+  const hero = document.querySelector('.hero');
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY;
+    const fadeHeight = 400; // how many pixels to fade hero
+    hero.style.opacity = Math.max(0, 1 - scrollY / fadeHeight);
+  });
+</script>
+
 
 
     <!-- Google tag (gtag.js) -->

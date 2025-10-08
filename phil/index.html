@@ -39,6 +39,9 @@
 <body>
     <a href="/pages/">../pages</a><br>
 
+
+
+
 <article>
   <p class="post-meta">
     <time datetime="Wed Mar 26 2025 11:50:29 GMT+0000 (Coordinated Universal Time)">Mar 26, 2025</time>
@@ -114,6 +117,16 @@
         crossorigin="anonymous"
         async>
 	</script>	
+
+<script>
+  const hero = document.querySelector('.hero');
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY;
+    const fadeHeight = 400; // how many pixels to fade hero
+    hero.style.opacity = Math.max(0, 1 - scrollY / fadeHeight);
+  });
+</script>
+
 
 
     <!-- Google tag (gtag.js) -->

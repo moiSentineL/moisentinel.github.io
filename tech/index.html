@@ -25,8 +25,8 @@
     <meta name="msapplication-config" content="/media/meta/browserconfig.xml">
     <meta name="theme-color" content="#000000">
 
-    <meta property="og:image" content="https://nibirsan.org/media/meta/og-image.jpg" />
-    <meta property="twitter:image" content="https://nibirsan.org/media/meta/og-image.jpg" />
+    <meta property="og:image" content="https://nibirsan.org/media/hero/page-tech.jpg" />
+    <meta property="twitter:image" content="https://nibirsan.org/media/hero/page-tech.jpg" />
     <meta name="twitter:card" content="summary_large_image">
 
             
@@ -39,6 +39,11 @@
 <body>
     <a href="/pages/">../pages</a><br>
 
+
+<div class="hero" style="background-image: url('/media/hero/page-tech.jpg');"></div>
+
+
+
 <article>
   <p class="post-meta">
     <time datetime="Sun Mar 30 2025 13:03:53 GMT+0000 (Coordinated Universal Time)">Mar 30, 2025</time>
@@ -48,8 +53,7 @@
   <h4 class="excerpt">I love tech, actually.</h4>
 <hr>
 
-  <h1 id="tech-i-use" tabindex="-1">Tech I use <a class="header-anchor" href="#tech-i-use"><span aria-hidden="true" class="header-anchor__symbol">#</span></a></h1>
-<p><img src="https://media.tenor.com/hVX6r4kDu00AAAAj/ai-grok.gif" alt=""></p>
+  <p>This is a page on the tech I actively use.</p>
 <h2 id="laptops" tabindex="-1">Laptops <a class="header-anchor" href="#laptops"><span aria-hidden="true" class="header-anchor__symbol">#</span></a></h2>
 <h3 id="daily-driver" tabindex="-1">Daily Driver <a class="header-anchor" href="#daily-driver"><span aria-hidden="true" class="header-anchor__symbol">#</span></a></h3>
 <ul>
@@ -165,6 +169,16 @@ I run a minimal, but pleasing Arch config with <s>Hyprland</s> BSPWM, which work
         crossorigin="anonymous"
         async>
 	</script>	
+
+<script>
+  const hero = document.querySelector('.hero');
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY;
+    const fadeHeight = 400; // how many pixels to fade hero
+    hero.style.opacity = Math.max(0, 1 - scrollY / fadeHeight);
+  });
+</script>
+
 
 
     <!-- Google tag (gtag.js) -->
