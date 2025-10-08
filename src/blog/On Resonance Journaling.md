@@ -27,7 +27,7 @@ The first time I heard about rtesonance journaling was on [this](https://shows.a
 
 I used to be an avid commonplace book fan, with a collection of about 7-8 commonplace books from over 2 years. But recently, I rarely touched my notebook. Mostly because the way I capture ideas have changed (Anki, blogs/YT, e-reader annotations for the win!) and I don't really *want* to invest on a sunk-cost. 
 
-![](/attachments/resonance.jpg)
+{% lanimage "src/blog/attachments/resonance.jpg", "journal" %}
 
 So I turned my commonplace book into a resonance journal. The same leather cover, the same physical entity, but different vibes. Now I look at it as if *I am writing my own future*. 
 
