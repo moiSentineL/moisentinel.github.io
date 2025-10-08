@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - pages
 added: 2025-08-01
@@ -9,6 +9,7 @@ date: 2025-08-03T18:18:02+05:30
 status: done
 content-type: blog
 perma: /workout/index.html
+heroImage: /media/hero/page-workout.jpg
 ---
 Let's be honest here, once you get to know *why* working out is one of the most important things you can do, you can **never** go back. That's what happened to me. 
 

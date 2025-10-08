@@ -9,6 +9,7 @@ date: 2025-10-02T21:49:37+05:30
 status: done
 content-type: blog
 perma: /resources/index.html
+heroImage: /media/hero/page-resources.jpg
 ---
 A scholar needs to have a ton of resources that he/she can refer to for studying or learning. This is especially helpful if he/she is an [:autodidact](#:xautodidact).
 

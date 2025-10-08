@@ -3,6 +3,8 @@ layout: base.njk
 ---
 <a href="/pages/">{{ site.back_home_text }}/pages</a><br>
 
+{% include "hero.njk" %}
+
 <article>
   <p class="post-meta">
     <time datetime="{{ page.date }}">{{ page.date | formatDate }}</time>
@@ -32,3 +34,13 @@ layout: base.njk
         crossorigin="anonymous"
         async>
 	</script>	
+
+<script>
+  const hero = document.querySelector('.hero');
+  window.addEventListener('scroll', () => {
+    const scrollY = window.scrollY;
+    const fadeHeight = 400; // how many pixels to fade hero
+    hero.style.opacity = Math.max(0, 1 - scrollY / fadeHeight);
+  });
+</script>
+

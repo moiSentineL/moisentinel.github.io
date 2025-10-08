@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - pages
 added: 2025-07-06
@@ -9,6 +9,7 @@ date: 2025-07-06T15:08:02+05:30
 status: done
 content-type: blog
 perma: /sunday/index.html
+heroImage: /media/hero/page-sunday.jpg
 ---
 I am a systems nerd. I like to replace agony with systems. And another thing I like is reflection. 
 

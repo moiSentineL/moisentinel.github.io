@@ -1,5 +1,5 @@
 ---
-aliases: 
+aliases:
 tags:
   - technical
   - pages
@@ -10,10 +10,9 @@ date: 2025-03-30T18:33:53+05:30
 status: needs work
 content-type: blog
 perma: /tech/index.html
+heroImage: /media/hero/page-tech.jpg
 ---
-# Tech I use
-![](https://media.tenor.com/hVX6r4kDu00AAAAj/ai-grok.gif)
-
+This is a page on the tech I actively use.
 ## Laptops
 ### Daily Driver
 - ThinkPad T14 Gen2a
