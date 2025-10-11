@@ -1,11 +1,11 @@
 ---
 layout: base.njk
 ---
+<header>
 <a href="/pages/">{{ site.back_home_text }}/pages</a><br>
 
 {% include "hero.njk" %}
 
-<article>
   <p class="post-meta">
     <time datetime="{{ page.date }}">{{ page.date | formatDate }}</time>
   </p>
@@ -13,12 +13,15 @@ layout: base.njk
   <h1 class="title">{{ title }}</h1>
   <h4 class="excerpt">{{ excerpt }}</h4>
 <hr>
+</header>
 
+<article>
   {{ content | safe }}
 
-</article>
 <h4 align="center"><a href="/blog/">read my blog</a></h4>
-	<script src="https://giscus.app/client.js"
+</article>
+
+<script src="https://giscus.app/client.js"
         data-repo="moiSentineL/moisentinel.github.io"
         data-repo-id="R_kgDOLKbZeg"
         data-category="Announcements"
@@ -33,7 +36,7 @@ layout: base.njk
         data-loading="lazy"
         crossorigin="anonymous"
         async>
-	</script>	
+</script>	
 
 <script>
   const hero = document.querySelector('.hero');

@@ -4,11 +4,11 @@ tags:
   - post
 
 ---
+<header>
 <a href="/blog/">..</a>
 
 {% include "hero.njk" %}
 
-<article>
   <p class="post-meta">
     <time datetime="{{ page.date }}">{{ page.date | formatDate }}</time>
   </p>
@@ -17,7 +17,9 @@ tags:
   <h4 class="excerpt">{{ excerpt }}</h4>
   {% include "posttags.njk" %}
   <hr>
+</header>
   
+<article>
   {{ content | safe  }}
 
   <hr>
@@ -36,6 +38,8 @@ tags:
 			{% endif %}
 			</p>
 	</div>
+</article>
+
 	<hr>
 	<script src="https://giscus.app/client.js"
         data-repo="moiSentineL/moisentinel.github.io"
@@ -63,4 +67,3 @@ tags:
   });
 </script>
 
-</article>
