@@ -4,7 +4,7 @@ tags:
   - post
 
 ---
-<header>
+<header role="banner">
 <a href="/blog/">..</a>
 
 {% include "hero.njk" %}
@@ -19,8 +19,10 @@ tags:
   <hr>
 </header>
   
-<article>
+<main id="content" role="main">
+<article>	
   {{ content | safe  }}
+</article>
 
   <hr>
 	<div class="nextread">
@@ -38,7 +40,7 @@ tags:
 			{% endif %}
 			</p>
 	</div>
-</article>
+</main>
 
 	<hr>
 	<script src="https://giscus.app/client.js"

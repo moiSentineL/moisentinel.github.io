@@ -1,7 +1,7 @@
 ---
 layout: base.njk
 ---
-<header>
+<header role="banner">
 <a href="/pages/">{{ site.back_home_text }}/pages</a><br>
 
 {% include "hero.njk" %}
@@ -15,11 +15,11 @@ layout: base.njk
 <hr>
 </header>
 
-<article>
+<main id="content" role="main">
   {{ content | safe }}
 
 <h4 align="center"><a href="/blog/">read my blog</a></h4>
-</article>
+</main>
 
 <script src="https://giscus.app/client.js"
         data-repo="moiSentineL/moisentinel.github.io"
