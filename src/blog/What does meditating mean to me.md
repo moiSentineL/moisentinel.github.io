@@ -12,7 +12,7 @@ date: 2025-10-11T09:55:34+05:30
 status: done
 content-type: blog
 heroImage: /media/hero/2025-10-11-meditation.jpg
-title: What does meditation mean to me?
+title: What does meditating mean to me?
 ---
 One of my friends asked me what meditating meant to *me*. And honestly, this was one of the most interesting question I have been asked in a long time. I had never really thought about it, so it was a great opportunity for some introspection.
 
