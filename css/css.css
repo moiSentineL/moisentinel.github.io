@@ -1,4 +1,77 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@90,200..900;100,200..900&family=Karla:wght@200..800&display=swap");
+.book-grid {
+  display: grid;
+  grid-template-columns: 2;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+@media (min-width: 768px) {
+  .book-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .book-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.8rem;
+  overflow: hidden;
+  transition: transform 0.2s ease, background 0.2s ease;
+  animation: projectsflicker 5s infinite alternate;
+}
+.book-card:hover {
+  transform: translateY(-4px);
+  background: rgba(255, 255, 255, 0.08);
+}
+.book-card .book-cover {
+  display: block;
+  margin-top: 0.5rem;
+}
+.book-card .book-cover img {
+  border-radius: 0.14rem;
+  display: block;
+  width: 80%;
+  /* height: 280px; */
+  height: auto;
+  max-height: 250px;
+  object-fit: cover;
+  transition: filter 0.25s ease, transform 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+.book-card .book-cover img:hover {
+  filter: brightness(0.6);
+  transform: scale(1.04);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+}
+.book-card .book-content {
+  padding: 1rem 1.25rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.book-card .book-content .book-title {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.2;
+  color: var(--accent);
+  text-decoration: none;
+  margin-bottom: 0rem;
+}
+.book-card .book-content .book-title:hover {
+  text-decoration: underline;
+}
+.book-card .book-content .book-date {
+  font-size: 0.85rem;
+  color: #909090;
+}
+
 html {
   display: flex;
   max-width: 75ch;
@@ -126,9 +199,6 @@ mjx-container {
     background: #c8fffd;
     background: #e0e0e0;
   }
-  blockquote {
-    border-left: 2px solid black;
-  }
   table,
   th,
   td {
@@ -153,9 +223,6 @@ mjx-container {
   pre,
   code {
     background: #3c3c3c;
-  }
-  blockquote {
-    border-left: 2px solid #e0e0e0;
   }
   table,
   th,
@@ -246,8 +313,10 @@ img {
 }
 
 blockquote {
-  font-style: italic;
+  border-left: 2px solid var(--flicker-color);
+  /* font-style: italic; */
   margin: 0 0.3rem 0 0.3rem;
+  /* background: linear-gradient(to right, rgba(var(--flicker-color), 0.8)0%, transparent 50%); */
 }
 blockquote p {
   margin: 0 0.3rem 0 1.5rem;
