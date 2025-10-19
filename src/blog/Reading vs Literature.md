@@ -2,7 +2,6 @@
 aliases: 
 tags:
   - post
-  - books
   - literature
 added: 2025-07-25
 link: https://nibirsan.org/blog/p/reading-vs-literature

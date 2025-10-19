@@ -1,5 +1,7 @@
 // css go brr
 
+@use 'book_cards';
+
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@90,200..900;100,200..900&family=Karla:wght@200..800&display=swap');
 
 $transwhite: #e0e0e0;
@@ -172,9 +174,6 @@ mjx-container {
     background: #c8fffd;
     background: #e0e0e0;
   }
-  blockquote {
-    border-left: 2px solid black;
-  }
   table,
   th,
   td {
@@ -201,9 +200,6 @@ mjx-container {
   pre,
   code {
     background: #3c3c3c;
-  }
-  blockquote {
-    border-left: 2px solid #e0e0e0;
   }
   table,
   th,
@@ -297,8 +293,10 @@ img {
 }
 
 blockquote {
-  font-style: italic;
+  border-left: 2px solid var(--flicker-color);
+  /* font-style: italic; */
   margin: 0 0.3rem 0 0.3rem;
+  /* background: linear-gradient(to right, rgba(var(--flicker-color), 0.8)0%, transparent 50%); */
 
   p {
     margin: 0 0.3rem 0 1.5rem;

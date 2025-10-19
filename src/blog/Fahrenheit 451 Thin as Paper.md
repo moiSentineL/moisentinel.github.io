@@ -9,7 +9,9 @@ excerpt: the meh dystopia
 date: 2025-04-10T09:24:51+05:30
 status: needs work
 content-type: blog
+book: "Fahrenheit 451"
 title: "Fahrenheit 451: Thin as Paper"
+image: https://bookwyrm-social.sfo3.digitaloceanspaces.com/images/covers/6ba1cead-4e32-4f08-9d68-b3bf41e2a517.jpeg
 ---
 I've finally read Fahrenheit 451 after first putting it on my TBR around 2 years ago. And in my honest opinion, this book isn't great. [Goodreads](https://www.goodreads.com/book/show/13079982-fahrenheit-451) rates it 3.97/5, but at best, I would rate it 2.5/5.
 

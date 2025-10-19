@@ -12,29 +12,29 @@ layout: base.njk
         {{ content | safe }}
     </div>
     <hr>
-    <div>
-        <h3>All the posts sorted by date:</h3>
-    </div>
-    <ul class="postlist">
-        {%- for post in collections['books'] | reverse -%}
-            
-            <li class="post">
-                <a href="{{ post.url }}" class="posttitle">{{ post.data.title }}</a> <time datetime="{{ post.date }}" style="color: #909090">{{ post.date | formatDate }}</time>
-                <br>
-                <span>{{ post.data.excerpt }}</span>
-                <br>
-                <tag>
-                {% for tag in post.data.tags -%}
-                    {% if tag !== 'post' %}
-                        <a id="{{ tag }}" href="/blog/t/{{ tag }}">#{{ tag }}</a>
-                    {% endif %}
-                {%- endfor %}
-                </tag>
-                
-            </li>
-            
-        {%- endfor -%}
-    </ul>   
+	<div class="book-grid">
+	  {%- for post in collections['books'] | reverse -%}
+	    <article class="book-card">
+	      {% if post.data.image %}
+		<a href="{{ post.url }}" class="book-cover">
+		  <img src="{{ post.data.image }}" alt="Cover of {{ post.data.title }}">
+		</a>
+	      {% endif %}
+	      
+	      <div class="book-content">
+		{% if post.data.book %}
+		  <a href="{{ post.url }}" class="book-title">{{ post.data.book }}</a>
+		{% else %}
+		  <a href="{{ post.url }}" class="book-title">{{ post.data.title }}</a>
+		{% endif %}
+		<time datetime="{{ post.date }}" class="book-date">
+		  {{ post.date | formatDate }}
+		</time>
+	      </div>
+	    </article>
+	  {%- endfor -%}
+	</div>
+
 </main>
 
 

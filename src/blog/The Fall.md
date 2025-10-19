@@ -11,6 +11,7 @@ excerpt: thinking about people, and Camus.
 date: 2025-05-24T19:23:31+05:30
 status: done
 content-type: blog
+image: https://bookwyrm-social.sfo3.digitaloceanspaces.com/images/covers/a45e25d4-0374-47da-9837-6fc4acad4c8f.jpeg
 ---
 Peace is the by-product of our inability to apprehend our own sins. How could we? How could live after knowing disgusting facts about ourselves, the hopeless misadventures and myriads of sins we have done, of all the cruelty we have subjected into this world?
 

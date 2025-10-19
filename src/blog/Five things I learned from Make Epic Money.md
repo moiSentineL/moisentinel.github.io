@@ -9,6 +9,8 @@ added: May 5, 2024
 link: https://nibirsan.org/blog/p/five-things-i-learned-from-make-epic-money
 excerpt: Ankur Warikoo's great introduction to personal financing.
 date: 2024-05-05T14:20:56+05:30
+book: "Make Epic Money"
+image: https://imgs.search.brave.com/iB5Qm1x4S8JSQeEccUNzAA8NX34pAbHTzhsEc-dTXrU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDExVU9rOG9hakwu/anBn
 ---
 ## 5 Things
 1. Keep your friends close, families closer and acknowledge money from a distance. Even though money can give you freedom and a sense of security, you must never let it control you. 

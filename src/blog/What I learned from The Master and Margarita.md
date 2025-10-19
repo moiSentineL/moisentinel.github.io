@@ -8,6 +8,8 @@ added: April 11, 2024
 link: https://nibirsan.org/blog/p/what-i-learned-from-the-master-and-margarita
 excerpt: Mikhail Bulgakov's MASTERpiece
 date: 2024-04-11T18:24:38+05:30
+book: "The Master and Margarita"
+image: https://is1-ssl.mzstatic.com/image/thumb/Publication18/v4/93/d9/29/93d929f7-5a04-6915-0554-fc97798be1ce/9781524704124.jpg/600x600bb.jpg
 ---
 May contain spoilers, or maybe not. See for yourself.
 ## Things I learned/enjoyed/liked

@@ -10,6 +10,8 @@ excerpt: a disturbing page-turner
 date: 2025-01-07T14:32:21+05:30
 status: done
 content-type: blog
+book: Sharp Objects
+image: https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/b0/cc/8a/b0cc8aa6-0c5a-8850-3f51-5a19e8f70c6b/9780307351487.jpg/600x600bb.jpg
 ---
 Gillian Flynn's *Sharp Objects* is a page-turner full of psychological malevolence, disorders and dysfunctional households. This book is a sacrilegious representation of how our childhood is *not* always idyllic, and often the cause of many, many problems.
 

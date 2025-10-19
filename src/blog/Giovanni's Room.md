@@ -10,6 +10,7 @@ excerpt: thoughts after reading Giovanni's Room
 date: 2025-06-29T18:42:47+05:30
 status: done
 content-type: blog
+image: https://imgs.search.brave.com/zINkSonLJB37vrvtEcNqk_BX7FOX0SafcSkMzC8WwUI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGhhbGlhLm1l/ZGlhLzAwLy0vMDk5/ZjIxMmQ0MGU4NDM2/OTk2YjIyNzQzYjM4/MTA1N2MvZ2lvdmFu/bmktcy1yb29tLXRh/c2NoZW5idWNoLWph/bWVzLWJhbGR3aW4t/ZW5nbGlzY2guanBl/Zw
 ---
 *Giovanni's Room* by James Baldwin was beautifully tragic. And it hit like a freight train. This book had me looking at love, humans and myself in a completely different light. I immediately felt the urge to grab my loved ones and say: "Oh I am so very sorry. Oh I love you so very much!"
 

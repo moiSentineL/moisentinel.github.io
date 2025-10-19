@@ -10,6 +10,7 @@ excerpt: book so good, you don't understand it.
 date: 2024-12-28T21:09:42+05:30
 status: needs work
 content-type: blog
+image: https://imgs.search.brave.com/qDsb0KWNAVbsDnY6k88ZiYsQF8JrO37m-RB4au7fMoA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLmdy/LWFzc2V0cy5jb20v/aW1hZ2VzL1MvY29t/cHJlc3NlZC5waG90/by5nb29kcmVhZHMu/Y29tL2Jvb2tzLzE1/MzE5MjEzMzhsLzcw/OTg5Ll9TWTQ3NV8u/anBn
 ---
 Don't expect much. Vladimir Nabokov's *Lolita*^[Nabokov, Vladimir. _The Annotated Lolita_. Edited by Alfred Appel. Rev. and Expanded version of the 1970 ed., Reprint. Penguin Classics. London: Penguin Books, 2000.] one of those novels which you have to read again and again and again and still you won't get everything. This was my first read, and I hope to read it again.
 

@@ -10,6 +10,7 @@ excerpt: Reviewing John William's "Stoner"
 date: 2024-08-08T20:02:01+05:30
 status: done
 content-type: blog
+image: https://is1-ssl.mzstatic.com/image/thumb/Publication125/v4/bf/1f/bc/bf1fbcda-11b3-4cee-2909-1104ebe422b6/9781590173930.jpg/600x600bb.jpg
 ---
 This book is about the seemingly ordinary and *unimportant* life of William Stoner, who may not be the best husband, father, lover or teacher, but just like the rest of us, **alive**. The story has no villains or heroes, it is rather an intricate analysis of the complexes of the human nature that surrounds us. This is- as the author himself says- an *"escape to reality."*
 

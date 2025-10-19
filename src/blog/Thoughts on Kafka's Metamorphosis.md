@@ -9,6 +9,8 @@ added: March 13, 2024
 link: https://moisentinel.github.io/blog/p/thoughts-on-kafkas-metamorphosis
 excerpt: half review, half contemplation
 date: 2024-03-14T09:40:58Z
+book: The Metamorphosis
+image: https://is1-ssl.mzstatic.com/image/thumb/Publication211/v4/63/ae/e2/63aee297-7779-b775-a233-3cbed325595a/9780393347654.jpg/600x600bb.jpg
 ---
 Drudgery, duty and dreams of escape.
 That's what led to the metamorphosis of Gregor Samsa.
