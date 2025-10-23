@@ -434,6 +434,14 @@ a:hover {
   text-decoration-color: #fc766a;
 }
 
+.breadcrumb {
+  font-weight: bold;
+  text-decoration: none;
+}
+.breadcrumb:hover {
+  animation: flicker 5s infinite alternate;
+}
+
 tag {
   font-size: 80%;
   margin: 0;
