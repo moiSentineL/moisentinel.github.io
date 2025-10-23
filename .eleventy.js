@@ -203,6 +203,34 @@ module.exports = function (eleventyConfig) {
     return page_collection;
   });
 
+  eleventyConfig.addCollection("fiction", function (collection) {
+    const fic_collection = collection.getFilteredByGlob("src/blog/fiction/*.md");
+
+    for (let i = 0; i < fic_collection.length; i++) {
+      const prevFic = fic_collection[i - 1];
+      const nextFic = fic_collection[i + 1];
+
+      fic_collection[i].data["prevFic"] = prevFic;
+      fic_collection[i].data["nextFic"] = nextFic;
+    }
+
+    return fic_collection;
+  });
+
+  eleventyConfig.addCollection("books", function (collection) {
+    const book_collection = collection.getFilteredByGlob("src/blog/books/*.md");
+
+    for (let i = 0; i < book_collection.length; i++) {
+      const prevBook = book_collection[i - 1];
+      const nextBook = book_collection[i + 1];
+
+      book_collection[i].data["prevBook"] = prevBook;
+      book_collection[i].data["nextBook"] = nextBook;
+    }
+
+    return book_collection;
+  });
+
   // Add filter for post tags
 eleventyConfig.addFilter("postTags", (tags) =>
   Object.keys(tags)

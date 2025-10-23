@@ -342,6 +342,7 @@ a {
     font-weight: bold;
     text-decoration-color: #fc766aff;
   }
+
 }
 
 .posttitle {
@@ -419,6 +420,16 @@ a {
     text-decoration-thickness: 0.3ex;
     text-decoration-color: #fc766aff;
   }
+}
+
+.breadcrumb {
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+  animation: flicker 5s infinite alternate;
+  }
+
 }
 
 tag {

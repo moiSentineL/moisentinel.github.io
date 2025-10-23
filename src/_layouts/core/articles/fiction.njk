@@ -1,8 +1,11 @@
 ---
 layout: base.njk
+tags:
+  - post
+
 ---
 <header role="banner">
-<a class="breadcrumb" aref="/pages/">> ~/pages</a><br>
+<a class="breadcrumb" href="/blog/fiction">> ~/fiction</a>
 
 {% include "hero.njk" %}
 
@@ -12,16 +15,37 @@ layout: base.njk
   
   <h1 class="title">{{ title }}</h1>
   <h4 class="excerpt">{{ excerpt }}</h4>
-<hr>
+  {% include "posttags.njk" %}
+  <hr>
 </header>
-
+  
 <main id="content" role="main">
-  {{ content | safe }}
+<article>	
+  {{ content | safe  }}
+</article>
 
-<h4 align="center"><a href="/blog/">read my blog</a></h4>
+<h4 align="center"><a href="/blog/">read the blog</a></h4>
+
+  <hr>
+	<div class="nextread">
+		<h3>Continue Reading Fiction</h3>
+			<p>
+			{% if nextFic.url %}
+					<strong>Next</strong>:
+					<a class="next" href="{{ nextFic.url }}">{{ nextFic.data.title }}</a>
+			<br>
+			{% endif %}
+			
+			{% if prevFic.url %}
+					<strong>Previous</strong>:
+					<a class="previous" href="{{ prevFic.url }}">{{ prevFic.data.title }}</a>
+			{% endif %}
+			</p>
+	</div>
 </main>
 
-<script src="https://giscus.app/client.js"
+	<hr>
+	<script src="https://giscus.app/client.js"
         data-repo="moiSentineL/moisentinel.github.io"
         data-repo-id="R_kgDOLKbZeg"
         data-category="Announcements"
@@ -36,7 +60,7 @@ layout: base.njk
         data-loading="lazy"
         crossorigin="anonymous"
         async>
-</script>	
+	</script>	
 
 <script>
   const hero = document.querySelector('.hero');
