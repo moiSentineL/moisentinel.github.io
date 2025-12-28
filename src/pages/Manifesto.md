@@ -9,7 +9,7 @@ date: 2025-12-28T22:03:58+05:30
 status: done
 content-type: blog
 heroImage: /media/hero/page-my-way.jpg
-perma: /the-way/manifesto.html
+perma: /manifesto.html
 ---
 This is my Manifesto of Living.
 
