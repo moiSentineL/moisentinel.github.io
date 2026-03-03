@@ -20,7 +20,7 @@ Maybe they don't go anywhere. Maybe people still read your blogs (gosh I hope!),
 
 Well, I didn't have a choice really. I had to stop creating. I realised I was escaping from a lot of things, taking shelter in making stuff. But I needed to confront my demons head on. I was going through a lot; emotionally, academically, and life wasn't about to get easy. I had to do something drastic.
 
-I made a video update in late January, in case you're curious on what happened exactly, minus some personal stuff.
+I made a [video update](https://youtu.be/KyK5xFDz2yY?si=CLOxvVoqeTXxdmY7) in late January, in case you're curious on what happened exactly, minus some personal stuff.
 
 As of writing this, my final Grade 12 exams are going on. They'll end by 25th of March. And from that till mid-June, I'll be stuck in exam mode. My primary focus right now, is academics *only*. I realised that I may not have been as gifted as I thought I was two years ago (something that happens to high-achievers when they finally realise that they've been living around mediocrity and well, that doesn't help!). And hence, it is obvious that I have to/am putting in more effort on my learning to be at a better position.
 
