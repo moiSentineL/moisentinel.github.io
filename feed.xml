@@ -4,12 +4,55 @@
   <subtitle>These are the proof that I am human, because I make mistakes.</subtitle>
   <link href="https://nibirsan.org/feed.xml" rel="self"/>
   <link href="https://nibirsan.org"/>
-  <updated>2026-03-03T07:43:50Z</updated>
+  <updated>2026-03-17T04:31:36Z</updated>
   <id>https://nibirsan.org</id>
   <author>
     <name>Nibir Sankar</name>
     <email>nibirsankar26@gmail.com</email>
   </author>
+    <entry>
+        <title>Why I encode my music into Opus</title>
+        <link href="https://nibirsan.org/blog/p/why-i-encode-my-music-into-opus/"/>
+        <summary>
+          My music &quot;hoarding&quot; practices
+        </summary>
+        <updated>2026-03-17T04:31:36Z</updated>
+        <id>https://nibirsan.org/blog/p/why-i-encode-my-music-into-opus/</id>
+        <content xml:lang="en" type="html">&lt;p&gt;I hoard music. I have a 117gig library full of lossless &lt;code&gt;flac&lt;/code&gt;s, something that you don&#39;t see an average high-schooler/mathematician doing. Although it&#39;s comparatively smaller than what the expert hoarders have- petabytes. Mine is only a fraction.&lt;/p&gt;
+&lt;p&gt;But why even that? Several reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;I like to have control over the media I consume; I hoard other types of media too. No Netflix, no Spotify, and no YouTube unless necessary: I like my files local.&lt;/li&gt;
+&lt;li&gt;I am an avid audiophile. Though my rig is quite modest (yet), I like to listen to a higher quality audio than average folk. Though nothing wrong with listening to okay-ish quality here and there; I AM NOT A PEDANT!&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Examples of exceptions: I do stream music when my friend pesters me to listen to &lt;em&gt;that one song&lt;/em&gt; or when I need to revisit my 80s mix/radio. I use Metrolist (FOSS) on my phone for that.&lt;/p&gt;
+&lt;p&gt;Okay, 117gigs. That&#39;s a lot. A lot for an Android phone, or a minimalist ThinkPad with 512gigs of storage. But again, &lt;em&gt;I need my music handy&lt;/em&gt;. I listen to stuff a lot.&lt;/p&gt;
+&lt;p&gt;I have two options: serve it via Navidrome/other music server, or take it local. I tried the former, and well.... storage is cheaper than bandwidth + power consumption. I can&#39;t afford to have server running, &lt;a href=&quot;https://nibirsan.org/blog/p/homelabbing-is-fun/&quot;&gt;with internet and Tailscale configs and so on&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Thus, a truce- convert all the &lt;code&gt;flac&lt;/code&gt;s into &lt;code&gt;opus&lt;/code&gt;.&lt;/strong&gt; And take it local.&lt;/p&gt;
+&lt;p&gt;If you look at the specs of the &lt;code&gt;opus&lt;/code&gt; codec, you&#39;ll see some impressive stuff. I don&#39;t want to get into technicals here, but TL;DR- &lt;code&gt;opus&lt;/code&gt; &amp;quot;conserves&amp;quot; ~95% of the good stuff, and that too with a considerable amount of compression.&lt;/p&gt;
+&lt;p&gt;Think about this: all my &lt;code&gt;flac&lt;/code&gt;s (a mix of 24 and 16 bit, about 1700 songs), of 117gigs converted to 128k &lt;code&gt;opus&lt;/code&gt; is just &lt;em&gt;14gigs&lt;/em&gt;!! &lt;strong&gt;That&#39;s ~12% of the original!&lt;/strong&gt; And that too without losing too much of the &amp;quot;quality.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Surely, I can take those 14gigs anywhere. On my laptop, on my phone, no worries. Now the question is: how much time does it take my computer to do all of this?&lt;/p&gt;
+&lt;p&gt;Well, in a modern computer, it takes very less. &lt;code&gt;ffmpeg&lt;/code&gt; can encode &lt;code&gt;flac&lt;/code&gt;s into &lt;code&gt;opus&lt;/code&gt; in a fairly high speed. And most conveniently, you can use the power of scripting to do it for you!&lt;/p&gt;
+&lt;p&gt;You can have your main &lt;code&gt;flac&lt;/code&gt;s in a harddrive, convert them to &lt;code&gt;opus&lt;/code&gt; into your laptop, then you can &lt;code&gt;rsync&lt;/code&gt;/syncthing it to your mobile device. Simple workflow!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://raw.githubusercontent.com/moiSentineL/dotfiles/1f3874957b9fd4bb29ff6bb2d5f7e8803678e8fe/scripts/opus.sh&quot;&gt;This is the script I use&lt;/a&gt; for encoding my whole library, which checks for new files and encodes those only, for which the core command is:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;ffmpeg -v warning -n -i &amp;quot;$file&amp;quot; -c:a libopus -b:a 128k &amp;quot;$target_path&amp;quot; &amp;lt; /dev/null
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I find this pretty cool. No more fussing. Just me and my music. Simple *nix tools such as &lt;code&gt;ffmpeg&lt;/code&gt; can do wonders.&lt;/p&gt;
+&lt;p&gt;So this way, I can just put stuff on my phone and laptop and listen away. I use &lt;code&gt;cmus&lt;/code&gt; on my ThinkPad and Poweramp on my Android.&lt;/p&gt;
+&lt;p&gt;Ending with some music recs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;TooL&lt;/em&gt; - 10,000 Days&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;GoGo Penguin&lt;/em&gt; - Fanfares&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Ruby Rushton&lt;/em&gt; - Trudi&#39;s Songbook Vol. 1 &amp;amp; 2&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Yussef Kamaal&lt;/em&gt; - Black Focus&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Bongripper&lt;/em&gt; - Hippie Killer&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Deftones&lt;/em&gt; - Around the Fur&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Porcupine Tree&lt;/em&gt; - In Absentia&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Vildhjarta&lt;/em&gt; - Måsstaden&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Russian Circles&lt;/em&gt; - Gnosis&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cheers!&lt;/p&gt;
+</content>
+    </entry>
     <entry>
         <title>What happens when you&#39;re not around?</title>
         <link href="https://nibirsan.org/blog/p/what-happens-when-you-re-not-around/"/>

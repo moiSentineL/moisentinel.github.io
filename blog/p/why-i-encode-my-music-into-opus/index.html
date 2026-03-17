@@ -8,11 +8,11 @@
     <meta name="copyright" content="Nibir Sankar">
 
     
-        <meta name="description" content="I am back?">
+        <meta name="description" content="My music &quot;hoarding&quot; practices">
     
 
  
-    <title>What happens when you&#39;re not around?</title>
+    <title>Why I encode my music into Opus</title>
 
     <link rel="alternate" type="application/atom+xml" href="https://nibirsan.org/feed.xml" title="Nibir's Brain Dump"/>
     <link rel="apple-touch-icon" sizes="180x180" href="/media/meta/apple-touch-icon.png">
@@ -44,17 +44,15 @@
 
 
   <p class="post-meta">
-    <time datetime="Tue Mar 03 2026 07:43:50 GMT+0000 (Coordinated Universal Time)">Mar 3, 2026</time>
+    <time datetime="Tue Mar 17 2026 04:31:36 GMT+0000 (Coordinated Universal Time)">Mar 17, 2026</time>
   </p>
   
-  <h1 class="title">What happens when you&#39;re not around?</h1>
-  <h4 class="excerpt">I am back?</h4>
+  <h1 class="title">Why I encode my music into Opus</h1>
+  <h4 class="excerpt">My music &quot;hoarding&quot; practices</h4>
   <div class="tag">
 <tag>
 	
-            <a id="life" href="/blog/t/life">#life</a>
-		
-            <a id="musing" href="/blog/t/musing">#musing</a>
+            <a id="technical" href="/blog/t/technical">#technical</a>
 		
 </tag> <span class="reading">2 min read</span>
 </div>
@@ -63,15 +61,39 @@
   
 <main id="content" role="main">
 <article>	
-  <p>It's been a while since I've written and posted a blog. Precisely three months as I am writing this. I wonder what happens when I am not around. I wonder what happens to your creations, your community, your people.</p>
-<p>Maybe they don't go anywhere. Maybe people still read your blogs (gosh I hope!), and maybe people still get inspired or learn something from what you've made. I just want to make someone's life just <em>a tiny bit</em> better.</p>
-<p>Well, I didn't have a choice really. I had to stop creating. I realised I was escaping from a lot of things, taking shelter in making stuff. But I needed to confront my demons head on. I was going through a lot; emotionally, academically, and life wasn't about to get easy. I had to do something drastic.</p>
-<p>I made a <a href="https://youtu.be/KyK5xFDz2yY?si=CLOxvVoqeTXxdmY7">video update</a> in late January, in case you're curious on what happened exactly, minus some personal stuff.</p>
-<p>As of writing this, my final Grade 12 exams are going on. They'll end by 25th of March. And from that till mid-June, I'll be stuck in exam mode. My primary focus right now, is academics <em>only</em>. I realised that I may not have been as gifted as I thought I was two years ago (something that happens to high-achievers when they finally realise that they've been living around mediocrity and well, that doesn't help!). And hence, it is obvious that I have to/am putting in more effort on my learning to be at a better position.</p>
-<p>My blog/website hasn't been updated since the last time I posted. I feel like a lot needs changing. The <a href="/about">about</a> page, the <a href="/projects">projects</a> page, the design (maybe). My beliefs on a lot of things also have changed, and I want accomodate those beliefs here. For example, my beliefs on school, Indian entrance tests, the need of flexibility (in terms of ideas), anti-dogmatism, technology, note-taking methods, *nix and so on. Oh well, I realise that I just made a to-do list for future essays/blogs. Stay tuned, I suppose.</p>
-<p>I've also been considering migrating to <a href="https://geminiprotocol.net">Geminispace</a>, or contributing to it in some way (maybe creating STEM content?) for quite some time. I was extremely pleased when I discovered the <a href="https://tildeverse.org/">~tildeverse</a>. Definitely some niche stuff, but I am definitely driven by the minimal, decentralised and hackable nature of such systems/protocols.</p>
-<p>Oohkay now. I'll end this post right here. I gotta work on my blog-posting workflow (I am new to Emacs! Give me tips if you have any!).</p>
-<p>See ya. Soon.</p>
+  <p>I hoard music. I have a 117gig library full of lossless <code>flac</code>s, something that you don't see an average high-schooler/mathematician doing. Although it's comparatively smaller than what the expert hoarders have- petabytes. Mine is only a fraction.</p>
+<p>But why even that? Several reasons:</p>
+<ol>
+<li>I like to have control over the media I consume; I hoard other types of media too. No Netflix, no Spotify, and no YouTube unless necessary: I like my files local.</li>
+<li>I am an avid audiophile. Though my rig is quite modest (yet), I like to listen to a higher quality audio than average folk. Though nothing wrong with listening to okay-ish quality here and there; I AM NOT A PEDANT!</li>
+</ol>
+<p>Examples of exceptions: I do stream music when my friend pesters me to listen to <em>that one song</em> or when I need to revisit my 80s mix/radio. I use Metrolist (FOSS) on my phone for that.</p>
+<p>Okay, 117gigs. That's a lot. A lot for an Android phone, or a minimalist ThinkPad with 512gigs of storage. But again, <em>I need my music handy</em>. I listen to stuff a lot.</p>
+<p>I have two options: serve it via Navidrome/other music server, or take it local. I tried the former, and well.... storage is cheaper than bandwidth + power consumption. I can't afford to have server running, <a href="/blog/p/homelabbing-is-fun/">with internet and Tailscale configs and so on</a>.</p>
+<p><strong>Thus, a truce- convert all the <code>flac</code>s into <code>opus</code>.</strong> And take it local.</p>
+<p>If you look at the specs of the <code>opus</code> codec, you'll see some impressive stuff. I don't want to get into technicals here, but TL;DR- <code>opus</code> &quot;conserves&quot; ~95% of the good stuff, and that too with a considerable amount of compression.</p>
+<p>Think about this: all my <code>flac</code>s (a mix of 24 and 16 bit, about 1700 songs), of 117gigs converted to 128k <code>opus</code> is just <em>14gigs</em>!! <strong>That's ~12% of the original!</strong> And that too without losing too much of the &quot;quality.&quot;</p>
+<p>Surely, I can take those 14gigs anywhere. On my laptop, on my phone, no worries. Now the question is: how much time does it take my computer to do all of this?</p>
+<p>Well, in a modern computer, it takes very less. <code>ffmpeg</code> can encode <code>flac</code>s into <code>opus</code> in a fairly high speed. And most conveniently, you can use the power of scripting to do it for you!</p>
+<p>You can have your main <code>flac</code>s in a harddrive, convert them to <code>opus</code> into your laptop, then you can <code>rsync</code>/syncthing it to your mobile device. Simple workflow!</p>
+<p><a href="https://raw.githubusercontent.com/moiSentineL/dotfiles/1f3874957b9fd4bb29ff6bb2d5f7e8803678e8fe/scripts/opus.sh">This is the script I use</a> for encoding my whole library, which checks for new files and encodes those only, for which the core command is:</p>
+<pre><code class="language-shell">ffmpeg -v warning -n -i &quot;$file&quot; -c:a libopus -b:a 128k &quot;$target_path&quot; &lt; /dev/null
+</code></pre>
+<p>I find this pretty cool. No more fussing. Just me and my music. Simple *nix tools such as <code>ffmpeg</code> can do wonders.</p>
+<p>So this way, I can just put stuff on my phone and laptop and listen away. I use <code>cmus</code> on my ThinkPad and Poweramp on my Android.</p>
+<p>Ending with some music recs:</p>
+<ul>
+<li><em>TooL</em> - 10,000 Days</li>
+<li><em>GoGo Penguin</em> - Fanfares</li>
+<li><em>Ruby Rushton</em> - Trudi's Songbook Vol. 1 &amp; 2</li>
+<li><em>Yussef Kamaal</em> - Black Focus</li>
+<li><em>Bongripper</em> - Hippie Killer</li>
+<li><em>Deftones</em> - Around the Fur</li>
+<li><em>Porcupine Tree</em> - In Absentia</li>
+<li><em>Vildhjarta</em> - Måsstaden</li>
+<li><em>Russian Circles</em> - Gnosis</li>
+</ul>
+<p>Cheers!</p>
 
 </article>
 
@@ -80,14 +102,10 @@
 		<h3>Continue Reading</h3>
 			<p>
 			
-					<strong>Next</strong>:
-					<a class="next" href="/blog/p/why-i-encode-my-music-into-opus/">Why I encode my music into Opus</a>
-			<br>
-			
 			
 			
 					<strong>Previous</strong>:
-					<a class="previous" href="/blog/p/life-is-a-hades-run/">Life is a Hades Run</a>
+					<a class="previous" href="/blog/p/what-happens-when-you-re-not-around/">What happens when you&#39;re not around?</a>
 			
 			</p>
 	</div>
