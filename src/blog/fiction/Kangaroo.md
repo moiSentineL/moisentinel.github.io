@@ -6,7 +6,7 @@ tags:
 added: 2026-03-25
 link: https://nibirsan.org/blog/p/kangaroo
 excerpt: [poem] desires
-date: 2023-03-25T22:45:55+05:30
+date: 2023-03-25T21:10:55+05:30
 status: done
 content-type: blog
 ---
