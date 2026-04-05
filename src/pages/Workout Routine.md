@@ -45,6 +45,12 @@ Here's what I (try to) do 6 days a week. It's essentially a Push-Pull-Legs split
 
 For warming up and cooling down, I just follow [this](https://archive.is/k6LFK). {{.edit}}
 
+## Mid-Workout energy management
+
+I use this concoction: water + a tablespoon of sugar + half a tablespoon of salt + a few drops of lemon/citrus.
+
+Great electrolyte + tasty.
+
 ## Diet
 
 Because working out doesn't do shit if you don't eat well.
@@ -63,10 +69,11 @@ And so I just try to follow the main rule, have as much proteins as I can, and e
 
 - Instead of focusing on reps and sets, focus more on tempo, form and controlled movement. That's more important.
 - You gotta track your weight. 
-	- Mine stays around 65-66kg. 
-	- I don't if that's normal, though it used to be 66-67kg not so long ago. 
+	- My weight (as of April, 2026) stays around 61kg
+	- Compared to 66-67kg a year ago.
 	- So, improvement?
 - Recovery is important. You gotta rest your muscle groups both during workouts and after.
 
 
 Thanks to [u/elrond_lariel](https://old.reddit.com/user/elrond_lariel) and his amazing [reddit post](https://web.archive.org/web/20250803124159/https://old.reddit.com/r/naturalbodybuilding/comments/fivvhv/the_quarantine_workout_template/) (my routine is based off of that), [Renaissance Periodisation](https://www.youtube.com/@RenaissancePeriodization) and my parents.
+    
