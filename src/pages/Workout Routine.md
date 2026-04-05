@@ -5,7 +5,7 @@ tags:
 added: 2025-08-01
 link: https://nibirsan.org/workout
 excerpt: because a healthy mind follows a healthy body.
-date: 2025-08-03T18:18:02+05:30
+date: 2026-04-05T15:18:02+05:30
 status: done
 content-type: blog
 perma: /workout/index.html
@@ -15,52 +15,33 @@ Let's be honest here, once you get to know *why* working out is one of the most 
 
 No, it's not like I like to spend 12h per day in the gym- in fact, I don't go to the gym- but working out *in general* is a **must** for me.
 
-So, here's what I do for 4 days a week:
+_Updated: 05th April, 2026_
 
-- There are 2 workouts- `upper` and `lower`- targeting respective muscle groups.
-- It goes like: `RULRULRR` (`R` for rest).
-- Bodyweight/weights based. No equipment other than a pull up bar.
-- Check note on Diet at the end of the page here.
+Here's what I (try to) do 6 days a week. It's essentially a Push-Pull-Legs split, tailored to me.
+    
+## Push 
 
-I started bodyweight training around 1.5years ago, and since then a lot of things have changed. I switched to this workout about 5-6 months ago, and I can *feel* things.
+- Push Ups x3
+  While maintaining a constant pace; AMRAP (like most of the exercises).
+- Overhead Shoulder Press x2
+- Lateral Raises x2 
+- Overhead Tricep Extensions x3
+  I just use a combination of a backpack and a towel to do this.
 
-## Upper Body Workout
+## Pull
 
-As of 3rd Aug, 2025, this workout consists of:
+- Pull Ups x2
+- Bicep Curls x3
+- Bedsheet Row x3
+- Dead Hang x2 
+- Hanging Knee Raises x2
 
-1. Horizontal Push - Inclined Push-ups
-	- 3 sets 
-2. Horizontal Pull - Inverted Row substitute - Bedsheet Row*
-	- 3 sets 
-3. Triceps Isolation - Overhead Triceps extension with a backpack
-	- 2 sets @ ~5kg
-4. (Vertical Pull) - Negative Chin Ups
-5. Biceps Isolation - Backpack Bicep Curls
-	- 3 sets @ ~5kg
-6. Forearms - Backpack twists
-	- 2 sets @ ~3kg
+## Legs
 
-I have stopped doing Vertical Pulls for some time because I cannot really go up. Moreover, I don't really feel my back with Bedsheet Rows*, so I am actually trying to find a better back/pull exercise here.
-
-## Lower Body Workout
-
-As of 3rd Aug, 2025, this workout consists of:
-
-1. Heavy Quad Compound - Bulgarian Split Squat
-	- 3 sets
-2. Hamstrings - Sliding Hamstring Curls (with incline)
-	- 3 sets
-3. Medium Quad Compound - (weighted) Step Ups
-	- 2 sets @ ~4kg
-4. Calf Raises
-	- 4 sets (might add weight)
-5. Abs - superset
-	1. Dead Bug - 2 sets
-	2. Knee Raises while laying down - 2 sets
-	3. Hollow Body Hold (finisher)
-
-This actually works pretty well for me (except for the Abs part). 
-I think have a stronger lower body than upper.
+- Bulgarian Split Squats x2
+- Romanian Deadlifts x2
+- Calf Raises x3
+- Hanging Knee Raises x2
 
 For warming up and cooling down, I just follow [this](https://archive.is/k6LFK). {{.edit}}
 
